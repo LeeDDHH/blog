@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `camolog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `カモ`,
+      summary: `普段はエンジニアをやっていて、たまに旅人になりたい`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `カモの日常、エンジニアリングのログ`,
+    siteUrl: `https://expfrom.me`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `camomile_cafe`,
+      facebook: `nekotoinu`
     },
   },
   plugins: [
