@@ -67,15 +67,25 @@ Ps. よかったら聞いてみてください
 ## 読書
 計5冊を読了して書評、感想を残した  
 
+<p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://scrapbox.io/camomilecafe/%25E3%2583%2596%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%25A1%25E3%2583%25B3%25E3%2582%25BF%25E3%2583%25AB%25E5%25BC%25B7%25E5%258C%2596%25E5%25A4%25A7%25E5%2585%25A8" data-iframely-url="//cdn.iframe.ly/J0gy9y1"></a></div></div>
-<br />
+</p>
+
+<p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://scrapbox.io/camomilecafe/%25E8%2587%25AA%25E5%25B7%25B1%25E8%2582%25AF%25E5%25AE%259A%25E6%2584%259F%25E3%2582%2592%25E8%2582%25B2%25E3%2581%25A6%25E3%2582%258B%25E3%2581%259F%25E3%2581%25A3%25E3%2581%259F1%25E3%2581%25A4%25E3%2581%25AE%25E7%25BF%2592%25E6%2585%25A3" data-iframely-url="//cdn.iframe.ly/kQWqkYQ"></a></div></div>
-<br />
+</p>
+
+<p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://scrapbox.io/camomilecafe/%25E7%2589%2587%25E3%2581%25A5%25E3%2581%2591%25E8%2584%25B3%25E2%2594%2580%25E2%2594%2580%25E9%2583%25A8%25E5%25B1%258B%25E3%2582%2582%25E9%25A0%25AD%25E3%2582%2582%25E3%2582%25B9%25E3%2583%2583%25E3%2582%25AD%25E3%2583%25AA%25E3%2581%2599%25E3%2582%258B" data-iframely-url="//cdn.iframe.ly/SJlhuPb"></a></div></div>
-<br />
+</p>
+
+<p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://leeddhh.github.io/%25E6%2597%25A5%25E5%25B8%25B8/the-art-of-communication/" data-iframely-url="//cdn.iframe.ly/xgsBOPa"></a></div></div>
-<br />
+</p>
+
+<p>
 <blockquote class="twitter-tweet" data-dnt="true" align="center" data-conversation="none"><p lang="ja" dir="ltr">第一章の感想<br>転職の前にキャリアを描け<br>そして、自己研鑽は人が息をするくらい大事なこと<br>良いエージェントはなかなか出会えない<br>「断る」はエネルギーが要る<a href="https://twitter.com/hashtag/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E8%A8%AD%E8%A8%88%E8%AB%96?src=hash&amp;ref_src=twsrc%5Etfw">#キャリア設計論</a></p>&mdash; カモ@1月はGatsbyブログをつくる生活 (@camomile_cafe) <a href="https://twitter.com/camomile_cafe/status/1254244427763089408?ref_src=twsrc%5Etfw">April 26, 2020</a></blockquote>
+</p>
 
 とくに**ブレインメンタル強化大全**は、健康面で役立つ情報が載っていて、コロナ以降の体調管理において参考になった  
 
@@ -94,14 +104,15 @@ Ps. よかったら聞いてみてください
 ブログメンタリングを受けているときにelectronのapiが試せるデモアプリのリポジトリ全体を翻訳した  
 はじめてOSSに貢献することができて翻訳をするだけでも誰かに対して役立つことができたという実感と1週間でリポジトリ全体を翻訳するという経験ができたので達成感は高かった
 
+<p>
 翻訳を終えた段階で、エンジニアになってからはじめてOSSへPRを出したことも新鮮な経験だった
-
 <blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="ja" dir="ltr">【朗報】俺氏、はじめてOSSにPRを送る <a href="https://t.co/V4k9cCzIfP">pic.twitter.com/V4k9cCzIfP</a></p>&mdash; カモ@1月はGatsbyブログをつくる生活 (@camomile_cafe) <a href="https://twitter.com/camomile_cafe/status/1277758220623163393?ref_src=twsrc%5Etfw">June 30, 2020</a></blockquote>
-<br />
+</p>
 
+<p>
 マージされるまでしばらく待っていたら、11月中旬あたりに本家の `README.md` に翻訳したリポジトリへのリンクが追加された
 <blockquote class="twitter-tweet" align="center"><p lang="ja" dir="ltr">忙しくて確認ができてなかったけど、いつの間にか翻訳してたリポジトリへのリンクが本家にマージされてた<a href="https://t.co/bD6KSMzDMU">https://t.co/bD6KSMzDMU</a> <a href="https://t.co/zBcyMAfSrM">pic.twitter.com/zBcyMAfSrM</a></p>&mdash; カモ@1月はGatsbyブログをつくる生活 (@camomile_cafe) <a href="https://twitter.com/camomile_cafe/status/1331082960473231360?ref_src=twsrc%5Etfw">November 24, 2020</a></blockquote> 
-<br />
+</p>
 
 <p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://github.com/LeeDDHH/electron-api-demos-ja" data-iframely-url="//cdn.iframe.ly/9zpyKeX"></a></div></div>
@@ -112,7 +123,9 @@ Ps. Electronに興味がある方がいたら使ってみてください
 [bosyu]("https://bosyu.me/")というサービスの公式から新しくできたキャラクターに物語を書いてほしいとの募集が上がっていた  
 ゲームプランナーをやっていたときにシナリオのプロットを書いたことがあって久々に書いてみたくなり、物語の中でもチベットスナキツネの物語に応募してみた  
 
+<p>
 <blockquote class="twitter-tweet" align="center"><p lang="ja" dir="ltr">チベットスナギツネのこの顔、実は「頓修頓悟タイプだけど、いつの間にか真理に気づいた顔」にしか見えなくて物語としていい素材だなと思っていた <a href="https://t.co/1kZHEK8iWr">https://t.co/1kZHEK8iWr</a></p>&mdash; カモ@1月はGatsbyブログをつくる生活 (@camomile_cafe) <a href="https://twitter.com/camomile_cafe/status/1310469264181092352?ref_src=twsrc%5Etfw">September 28, 2020</a></blockquote>
+</p>
 
 「胡蝶の夢」や「コペルニクス的転回」の話を取り入れ、短めの物語に仕上げてから担当者とやり取りをした  
 何回か推敲して最終的には締切まで完成し、正式採用された
@@ -199,7 +212,7 @@ Ps. よかったら読んでみてください
 - [デイキャンプ](https://camera-to-camp.com/hannogawara_takibi/)に行ってきた
 
 ## 11月
-[デイキャンプ](https://camera-to-camp.com/hannogawara_takibi/)と[江ノ島のゲストハウス](https://kichinya.com/)に行ってきた
+- [デイキャンプ](https://camera-to-camp.com/hannogawara_takibi/)と[江ノ島のゲストハウス](https://kichinya.com/)に行ってきた
 - 入社してから試用期間が終わり、CEOと1on1をする
 
 ## 12月
