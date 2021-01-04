@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 
 const Iframely = () => {
-  // 記事ページから古い記事に遷移したときにもロードされるようにする
+  // 古いブログ記事に遷移したときにもiframelyがロードされるように、rendering後loadする
   useEffect(() => {
     if (window && window.iframely) {
       window.iframely.load()
