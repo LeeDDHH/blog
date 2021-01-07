@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import SearchConsole from '../components/searchConsole';
 import SEO from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
@@ -12,6 +13,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
+        <SearchConsole />
         <SEO title="All posts" />
         <Bio />
         <p>
