@@ -1,9 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-const SearchConsole = () => {
+const SearchConsole = (title) => {
   return (
     <Helmet
+      title={title}
       meta={[
         {
           name: 'google-site-verification',

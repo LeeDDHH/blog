@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Iframely />
-      <SearchConsole />
+      <SearchConsole title={post.frontmatter.title} />
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
