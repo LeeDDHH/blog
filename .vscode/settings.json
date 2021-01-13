@@ -1,4 +1,10 @@
 {
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/public": true,
+    "**/.cache": true,
+    "**/.git": true
+  },
   "[markdown]": {
     "diffEditor.ignoreTrimWhitespace": false,
     "files.trimTrailingWhitespace": false,
