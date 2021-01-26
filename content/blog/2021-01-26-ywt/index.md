@@ -1,7 +1,7 @@
 ---
 title: 【YWT】210126
 date: '2021-01-26 22:00:00'
-description: 'ちょっとクリエイティブなことをやった日だった'
+description: '検証とクリエイティブなこととCEOと食事'
 ---
 
 ## [Y] やったこと
@@ -11,7 +11,7 @@ description: 'ちょっとクリエイティブなことをやった日だった
   - ![access](access.png)
   - ![menu](menu.png)
   - ![photos](photos.png)
-  - ![カモカフェロゴ-1](カモカフェロゴ-1.png)
+  - ![kamocafe](kamocafe.png)
 - [Unsplash](https://unsplash.com/)でいい感じの写真を眺めた
 - [やってみたいこと](https://twitter.com/camomile_cafe/status/1353858315546030080)をツイートした
 - 物理出社した
