@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-const SearchConsole = (title) => {
+const SearchConsole = ({ title }) => {
   return (
     <Helmet
       title={title}
