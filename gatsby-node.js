@@ -1,4 +1,5 @@
 const path = require(`path`)
+const { paginate } = require(`gatsby-awesome-pagination`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -6,6 +7,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogList = path.resolve(`src/templates/index.js`);
+
+  // For Pagination
+  const buildPagination = posts => {
+		paginate({
+			createPage,
+			items: posts,
+			itemsPerPage: 5,
+			// 2ページ目以降はURLに"/blog"が付与されるよう設定
+      pathPrefix: ({ pageNumber }) => (pageNumber === 0 ? "/" : "/blog"),
+			component: blogList
+		})
+	}
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -56,6 +70,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       })
     })
   }
+
+  // exec buildPagination
+  buildPagination(posts)
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
