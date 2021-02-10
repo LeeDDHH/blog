@@ -6,7 +6,7 @@ description: "リリース作業したり、ライブラリの調査をしたり
 
 ## [Y] やったこと
 
-- 2km歩いた
+- 4.5km歩いた
 - [Macの操作で困ったこと](https://gist.github.com/LeeDDHH/a3298867ecd5c50b9ddf36f3fe76a78a)があり、追記をした
 - 作業用イスとして、[CONTIEAKS - アークアーケードスツール](https://www.sekikagu.co.jp/contieaks/product/arc.html)を買った
 - [DNSレコード](https://gist.github.com/LeeDDHH/aa2cf5e0fd14b6357db6235180ad334b)に関して調べてみた
