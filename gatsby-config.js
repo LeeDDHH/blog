@@ -11,6 +11,9 @@ module.exports = {
       twitter: `camomile_cafe`,
       facebook: `nekotoinu`
     },
+    subOutput: {
+      ywt: `ywt`
+    },
   },
   plugins: [
     {
