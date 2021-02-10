@@ -103,6 +103,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       author: Author
       siteUrl: String
       social: Social
+      subOutput: SubOutput
     }
 
     type Author {
@@ -112,6 +113,10 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Social {
       twitter: String
+    }
+
+    type SubOutput {
+      ywt: String
     }
 
     type MarkdownRemark implements Node {
