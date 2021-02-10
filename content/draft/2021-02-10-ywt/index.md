@@ -25,6 +25,7 @@ description: "リリース作業したり、ライブラリの調査をしたり
 - グローバルステート管理用のライブラリを導入してみるために、まず対応しているReactのバージョンを調べたら、メジャーバージョンを上げる必要があった
   - [バージョニングポリシー](https://ja.reactjs.org/docs/faq-versioning.html)とか[React v17.0 Release Candidate](https://ja.reactjs.org/blog/2020/08/10/react-v17-rc.html)とかを確認したら、一部の機能で使っているメソッドを確認しておく必要があった
   - この作業にともなって、これから周辺技術のバージョンも上げる週間になりそうだった
+- [aタグにtargetを指定するだけでは危険](https://wwg.co.jp/blog/3807)だと初めて知った
 
 ## [T] 次にやること
 
