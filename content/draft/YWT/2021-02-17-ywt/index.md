@@ -6,7 +6,7 @@ description: "自主読書会を開いたり、配達されたイスを組み立
 
 ## [Y] やったこと
 
-- 4km歩いた
+- 7km歩いた
 - 自主読書会を開いた
   - [なぜ本屋に行くとアイデアが生まれるのか](https://scrapbox.io/camomilecafe/%E3%81%AA%E3%81%9C%E6%9C%AC%E5%B1%8B%E3%81%AB%E8%A1%8C%E3%81%8F%E3%81%A8%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B)
 - 注文してた[ゲーミングチェア](https://item.rakuten.co.jp/soho/sf-327390/?s-id=ph_pc_itemname)を組み立てた
