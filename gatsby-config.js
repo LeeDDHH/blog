@@ -12,7 +12,8 @@ module.exports = {
       facebook: `nekotoinu`
     },
     subOutput: {
-      ywt: `ywt`
+      ywt: `ywt`,
+      todoList: `todolist`
     },
   },
   plugins: [

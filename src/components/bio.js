@@ -34,6 +34,7 @@ const Bio = () => {
           }
           subOutput {
             ywt
+            todoList
           }
         }
       }
@@ -85,16 +86,26 @@ const Bio = () => {
                   </FacebookBtn>
                 : ``
               }
-            { 
-              subOutput.ywt
-              ? <YWTBtn>
-                  <ATag
-                    link={`https://${subOutput.ywt}.expfrom.me`}
-                    text="YWT"
-                    color="black"
-                  />
-                </YWTBtn>
-              : ``
+              { 
+                subOutput.ywt
+                ? <YWTBtn>
+                    <ATag
+                      link={`https://${subOutput.ywt}.expfrom.me`}
+                      text="YWT"
+                      color="black"
+                    />
+                  </YWTBtn>
+                : ``
+              }
+              { 
+                subOutput.todoList
+                ? <TodoListBtn>
+                    <ATag
+                      link={`https://${subOutput.todoList}.expfrom.me`}
+                      text="TodoList"
+                    />
+                  </TodoListBtn>
+                : ``
               }
           </AppealLink>
         </p>
@@ -131,6 +142,10 @@ const FacebookBtn = styled(Button)`
 
 const YWTBtn = styled(Button)`
   background-color: gold;
+`
+
+const TodoListBtn = styled(Button)`
+  background-color: royalblue;
 `
 
 export default Bio
