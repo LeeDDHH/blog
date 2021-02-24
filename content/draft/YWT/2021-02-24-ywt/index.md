@@ -21,9 +21,8 @@ description: "TodolistにIME対応したり、会社のプロダクトに画面�
   - [間接的なテキストの入力](https://developer.mozilla.org/ja/docs/Web/API/CompositionEvent)を検知するイベントがあって、Reactの[合成イベント](https://ja.reactjs.org/docs/events.html)で取得できる
   - [間接入力を確定して、Enter/returnで編集内容を保存する](https://github.com/LeeDDHH/react-typescript-todolist/commit/002249395999f2e7801b3ae78ecc84b258666471#diff-1b23978220b5ff2b7d58ed4642d215b8bf9c7edaa55828531df2701fdd61289cR78)処理も再現できた
   - Input要素に対して[3種類のイベントをつける](https://github.com/LeeDDHH/react-typescript-todolist/commit/002249395999f2e7801b3ae78ecc84b258666471#diff-1b23978220b5ff2b7d58ed4642d215b8bf9c7edaa55828531df2701fdd61289cR107)必要があった
-  - 直前のIME入力状態とキーを押した後のIME入力状態を比較することで、[useEffect内で編集開始時の状態を一定に保つ](https://github.com/LeeDDHH/react-typescript-todolist/commit/002249395999f2e7801b3ae78ecc84b258666471#diff-1b23978220b5ff2b7d58ed4642d215b8bf9c7edaa55828531df2701fdd61289cR35)ことができた
-      - この比較を使うことで、英語入力はキー入力するたびに「必ず直接入力によるvlaueの変更」が走る前提の挙動となった
-      - もし、**英語もIMEで間接的な入力をさせる**使い方をする場合は、英語がまともに打てない可能性が大きい
+  - 編集可能な領域の表示を別コンポーネント化して、変種開始の状態になったら[Input要素に対してfocusをあてる](https://github.com/LeeDDHH/react-typescript-todolist/commit/de093dac5963936d7fc7d0c23e3c8bc4123060e8#diff-e1edc91d3e6d807fc4d0df3c03670fd88bf625d91002757f82bfa70d17294fbeR19)ようにした
+  - 直前のキー入力が[IME入力だったのかどうかを判定するためのフラグ](https://github.com/LeeDDHH/react-typescript-todolist/commit/de093dac5963936d7fc7d0c23e3c8bc4123060e8#diff-1b23978220b5ff2b7d58ed4642d215b8bf9c7edaa55828531df2701fdd61289cL32)が要らなくなり、削除した
 - プロダクトで潜んでいる不具合とか言語ゆえの問題もあり、安全性を高めるための方法を考える時期だと思っている
 
 ## [T] 次にやること
