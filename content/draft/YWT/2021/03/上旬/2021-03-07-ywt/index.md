@@ -1,7 +1,7 @@
 ---
 title: 【YWT】210307
 date: "2021-03-07 21:30:00"
-description: "Next.jsのチュートリアルアプリをデプロイしたり、GraphQLとApolloで"
+description: "Next.jsのチュートリアルアプリをデプロイしたり、GraphQLとApolloでデータをとってみたりした"
 ---
 
 ## [Y] やったこと
