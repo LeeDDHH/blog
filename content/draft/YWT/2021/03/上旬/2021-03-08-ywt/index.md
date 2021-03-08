@@ -31,3 +31,5 @@ description: "歯医者に行ったり、読んでいた本を返却したりし
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
+
+<!-- https://twitter.com/camomile_cafe/status/1368895322202673152?s=20 -->
