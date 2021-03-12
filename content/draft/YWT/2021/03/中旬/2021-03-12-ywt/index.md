@@ -1,23 +1,21 @@
 ---
 title: 【YWT】210312
-date: "2021-03-12 20:30:00"
-description: "リリース作業をしたり、条件が分からない現象に悩んだりした"
+date: "2021-03-12 23:30:00"
+description: "湯船に浸かったり、不具合調査をすすめたりした"
 ---
 
 ## [Y] やったこと
 
-- 3.3km歩いた
-- 実装した機能のリリースをした
-- 帰りにマスクを買った
-- windows版でしか再現しない現象があり、調査をすすめた
+- 歩かなかった
+- 昼休みに湯船に浸かった
 - 前から電子書籍で読んでた本を読み終えた
+- GraphQLのIDEから検索がかかるように修正をした
 
 ## [W] わかったこと
 
-- 条件はわからないが、windowsでとある手順通りに操作すると、フォーカスが当たらないことはわかった
-  - エラーはなく、動作としては正常に動いているようだ
-- 表示する部分だけ別コンポーネントにするとうまくいくかも知れないと思った
-- 最近、個人プロジェクトに進捗が出せず、ちょっとだけモチベーションが下がった
+- windows版でしか再現しない現象がマウス系の操作によるものではないことがわかった
+- GraphQLに関して雰囲気でしか触ってなかったので、[こういう本](https://www.amazon.co.jp/dp/B08PC8H5HF)を読んで学ぼうと思った
+- 前に買ったIKEAの[SKORPOR FULLKORN](https://www.ikea.com/jp/ja/p/skorpor-fullkorn-wholegrain-crisprolls-00150909/)が思ってたより歯ごたえがあった
 
 ## [T] 次にやること
 
@@ -29,4 +27,4 @@ description: "リリース作業をしたり、条件が分からない現象に
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
 
-<!-- https://twitter.com/camomile_cafe/status/1369998904125616130?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1370385601816449027?s=20 -->
