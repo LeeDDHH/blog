@@ -33,4 +33,4 @@ description: "GraphQLで必要なデータだけをフィルターしてみた�
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
 
-<!-- https://twitter.com/camomile_cafe/status/1370385601816449027?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1370751213935890432?s=20 -->
