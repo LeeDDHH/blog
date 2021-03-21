@@ -22,3 +22,5 @@ description: "一日寝てた"
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
+
+<!-- https://twitter.com/camomile_cafe/status/1373281315357822977?s=20 -->
