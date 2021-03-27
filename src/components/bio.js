@@ -35,6 +35,8 @@ const Bio = () => {
           subOutput {
             ywt
             todoList
+            rcp
+            rod
           }
         }
       }
@@ -107,6 +109,26 @@ const Bio = () => {
                   </TodoListBtn>
                 : ``
               }
+              { 
+                subOutput.rcp
+                ? <RCPBtn>
+                    <ATag
+                      link={`https://${subOutput.rcp}.expfrom.me`}
+                      text="RandomColor"
+                    />
+                  </RCPBtn>
+                : ``
+              }
+              { 
+                subOutput.rod
+                ? <RoDBtn>
+                    <ATag
+                      link={`https://${subOutput.rod}.expfrom.me`}
+                      text="ResourceOfDevelop"
+                    />
+                  </RoDBtn>
+                : ``
+              }
           </AppealLink>
         </p>
       )}
@@ -115,12 +137,13 @@ const Bio = () => {
 }
 
 const AppealLink = styled.div`
-	display: flex;
+  width: 100%;
 
   >div {
     border-radius: 10px;
     padding: 5px 10px;
     margin-right: 10px;
+    margin-top: 5px;
   }
 
   >div:last-child {
@@ -129,7 +152,8 @@ const AppealLink = styled.div`
 `
 
 const Button = styled.div`
-  display: block;
+  display: inline-block;
+  height: 36px;
 `
 
 const TwitterBtn = styled(Button)`
@@ -146,6 +170,28 @@ const YWTBtn = styled(Button)`
 
 const TodoListBtn = styled(Button)`
   background-color: royalblue;
+`
+
+const RCPBtn = styled(Button)`
+  background: linear-gradient(-45deg, #a12df9, #23a6d5, #23d5ab, #fff94b, #ff8a26, #ff267a);
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+`
+
+const RoDBtn = styled(Button)`
+  background-color: goldenrod;
 `
 
 export default Bio

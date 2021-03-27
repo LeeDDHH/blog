@@ -13,7 +13,9 @@ module.exports = {
     },
     subOutput: {
       ywt: `ywt`,
-      todoList: `todolist`
+      todoList: `todolist`,
+      rcp: `random-color-pallete`,
+      rod: `rod`
     },
   },
   plugins: [
