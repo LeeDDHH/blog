@@ -118,6 +118,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SubOutput {
       ywt: String
       todoList: String
+      rcp: String
+      rod: String
     }
 
     type MarkdownRemark implements Node {
