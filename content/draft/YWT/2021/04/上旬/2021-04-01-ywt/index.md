@@ -30,11 +30,11 @@ description: "Electronでipc通信を書いたり、状態管理をElectronに�
 
 - ElectronのBrowserWindowをディスプレイ画面いっぱいになるように設定する
 - input領域のデザインをする
-- 図書館で借りた本を読む（D-9）
+- 図書館で借りた本を読む（D-13）
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
 
-<!-- https://twitter.com/camomile_cafe/status/1377603922844508160?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1377980057084325890?s=20 -->
