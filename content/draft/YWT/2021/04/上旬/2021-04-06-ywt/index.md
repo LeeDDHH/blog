@@ -21,7 +21,7 @@ description: "Electronプロジェクトをすすめたり、今週の予定を�
 ## [T] 次にやること
 
 - input領域のデザインをする
-- 図書館で借りた本を読む（D-12）
+- 図書館で借りた本を読む（D-8）
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
