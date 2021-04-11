@@ -35,7 +35,6 @@ description: "家から石神井公園まで歩いたり、キャリアの迷子
 - input領域のデザインをする
 - ElectronのBrowserWindowのshow/hideを制御する
 - ElectronのBrowserWindowをmoveableにする
-- 図書館で借りた本を読む（D-7）
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)

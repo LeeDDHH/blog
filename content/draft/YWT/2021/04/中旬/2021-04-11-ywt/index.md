@@ -1,19 +1,19 @@
 ---
-title: 【YWT】210409
-date: "2021-04-09 23:00:00"
-description: "CEOと1on1したり、ご飯食べたりした"
+title: 【YWT】210411
+date: "2021-04-11 21:30:00"
+description: "Amazonの荷物を受け取ったり、ちょっと本を読んだりした"
 ---
 
 ## [Y] やったこと
 
-- 4.9km歩いた
-- 画面実装を進めた
-- CEOと1on1をした
-- CEOと新入社員と焼き肉を食べた
+- 5.1km歩いた
+- Amazonパントリーを受け取った
+- キャンプ用で注文したものを受け取った
 
 ## [W] わかったこと
 
-- 現実装の一部だけ徐々に進められた
+- やりたいことが見つからないというか、モチベが0近くまで至ったというか、なんとも言い難い状態になった気がした
+- 起業体験はしてみたいものの、何をもって起業するのかというアイデアがまったく思いつかなかった
 
 ## [T] 次にやること
 
@@ -26,4 +26,4 @@ description: "CEOと1on1したり、ご飯食べたりした"
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
 
-<!-- https://twitter.com/camomile_cafe/status/1380533773532504069?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1380848196914573312?s=20 -->
