@@ -27,4 +27,4 @@ description: "TypeScriptで作った環境のビルドを試したり、Podcast�
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
 
-<!-- https://twitter.com/camomile_cafe/status/1396828348819537921?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1397216080091811844?s=20 -->
