@@ -24,4 +24,4 @@ description: "Amazonからの荷物を受け取ったり、github learning lab�
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
 - node.js関連の積読を解消する（69/200）
 
-<!-- https://twitter.com/camomile_cafe/status/1400443987006156803?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1400829601253773314?s=20 -->
