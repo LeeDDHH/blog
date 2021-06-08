@@ -13,7 +13,6 @@ description: "サイトにコンテンツを追加したり、Amazonからの荷
 
 ## [W] わかったこと
 
-- スキレットの感想
 - スキーマの構造とスキーマの定義を別々で書いて管理する方法を取りたい傾向があることがわかった
 - Ajv公式ドキュメントを見ると、[スキーマの定義を外部変数として扱う方法](https://ajv.js.org/guide/combining-schemas.html)が載っていた
 - Ajvの書き方について[この記事](https://qiita.com/piggydev/items/e6776b3b52315477b6f8)を見たら、だいたい書けた
