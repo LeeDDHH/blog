@@ -40,4 +40,4 @@ description: "再レンダリング防止策のコードを書いたり、セミ
   - [経営学](https://www.amazon.co.jp/dp/B071SKDF3L)
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 
-<!-- https://twitter.com/camomile_cafe/status/1405531486963388424?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1405912225768886275?s=20 -->
