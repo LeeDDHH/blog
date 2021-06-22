@@ -1,17 +1,21 @@
 ---
 title: 【YWT】210622
 date: "2021-06-22 21:00:00"
-description: ""
+description: "早朝に起きられたり、実装のための調べ物をしたりした"
 ---
 
 ## [Y] やったこと
 
-- 5.3km歩いた
-- 部屋にコロコロをかけた
-- 買い物に行ってきた
+- 6.3km歩いた
+- 朝5時に起きられた
+- ヒルドをして社内に共有をした
+- 半透明グラデーションの方法を調べた
+- コードスニペットのアイデアを書いた
+- プロダクトのUI会議に参加した
 
 ## [W] わかったこと
 
+- 日曜日に参加しているTwitterスペースの件もあって、「会員制のマンガの感想共有サイト」とかあったらいいなと思った
 
 ## [T] 次にやること
 
@@ -28,4 +32,4 @@ description: ""
   - [経営学](https://www.amazon.co.jp/dp/B071SKDF3L)
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 
-<!-- https://twitter.com/camomile_cafe/status/1406980867507900427?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1407322770908741632?s=20 -->
