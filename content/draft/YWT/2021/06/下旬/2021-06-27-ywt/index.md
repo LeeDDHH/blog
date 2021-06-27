@@ -30,4 +30,4 @@ description: "herokuにのせるためにExpress/MongoDBの構成を調べたり
   - [経営学](https://www.amazon.co.jp/dp/B071SKDF3L)
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 
-<!-- https://twitter.com/camomile_cafe/status/1408779591678787588?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1409145173787910146?s=20 -->
