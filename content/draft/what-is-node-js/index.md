@@ -424,3 +424,157 @@ exports.respondInternalError =
   - ドキュメントをBSON（バイナリ形式のJSON）として保存する
   - 非リレーショナルDBシステム
 
+- ほとんどのDBはリレーショナル
+  - スプレッドシートのようにテーブルによって関連付ける
+
+- テーブル
+  - コラムで格納すべきデータの種類を定義する
+  - 各コラム二対応するデータを行に格納する
+  - 異なるテーブル同士の関係性も参照IDを通じてJOINテーブルへ格納することもできる
+  - 参照IDを通じて設計されるリレーションがリレーションDBの由来となる
+
+- [リレーショナルデータベース概要](https://docs.oracle.com/javase/tutorial/jdbc/overview/database.html)に関するOracleのページ
+
+---
+
+## lesson 14
+
+### Mongoose
+
+- アプリケーションのロジックとデータベースとの間に構文的なレイヤーを提供するツール
+  - オブジェクトとドキュメントを対応させるツール
+- [ORM(O/Dマッパー)](https://www.treefrogframework.org/ja/user-guide/model/object-document-mapping-on-mongodb.html)についての記事
+- どんな種類のデータを保存できるかを定義する「スキーマ」
+  - ドキュメントの統一性を守る
+- モデルを使って、DBクエリの組織化を行う
+
+### スキーマ
+
+- 言語におけるクラス定義に似ている
+- アプリケーションで使う特定のオブジェクトに合わせて、どのようにデータを構成すべきかを決める設計図のようなもの
+- `Schema` が提供するコンストラクターにパラメーターを与えることで、スキーマオブジェクトを構築できる
+
+[Mongooseが提供するスキーマのデータ型](https://mongoosejs.com/docs/schematypes.html)についての情報
+
+### Mongooseでスキーマを使う
+
+1. スキーマの定義をする
+2. スキーマをもとにモデル化する
+
+```typescript
+"use strict"
+
+import { Schema, model, Document } from 'mongoose';
+
+// スキーマの型
+interface User extends Document {
+  name: string;
+  email: string;
+}
+
+// スキーマの定義
+const subscriberSchema = new Schema<User>({
+  name: { type: String, required: true },
+  email: { type: String, required: true},
+});
+
+// スキーマをインスタンス化してモデルとして扱う
+// コレクションとスキーマをmodelのコンストラクターに渡す
+const UserModel = model('User', subscriberSchema);
+
+export default UserModel;
+```
+
+### モデル化してデータを保存する方法
+
+- モデルをインスタンス化して `save` する
+
+```typescript
+︙
+import UserModel from './model/subscriber';
+︙
+
+// Userモデルをインスタンス化する
+const userInstance = new UserModel({
+  name: 'kakaokamo',
+  email: 'test@gmail.com'
+});
+
+// データをUserコレクションに保存する関数
+const saveDataToUserInstance = async () => {
+  try {
+    const result = await userInstance.save();
+    console.log('result: ' + result);
+  } catch (error) {
+    console.log('error: ' + error);
+  }
+}
+
+// 関数の実行
+saveDataToUserInstance();
+```
+
+- モデルから直接 `create` を呼び出して保存する
+
+```typescript
+︙
+import UserModel from './model/subscriber';
+︙
+
+// データをUserコレクションに保存する関数
+const saveDataToUserCollection = async () => {
+  try {
+    const result = await UserModel.create(
+      {
+        name: 'kakaokamo2',
+        email: 'test2@gmail.com'
+      }
+    )
+    console.log('result: ' + result);
+  } catch (error) {
+    console.log('error: ' + error);
+  }
+}
+
+// 関数の呼び出し
+saveDataToUserCollection();
+```
+
+[javascript - mongoose save vs insert vs create - Stack Overflow](https://stackoverflow.com/questions/38290684/mongoose-save-vs-insert-vs-create#:~:text=save()%20is%20an%20instance,')%3B%20var%20notificationSchema%20%3D%20mongoose.)
+
+[javascript - mongoose difference between .create and .save - Stack Overflow](https://stackoverflow.com/questions/52872335/mongoose-difference-between-create-and-save)
+
+[node.js - Mongoose await save - Stack Overflow](https://stackoverflow.com/questions/52832010/mongoose-await-save)
+
+[Mongoose v5.13.2: Models](https://mongoosejs.com/docs/models.html)
+
+[Mongoose v5.13.2: Documents](https://mongoosejs.com/docs/documents.html)
+
+[mongoose 살펴보기 - 한 눈에 끝내는 Node.js](https://edu.goorm.io/learn/lecture/557/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-node-js/lesson/174385/mongoose-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0)
+
+[(MongoDB) Mongoose(몽구스) 프로미스 - ZeroCho Blog](https://www.zerocho.com/category/MongoDB/post/59b6228e92f5830019d41ac4)
+
+### モデルの組織化
+
+- クエリを管理しやすい形で関数化する
+
+```typescript
+// 定義
+export const searchOneQuery = (name: string, email: string) => {
+  return UserModel.findOne({ name: name }).where("email", new RegExp(email) );
+};
+
+// 使う側
+import { searchOneQuery } from './models/userSubscriber';
+
+const getData = async () => {
+  try {
+    const result = await searchOneQuery('kakaokamo2', 'test').exec();
+    console.log('result: ' + result);
+  } catch (error) {
+    console.log('error: ' + error);
+  }
+}
+
+getData();
+```
