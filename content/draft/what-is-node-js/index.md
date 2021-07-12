@@ -578,3 +578,86 @@ const getData = async () => {
 
 getData();
 ```
+
+---
+
+## lesson 15
+
+### コントローラーとモデルを接続する
+
+- コントローラーはモデル（データ）とビュー（webページ）をつなぐ働きをする
+- コントローラーでモデルに関するデータリクエストを処理する
+- 経路から来たリクエストに対して、経路に直接処理を書くのではなく、用意したコントローラーから処理をさせる
+
+- コントローラーの作成
+
+```typescript
+// userController
+
+"use strict"
+
+import { Request, Response, NextFunction }  from 'express';
+// ユーザーモデルを使う
+import UserModel from '../models/userSubscriber';
+
+// 全ユーザー情報を取得するミドルウェア
+const getAllUsers =
+  async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const result = await UserModel.find({});
+      req.body.data = result;
+      next();
+    } catch (error) {
+      next(error);
+    }
+  }
+
+// Postで送られたデータを保存するためのコールバック関数
+const saveUser =
+  async (
+    req: Request,
+    res: Response,
+  ) => {
+    try {
+      const newUser = new UserModel({
+        name: req.body.name,
+        email: req.body.email,
+        note: req.body.note ? req.body.note : 'none',
+      });
+      await newUser.save();
+      res.send('user register success');
+    } catch (error) {
+      res.send(error);
+    }
+  }
+
+export { getAllUsers, saveUser };
+```
+
+- 経路に設定する
+
+```typescript
+︙
+app.get(
+  '/users',
+  userController.getAllUsers,
+  (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    res.send(req.body?.data);
+  });
+︙
+app.post('/userRegister', userController.saveUser);
+```
+
+### MongooseでPromiseを使う
+
+- 必要な設定
+  - DBのコネクションを行ったあたりで `mongoose.Promise = global.Promise` を書く
+- [MongooseでPromiseを使う](https://mongoosejs.com/docs/promises.html)時に読むドキュメント
