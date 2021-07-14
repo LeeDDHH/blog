@@ -31,4 +31,4 @@ description: "issueを更新したり、改善できそうなところのFBを�
   - [経営学](https://www.amazon.co.jp/dp/B071SKDF3L)
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 
-<!-- https://twitter.com/camomile_cafe/status/1414942163247509504?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1414942536079134720?s=20 -->
