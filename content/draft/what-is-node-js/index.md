@@ -661,3 +661,78 @@ app.post('/userRegister', userController.saveUser);
 - 必要な設定
   - DBのコネクションを行ったあたりで `mongoose.Promise = global.Promise` を書く
 - [MongooseでPromiseを使う](https://mongoosejs.com/docs/promises.html)時に読むドキュメント
+
+---
+
+## lesson 17
+
+### モデルの構築
+
+- データベースの妥当性検証（バリデーション）
+- モデルに静的メソッドとインスタンスメソッドを作る
+- モデル間の関連付け（アソシエーション）
+
+- モデル
+  - データの抽象
+- スキーマ、抽象化
+  - データがどのように見えて、どのように振る舞うかを決める設計図
+
+### モデルにバリデーションを追加する
+
+- データに一貫性を保つためにプロパティのバリデーションを行う
+
+- Mongoose独自に存在するスキーマ型
+  - Mixed
+    - キーバリューのペアで保存するので、JavaScriptのオブジェクトに近い型
+    - `mongoose.Schema.Types.Mixed`
+  - ObjectId
+    - 各ドキュメントにある `ObjectId` 値と同じく、オブジェクトの参照
+    - `mongoose.Schema.Types.ObjectId`
+
+- `required`
+  - 必須項目の指定
+- `lowercase`
+  - 大文字小文字を区別しない
+  - DBへ保存する前、小文字に変換する
+- `unique`
+  - 正確にはバリデーターではなく、Mongooseスキーマのヘルパーなのでメソッド
+  - ユニークなインデックスを作る
+
+- [Mongooseで使われるスキーマタイプ](https://mongoosejs.com/docs/schematypes.html)に関するページ
+
+- スキーマには2種類のメソッドが追加できる
+  - インスタンスメソッド
+    - 個別のインスタンスで機能するメソッド
+    - `subscriberSchema.methods` によって定義される
+  - 静的メソッド
+    - 多くのインスタンスに関連するかもしれない一般的なクエリに使うメソッド
+    - `subscriberSchema.statics` によって定義される
+
+- `subscriberSchema.methods` で定義するときの注意点
+  - ES6のアロー関数が使えない
+  - `this` バインディングがアロー関数では消えてしまう
+  - ただ、関数の内部では、ES6の機能が使える
+  - [公式ドキュメント](https://mongoosejs.com/docs/guide.html#methods)で確認できる
+
+- Mongooseのクエリメソッド
+  - `find`
+    - クエリのパラメーターにマッチするレコードの配列を返す
+  - `findOne`
+    - クエリのパラメーターにマッチする1つのレコードを返す
+  - `findById`
+    - `ObjectId` とマッチするレコードを返す
+  - `remove`
+    - データベースにあるドキュメントを削除する
+  - 他のクエリに関しては[公式ドキュメント](https://mongoosejs.com/docs/queries.html)を見る
+
+---
+
+## lesson 18
+
+---
+
+## lesson 19
+
+---
+
+## lesson 20
