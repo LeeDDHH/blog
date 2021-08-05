@@ -31,4 +31,4 @@ description: "始業まで読書をしたり、要件の書き出しをしたり
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 - [Lift-the-Flap Computers and Coding](https://www.amazon.co.jp/dp/1409591514)
 
-<!-- https://twitter.com/camomile_cafe/status/1422922972726128646?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1423246775389802503?s=20 -->
