@@ -120,8 +120,6 @@
 
 [光ファイバーが速い理由とその仕組み・構造・材質について楠リカがやさしく解説](https://simpc.jp/rikatech/about-optical-fiber/)
 
-### コラム　ADSLの仕組みと現在
-
 ---
 
 ## 第2章　TCP/IPを知る
