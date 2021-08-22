@@ -994,15 +994,111 @@ print("\n".join(result))
 
 ### Ruby 日本が世界に誇るスクリプト言語
 
-#### +1 mruby ―組み込み向けのRuby
+- [Webサイト](https://www.ruby-lang.org/ja/)
 
-#### +1 Crystal ―もしもRubyが静的型付けを重視したら？
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|動的型付け<br>オブジェクト指向<br>メタプログラミング|Lisp<br>Perl<br>C<br>Smalltalk<br>CLU<br>Eiffel|D<br>Groovy<br>Swift<br>Crystal|
 
-#### +1 JRuby ―JVM で動くRuby
+#### 特徴
 
-#### +1 Opal ―Ruby をJavaScript にする
+- 記述の柔軟さ、簡潔さ
+- 使われているサービス
+  - Vagrant
+    - 仮想環境の設定ツール
+  - サーバー管理
+    - Chef
 
-#### +1 Streem ―Matz の新言語
+#### 活用するシーン
+
+- Webアプリケーション
+- スクリプト
+
+#### RubyのFizzBuzz
+
+```ruby
+# FizzBuzzに応じた値を返す関数
+# if文の直後に値を書くことができて、関数の戻り値となる
+def fizzbuzz(i)
+  if i % 3 == 0 and i % 5 == 0
+    "FizzBuzz"
+  elsif i % 3 == 0
+    "Fizz"
+  elsif i % 5 == 0
+    "Buzz"
+  else
+    i
+  end
+end
+
+# 1から100まで繰り返しfizzbuzzを呼ぶ
+# Rubyですべての数値や文字列はオブジェクト
+# 1もオブジェクト
+# 整数値がもつuptoメソッドを使って、1から100まで繰り返しfizzbuzzを呼び出す
+1.upto(100) do |i|
+  puts fizzbuzz(i)
+end
+```
+
+#### オブジェクト指向を利用したFizzBuzz問題のプログラム
+
+```ruby
+# クラス定義
+class FizzBuzz
+  # 初期化メソッド
+  def initialize(max)
+    @max = max
+    # Fizz、Buzzを判定する条件をlambda式で定義
+    @is_fizz = lambda { |n| n % 3 == 0 }
+    @is_buzz = lambda { |n| n % 5 == 0 }
+  end
+
+  def run
+    1.upto(@max){ |n| puts check(n)}
+  end
+
+  def check(n)
+    if @is_fizz.call(n) and @is_buzz.call(n)
+      "FizzBuzz"
+    elsif @is_fizz.call(n)
+      "Fizz"
+    elsif @is_buzz.call(n)
+      "Buzz"
+    else
+      n.to_s
+    end
+  end
+end
+
+# クラスをインスタンス化して実行
+fb = FizzBuzz(100)
+fb.run
+```
+
+#### +1 mruby 組み込み向けのRuby
+
+- 組込みシステム向けの軽量実装のRuby
+- Luaのように、組み込みの分野やC/C++との組み合わせで使うことを目的としている
+
+#### +1 Crystal もしもRubyが静的型付けを重視したら？
+
+- Rubyに性的片付け機能をつけたような言語
+  - TypeScriptに近い立ち位置
+- コンパイル言語
+- Cとのバインディングも可能
+
+#### +1 JRuby JVMで動くRuby
+
+- RubyのJava実装（JVM言語）
+  - JRuby自体はプログラミング言語ではなく、処理系
+- JVMで高速に動作し、Rubyよりもスレッドの処理に優れている
+- JRubyCompiler
+  - RubyコードをJVMで動作する.classファイルにコンパイルできる
+- CによるRuby実装（CRuby、MRI）と完全互換というわけではない
+
+#### +1 Opal RubyをJavaScriptにする
+
+- RubyをJavaScriptに変換（トランスパイル）する試み
 
 ---
 
