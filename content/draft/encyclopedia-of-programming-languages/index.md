@@ -1165,9 +1165,83 @@ function fizzbuzz($i) {
 
 ### Lua 高速動作と高い移植性を持つ組み込みスクリプト言語
 
-#### +1 LuaJIT ―JIT でLua を速くする
+- [Webサイト](https://www.lua.org/)
 
-#### +1 MoonScript ―Luaを書きやすくしたいなら
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|動的型付け<br>手続き型<br>プロトタイプベースのオブジェクト指向|Scheme|mruby|
+
+#### 特徴
+
+- 単体でも活躍するが、他言語に組み込むことで威力を発揮する
+- 軽量なプログラミング
+- アプリケーション内に組み込んで、C/C++とともに使うことが想定されている
+- Cで記述しつつ設定変更を頻繁にしたい（プログラムの再コンパイルをしたくない）ときにLuaを用いる
+- 動作速度、移植性の高さ、消費リソースの少なさ
+- MITライセンスで配布されているため、商用製品に組み込むことが容易
+- C/C++で作成されたゲームなどのアプリケーション開発の補助的な役割（設定変更）で使われる
+- Github、Wikipediaなどのサービスでも使われる
+- Webフレームワークも存在する
+
+#### 活用するシーン
+
+- ゲーム開発
+- アプリケーションの設定
+
+#### LuaでFizzBuzz
+
+```lua
+-- FIzzBuzzを返す関数
+function fizzbuzz(i)
+  --無名関数を定義
+  is_fizz = function (i) return i % 3 == 0 end
+  is_buzz = function (i) return i % 5 == 0 end
+  if is_fizz(i) and is_buzz(i) then
+    return "FizzBuzz"
+  elseif is_fizz(i) then
+    return "Fizz"
+  elseif is_fizz(i) then
+    return "Buzz"
+  end
+  return i
+end
+
+-- 1から100まで繰り返す
+for i = 1, 100 do
+  print(fizzbuzz(i))
+end
+```
+
+#### +1 LuaJIT JITでLuaを速くする
+
+- 速度に注力したLuaの実行環境
+  - Luaプログラムを実行時にコンパイルして高速化する機能を持っている
+  - JIT（Just-in-time）
+- JITは動的型付け言語の高速化に寄与するため、JavaScriptの主要な処理系などで用いられている
+
+#### +1 MoonScript Luaを書きやすくしたいなら
+
+- Luaは記述の柔軟さにかけている
+- そこで、より強力な言語からトランスパイル（変換）する**MoonScript**が出る
+- HaxeもLua出力に対応している
+- Pythonライクなインデント重視の文法
+
+#### MoonScriptのFizzBuzz
+
+```moonscript
+fizzbuzz = (i) ->
+  if i % 3 == 0 and i % 5 == 0
+    print "FizzBuzz"
+  else if i % 3 == 0
+    print "Fizz"
+  else if i % 5 == 0
+    print "Buzz"
+  else
+    print i
+
+for num = 1, 100
+  fizzbuzz num
+```
 
 ---
 
