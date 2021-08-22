@@ -423,6 +423,156 @@ int main(void) {
 
 ### Go ーGoogle発！　高速な現代的言語
 
+- [Webサイト](https://golang.org/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>手続き型<br>並行|C<br>Python<br>Limbo<br>Pascal<br>Smalltalk<br>Newsqueak<br>Modula-2|Crystal|
+
+#### 特徴
+
+- Cに文法の影響を受けた並行実行などに優れる言語
+- Googleが自社の開発で抱えていた課題、ビルドの遅さや非効率な開発スタイルを解決するために生まれる
+- ガベージコレクションを標準で備える
+- **Goroutine**
+  - 並行処理、型推論などの機能
+- 高速なコンパイル
+- **クロスコンパイル**
+  - あるOSから他のOS向けにコンパイルできる
+- **シングルバイナリ生成**
+  - 依存ファイルを外部に持たない
+
+#### 活用するシーン
+
+- コマンドラインツール
+- Webアプリケーション（APIサーバー）
+- クラウド
+
+#### GoのFizzBuzz
+
+```golang
+// パッケージの指定
+// Goではプログラムは必ず何かしらのパッケージに属する
+// 同じパッケージ内であれば関数などに自由にアクセスできる
+package main
+
+// 基本ライブラリの取り込み
+// 外部のパッケージを利用する際には、importでパッケージを取り込む必要がある
+import ("fmt")
+
+// メイン関数
+func main() {
+  for i := 1; i <= 100; i++ {
+    result := FizzBuzz(i)
+    fmt.Println(result)
+  }
+}
+
+// 戻り値がstring型のFizzBuzz関数の定義
+func FizzBuzz(i int) (string) {
+  switch {
+    case i % 3 == 0 && i % 5 == 0:
+      return "FizzBuzz"
+    case i % 3 == 0:
+      return "Fizz"
+    case i % 5 == 0:
+      return "Buzz"
+    default:
+      return fmt.Sprint(i)
+  }
+}
+```
+
+#### ガベージコレクション
+
+- プログラムが動的に確保した目盛り領域を自動で開放する機能
+  - C、C++には存在しない
+  - C、C++の開発ではメモリ管理を自身で記述しなくてはならない
+  - メモリの開放を忘れた時に起きるメモリリークや、誤って使用中のメモリを開放したり書き換えたりするメモリ破壊が起きる
+- Goでは自動でメモリ管理を行う
+
+#### オブジェクト指向をサポートしていない
+
+- クラスや継承の概念がない
+  - Java、C++のウピまオブジェクト指向の言語とは考え方が多少違う
+- しかし、構造体がある程度ニーズを満たしている
+  - 構造体はフィールドとメソッドを定義できるもの
+  - オブジェクト指向のクラスと部分的に似たような使い方ができる
+
+#### GAE（Google App Engine）をはじめ、クラウドで広く使われる
+
+- GAE
+  - Googleが提供するクラウドサービスの1つ
+  - 開発したプログラムをGoogleのインフラ上で実行できる
+  - オートスケールの機能があって、アクセス数の増減に合わせて、自動的にインスタンスの追加と削除が行われる
+  - OSやDBなどインフラの管理の手間が大幅に削減できる
+- AWS Lamdaなど各種クラウドサービスでGoはデフォルトで利用できるなど広く支持されている
+
+#### Goの魅力
+
+- コンパイルが高速
+- 実行速度も速い
+- メモリ管理の面で安全性が高い
+- 非同期処理が言語レベルでサポートされている
+
+#### Goで構造体を使ったFizzBuzz問題
+
+```golang
+package main
+import ("fmt")
+
+// メイン関数
+// 構造体を生成し、初期化したらRunメソッドを呼び出す
+func main() {
+  // 構造体を生成して初期化
+  // 構造体のCurに1、Maxに100を初期化の値にしてインスタンス化する
+  fb := FizzBuzz{1, 100}
+  //実行
+  fb.Run()
+}
+
+// FizzBuzz構造体を定義
+type FizzBuzz struct {
+  Cur int
+  Max int
+}
+
+// 構造体FizzBuzzで処理実行のメソッド
+// 構造体FizzBuzz利用するRunメソッドを定義する
+func (p *FizzBuzz) Run() {
+  // 指定回数だけ繰り返す
+  // for構文で繰り返しGetValueメソッドを呼び出す
+  // 構造体のフィールドCurからMaxまで繰り返す
+  for ; p.Cur <= p.Max; p.Cur++ {
+    fmt.Println(p.GetValue())
+  }
+}
+
+// 構造体FizzBuzzで条件を判定するメソッド
+func (p *FizzBuzz) IsFuzz() bool {
+  return p.Cur % 3 == 0
+}
+
+func (p *FizzBuzz) IsBuzz() bool {
+  return p.Cur % 5 == 0
+}
+
+// 構造体FizzBuzzでFizzBuzzの値を取得するメソッド
+// 構造体FizzBuzzで使える値を返すメソッドを定義
+func (p *FizzBuzz) GetValue() string {
+  switch {
+    case p.IsFuzz() && p.IsBuzz():
+      return "FizzBuzz"
+    case p.IsFuzz():
+      return "Fizz"
+    case p.IsBuzz():
+      return "Buzz"
+    default:
+      return fmt.Sprint(p.Cur)
+  }
+}
+```
+
 ---
 
 ###  アセンブリ ー最も低水準な言語
