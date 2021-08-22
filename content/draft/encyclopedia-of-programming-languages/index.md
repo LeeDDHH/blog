@@ -1104,7 +1104,62 @@ fb.run
 
 ### PHP 最もWebで使われるWebアプリ開発に特化したプログラミング言語
 
+- [Webサイト](https://www.php.net/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|動的型付け<br>オブジェクト指向|C<br>C++<br>Perl<br>Java<br>Tcl/Tk|Hack|
+
+#### 特徴
+
+- Web分野に完全特化
+- Webサーバー嬢で動的なWebページを作るのに便利な機能を多く備えている
+- コマンドラインで文字列を処理するのはPerl、Ruby、Pythonと比べるとそこまで得意ではない
+  - CLIとしてはあまり使われない
+- DBとの接続が容易
+  - DB関連のバッチ処理に使われる
+- **Composer**
+  - Node.jsのnpmなどに影響を受けたパッケージマネージャー・リポジトリ
+  - かつてはPECL/PEARが使われていた
+
+#### 活用するシーン
+
+- Webアプリケーション
+
+#### PHPのFizzBuzz
+
+```php
+for ($i = 1; $i <= 100; $i++) {
+  $result = fizzbuzz($i);
+  echo $result."\n";
+}
+
+function fizzbuzz($i) {
+  if ($i % 3 == 0 && $i % 5 == 0) return "FizzBuzz";
+  if ($i % 3 == 0) return "Fizz";
+  if ($i % 5 == 0) return "Buzz";
+  return $i;
+}
+```
+
+#### PHPの有名なフレームワーク
+
+- CakePHP
+  - Ruby On Railsの概念を取り入れる
+- Symfony
+  - MVCフレームワーク
+- Laravel
+  - 一番人気
+- CodeIgniter
+  - 軽量で速度重視
+
 #### +1 Hack/HHVM ―Facebook 製のPHPライクな言語
+
+- Hack
+  - Facebookによって開発されたプログラミング言語
+- HHVM
+  - PHPの実行環境として開発
+- PHPとほぼ同じ言語仕様だけど、静的な型システムがある
 
 ---
 
