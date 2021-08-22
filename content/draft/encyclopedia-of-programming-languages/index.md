@@ -293,7 +293,7 @@ read_end_date: ""
 
 ## プログラミング言語大全
 
-### C ー高速・省リソースで現在も活躍する言語
+### C 高速・省リソースで現在も活躍する言語
 
 - [Webサイト](http://www.open-std.org/jtc1/sc22/wg14/)
 
@@ -421,7 +421,7 @@ int main(void) {
 
 ---
 
-### Go ーGoogle発！　高速な現代的言語
+### Go Google発！　高速な現代的言語
 
 - [Webサイト](https://golang.org/)
 
@@ -575,19 +575,45 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-###  アセンブリ ー最も低水準な言語
+###  アセンブリ 最も低水準な言語
+
+- [Webサイト](http://www.gnu.org/software/binutils/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|手続き型||C<br>C++<br>WebAssembly|
+
+#### 特徴
+
+- 書くのは簡単ではないが、高速化などに役立つ
+- 人間に読みやすい高水準言語と機械語の中間に当たる原始的な言語
+- 機械語に近い低水準な言語で、機械語の各命令を人間にわかりやすくする
+  - 機械語とアセンブリ言語は、ほぼ1対1の対応関係がある
+
+#### 活用するシーン
+
+- 低水準
+  - ハードウェアに近い領域で用いられる
+  - コンピューターのアーキテクチャごとに命令が異なり、移植性が低い
+  - Cなどの言語では、部分的にアセンブリ記述できるインラインアセンブラの機能を持つ処理系もある
+  - コンピューターの働きを学ぼうと思った時、機械語と1対1の関係にあるアセンブリは役立つ
+- 高速化
+  - かつては、プログラムを高速化するためにプログラムの一部をアセンブリ言語で記述していた
+  - 現在では、コンパイラがが非常に賢く十分に高速な機械語を生成するためにアセンブリ言語を使う機会はほとんどない
 
 ---
 
-### C++ ーCにオブジェクト指向を載せてパワーアップ
+### C++ Cにオブジェクト指向を載せてパワーアップ
+
+
 
 ---
 
-### Rust ー高速・安全・並行　新世代の言語
+### Rust 高速・安全・並行　新世代の言語
 
 ---
 
-### Python ー入門から機械学習まで大人気のプログラミング言語
+### Python 入門から機械学習まで大人気のプログラミング言語
 
 #### +1 PyPy ―Python の処理系の1 つ
 
@@ -597,7 +623,7 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### Ruby ー日本が世界に誇るスクリプト言語
+### Ruby 日本が世界に誇るスクリプト言語
 
 #### +1 mruby ―組み込み向けのRuby
 
@@ -611,13 +637,13 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### PHP ー最もWebで使われるWebアプリ開発に特化したプログラミング言語
+### PHP 最もWebで使われるWebアプリ開発に特化したプログラミング言語
 
 #### +1 Hack/HHVM ―Facebook 製のPHPライクな言語
 
 ---
 
-### Lua ー高速動作と高い移植性を持つ組み込みスクリプト言語
+### Lua 高速動作と高い移植性を持つ組み込みスクリプト言語
 
 #### +1 LuaJIT ―JIT でLua を速くする
 
@@ -625,59 +651,59 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### JavaScript ーWebブラウザ／サーバーで活躍する言語
+### JavaScript Webブラウザ／サーバーで活躍する言語
 
 ---
 
-### Node.js ーWebサーバーで動作するJavaScript実行エンジン
+### Node.js Webサーバーで動作するJavaScript実行エンジン
 
 #### +1 Deno ― 新しい安全志向のJavaScript 実行環境
 
 ---
 
-### TypeScript ーJavaScriptのスーパーセットで大規模アプリの開発向け
+### TypeScript JavaScriptのスーパーセットで大規模アプリの開発向け
 
 ---
 
-### CoffeeScript ー短く手軽に記述できるJavaScript代替
+### CoffeeScript 短く手軽に記述できるJavaScript代替
 
 ---
 
-### WebAssembly ーWebブラウザ用のアセンブリ言語
+### WebAssembly Webブラウザ用のアセンブリ言語
 
 ---
 
-### Java ースマートフォンやWebなど幅広く利用されるオブジェクト指向言語
+### Java スマートフォンやWebなど幅広く利用されるオブジェクト指向言語
 
 #### +1 Vim script ― Bill Joy のViから生まれたVim
 
 ---
 
-### Kotlin ー簡潔に書けて汎用的なAndroidの公式開発言語
+### Kotlin 簡潔に書けて汎用的なAndroidの公式開発言語
 
 #### +1 Xtend ―Javaをより使いやすくするというモチベーション
 
 ---
 
-### Processing ーデジタルアートとデザインのためのビジュアル表現言語
+### Processing デジタルアートとデザインのためのビジュアル表現言語
 
 ---
 
-### Swift ーAppleによるiOS/macOS向けプログラミング言語
+### Swift AppleによるiOS/macOS向けプログラミング言語
 
 ---
 
-### Objective-C ーmacOS/iPhoneアプリ開発で活躍したCの亜種
+### Objective-C macOS/iPhoneアプリ開発で活躍したCの亜種
 
 #### +1 Simula ― C++ とJava の先祖？
 
 ---
 
-### C# ーWindowsの定番言語　UnityやXamarinで人気がさらに加速
+### C# Windowsの定番言語　UnityやXamarinで人気がさらに加速
 
 ---
 
-### VBA ー仕事を強力にサポートするExcel/Word等のマクロ言語
+### VBA 仕事を強力にサポートするExcel/Word等のマクロ言語
 
 #### +1 Excel 関数 ―プログラミングの入口になる便利な機能
 
@@ -685,15 +711,15 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### AWK ー効率的に使えるテキスト処理専用の言語
+### AWK 効率的に使えるテキスト処理専用の言語
 
 ---
 
-### sed ーテキストファイルを加工するUNIX出身言語
+### sed テキストファイルを加工するUNIX出身言語
 
 ---
 
-### PowerShell ーWindows標準のシェルとスクリプト言語
+### PowerShell Windows標準のシェルとスクリプト言語
 
 #### +1 バッチファイル（コマンドプロンプト／ cmd.exe） ― Windowsの古くからの定番
 
@@ -701,7 +727,7 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### Bash／Shell Script ーLinux標準のシェルBashは一通り言語の機能を持っている
+### Bash／Shell Script Linux標準のシェルBashは一通り言語の機能を持っている
 
 #### +1 Z Shell (zsh) ― Bash と並ぶ人気のシェル
 
@@ -715,21 +741,21 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### AppleScript ーmacOSのスクリプト言語
+### AppleScript macOSのスクリプト言語
 
 ---
 
-### Haskell ー最も有名な関数型プログラミング言語
+### Haskell 最も有名な関数型プログラミング言語
 
 #### +1 Elm ― Web フロントエンド× Haskell
 
 ---
 
-### Elixir ー並行処理が得意で耐障害性・高可用性のある言語
+### Elixir 並行処理が得意で耐障害性・高可用性のある言語
 
 ---
 
-### BASIC ー初心者からプロまで幅広く人気の言語
+### BASIC 初心者からプロまで幅広く人気の言語
 
 #### +1 F-BASIC ― FM シリーズのBASIC
 
@@ -741,7 +767,7 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### Julia ー平易さと速度を両立した科学技術計算向け言語
+### Julia 平易さと速度を両立した科学技術計算向け言語
 
 #### +1 MATLAB ― 数値計算の王道的ソフトウェア
 
@@ -749,7 +775,7 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### Haxe ーゲーム開発に便利　複数の環境で動かせるユニークな言語
+### Haxe ゲーム開発に便利　複数の環境で動かせるユニークな言語
 
 #### +1 Nim ― Pythonのようなトランスパイル言語
 
@@ -757,7 +783,7 @@ func (p *FizzBuzz) GetValue() string {
 
 ---
 
-### Brainfuck ーチューリング完全な極小のコンパイラ
+### Brainfuck チューリング完全な極小のコンパイラ
 
 #### +1 Unlambda ／ Lazy K ― 関数型の難解プログラミング言語
 
