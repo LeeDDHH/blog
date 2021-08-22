@@ -1247,6 +1247,72 @@ for num = 1, 100
 
 ### JavaScript Webブラウザ／サーバーで活躍する言語
 
+- [Webサイト](https://developer.mozilla.org/ja/docs/Web/JavaScript)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|動的型付け<br>プロトタイプベースのオブジェクト指向|C<br>Java<br>Perl<br>Python<br>Scheme<br>Self<br>CoffeeScript|Haxe<br>Dart<br>TypeScript<br>CoffeeScript<br>ActionScript<br>Node.js<br>WebAssembly<br>Kotlin|
+
+#### 特徴
+
+- 実質的に唯一のWebブラウザ上で動作するプログラミング言語
+- ECMAScript6（ECMAScript 2015）
+  - クラス定義
+  - モジュール
+  - イテレータ
+  - for .. ofループ
+  - ジェネレーター
+  - アロー関数
+  - 定数宣言
+  - テンプレート文字列
+  - など
+
+#### 活用するシーン
+
+- Webプロントエンド
+- Webアプリケーション
+- スマートフォンアプリ
+- デスクトップ
+
+#### JavaScriptのFizzBuzz
+
+```javascript
+function fizzbuzz(i) {
+  switch (i) {
+    case i % 3 == 0 && i % 5 == 0:
+      return "FizzBuzz";
+    case i % 3 == :
+      return "Fizz";
+    case i % 5 == 0:
+      return "Buzz";
+    default:
+      return i;
+  }
+}
+
+for (var i = 1; i <= 100; i++) {
+  console.log(fizzbuzz(i));
+}
+```
+
+#### ECMAScriptとJavaScriptの違い
+
+- ECMAScript
+  - JavaScriptの標準規格
+
+#### JavaScriptは誰が作っているのか
+
+- JavaScriptのもととなる仕様のECMAScript
+  - ECMAのTC39というグループが策定を進める
+- TC39
+  - Mozilla、Apple、GoogleなどのJavaScriptを実装する側、JavaScriptで実際にWebアプリケーションなどを構築する側など複数の企業団体から集まったメンバーで運営される
+  - 現代のJavaScriptはTC39によって仕様が策定され、JavaScript処理系はWebブラウザ提供者の企業や団体が作っていると考えていい
+
+#### altJS
+
+- altJS
+  - 何らかのプログラミング言語からJavaScriptに変換して実行する言語
+
 ---
 
 ### Node.js Webサーバーで動作するJavaScript実行エンジン
