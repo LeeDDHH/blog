@@ -1313,6 +1313,33 @@ for (var i = 1; i <= 100; i++) {
 - altJS
   - 何らかのプログラミング言語からJavaScriptに変換して実行する言語
 
+#### ES2015の機能を生かしたFizzBuzz
+
+```javascript
+// 配列を101個生成し、keys()で0~101まで連番を振って、その上で最初の0を取る
+const nums = [...Array(100 +1).keys()].slice(1);
+
+const isFizz = n => n % 3 === 0;
+const isBuzz = n => n % 5 === 0;
+
+const getFizzBuzz = (i) => {
+  switch (i) {
+    case isFizz(i) && isBuzz(i):
+      return "FizzBuzz";
+    case isFizz(i):
+      return "Fizz";
+    case isBuzz(i):
+      return "Buzz";
+    default:
+      return i;
+  }
+}
+
+// 配列numsの各要素に対してmapでgetFizzBuzz関数を適用し、配列を返す
+// その配列をforEachで個別に表示する
+nums.map(v => getFizzBuzz(v)).forEach((v,i) => console.log(v);)
+```
+
 ---
 
 ### Node.js Webサーバーで動作するJavaScript実行エンジン
