@@ -1367,14 +1367,70 @@ nums.map(v => getFizzBuzz(v)).forEach((v,i) => console.log(v);)
 
 #### 特徴
 
-- 
+- JavaScript実行エンジン
+  - V8エンジンを利用しつつ、Webサーバー向けの機能を追加したもの
+- ブラウザ抜きで動かすための環境
+- ノンブリッキングI/O
+  - ネットワークやファイルの入出力など実行に時間がかかる処理を完了するまで待たず、次の処理を行って、処理が完了した時点であらためて完了時の処理を実行するもの
+  - プログラム中の待ちの時間が減らせる
+- イベントループ
+- 大量のアクセスに対応するWebアプリケーションを作成しやすい
+- npm
+  - Node.jsのライブラリを手軽にインストールできるパッケージマネージャー
+- ローカル環境で開発ツールを動作させるのに使える
+- 大量アクセスによる性能劣化の防止
+- クライアント1万台（ck10k）問題が起こらない
 
 #### 活用するシーン
 
 - Webアプリケーション
 - コマンドライン
 
-#### +1 Deno　新しい安全志向のJavaScript実行環境
+#### Node.js（JavaScript）のFizzBuzz
+
+- V8搭載により、ECMAScriptの最新仕様に追随している
+- ES2015で導入されたクラス定義の機能を利用
+
+```javascript
+// FizzBuzzクラスを定義
+class FizzBuzz {
+  // インスタンス生成時にジで王的に実行されるメソッド
+  constructor(max) {
+    this.max = max;
+    this.cur = 1;
+  }
+
+  // getをつけてメソッドをプロパティのように使えるゲッターにする
+  get isFizz() { return this.cur % 3 == 0}
+  get isBuzz() { return this.cur % 5 == 0}
+  get value() {
+    if(this.isFizz && this.isBuzz) return "FizzBuzz";
+    if(this.isFizz) return "Fizz";
+    if(this.isBuzz) return "Buzz";
+    return this.cur;
+  }
+  get isEnd() {
+    return this.max < this.cur;
+  }
+
+  // カーソルを次に移動する関数
+  next() {
+    this.cur++;
+  }
+
+  // isEndがtrueになるまで繰り返し、カーソルを勧めてFizzBuzzの結果を出力する
+  run() {
+    while(!this.isEnd) {
+      console.log(this.value);
+      this.next();
+    }
+  }
+}
+
+// オブジェクトを生成して実行
+const fb = new FizzBuzz(100);
+fb.run();
+```
 
 ---
 
