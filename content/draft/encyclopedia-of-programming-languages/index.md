@@ -2010,33 +2010,46 @@ end repeat
 
 ---
 
-### Haskell　もっとも有名な関数型プログラミング言語
+### R　統計解析向けの言語と実行環境
 
-#### +1 Elm　Webフロントエンド × Haskell
+- [Webサイト](https://www.r-project.org/)
 
----
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|動的型付け<br>手続き型|S<br>Scheme||
 
-### Elixir　並行処理が得意で耐障害性・高可用性のある言語
+#### 特徴
 
----
+- データ分析に特化
+- ベクトル処理
+  - データ集合を柔軟に処理できる用に工夫されている
+- 統計処理に役立つ機能を持っている
+- データのグラフ化
+- 図解化の機能
+- さまざまな入力ソースからデータを読み込める
+  - Excelファイル
+  - CSV
+  - ODBC
+  - など
+- データサイエンス、データ解析、AI分野でよく使われる
+- 150万行のデータの読み込みができる
+- Excelよりも手軽かつ高速にデータ分析できる
 
-### BASIC　初心者からプロまで幅広く人気の言語
+#### 活用するシーン
 
-#### +1 F-BASIC　FMシリーズのBASIC
+- データ分析
+- 統計
 
-#### +1 MSX-BASIC　MSXシリーズのBASIC
+#### RのFizzBuzz
 
-#### +1 N88-BASIC　PC-8800で有名なBASIC
-
-#### +1 ActiveBasic　Windowsでも動くBASIC
-
----
-
-### Julia　平易さと速度を両立した科学技術計算向け言語
-
-#### +1 MATLAB　数値計算の王道的ソフトウェア
-
-#### +1 Octave（GNU Octave）MATLAB代替として知られる言語
+```r
+alias<-seq(100)
+blist<-alist
+blist[alist%%3==0]<-"Fizz"
+blist[alist%%5==0]<-"Buzz"
+blist[alist%%15==0]<-"FizzBuzz"
+print(blist)
+```
 
 ---
 
