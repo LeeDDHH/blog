@@ -1706,7 +1706,59 @@ public class FizzBuzz {
 
 ### Kotlin　簡潔に書けて汎用的なAndroidの公式開発言語
 
-#### +1 Xtend Javaをより使いやすくするというモチベーション
+- [Webサイト](https://kotlinlang.org/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>オブジェクト指向<br>トランスパイル|Java<br>Groovy<br>C#<br>Scala<br>JavaScript||
+
+#### 特徴
+
+- JVM言語
+  - Javaを高速に動作させる仮想マシン上で動作するプログラミング言語
+  - Javaを簡潔・安全にしたような文法
+  - Javaのように汎用的な言語を目指して開発されている
+  - Javaのリソースも利用できる
+  - **コルーチン**を導入
+  - 非同期プログラミングも得意
+- キーワードの短縮化
+- ヌル安全（Null Safety）
+  - プログラムに意図せぬnullの混入を防ぐ仕組み
+  - NullPointerExceptionが起きにくくなる
+
+#### 活用するシーン
+
+- スマートフォンアプリ
+- Webアプリケーション
+
+#### KotlinのFizzBuzz
+
+```kotlin
+// main関数から処理を開始する
+fun main(args: Array<String>) {
+  for(i in 1..100) {
+    var res = fizzbuzz(i)
+    // JavaのAPIがKotlinではそのまま使える
+    System.out.println(res)
+  }
+}
+
+fun fizzbuzz(i: int): String {
+  // whenを使って次々と条件を判定する
+  return when {
+    i % 3 == 0 && i % 5 == 0 -> "FizzBuzz"
+    i % 3 == 0 -> "Fizz"
+    i % 5 == 0 -> "Buzz"
+    else -> i.toString()
+  }
+}
+```
+
+#### 進化を続けるKotlin
+
+- ユースケースをマルチプラットフォームに広げようとしている
+  - ネイティブへのコンパイル（Kotlin for Native）
+  - JavaScriptへのトランスパイル機能（Kotlin for JavaScript）
 
 ---
 
