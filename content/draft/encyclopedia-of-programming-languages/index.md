@@ -1595,7 +1595,112 @@ main() {
 
 ### Java　スマートフォンやWebなど幅広く利用されるオブジェクト指向言語
 
-#### +1 Vim script Bill JoyのViから生まれたVim
+- [Webサイト](https://java.com/en/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>オブジェクト指向|C<br>C#<br>Eiffel<br>Smalltalk<br>Objective-C<br>C++|C#<br>Scala<br>Kotlin<br>D<br>Dart<br>Clojure<br>Groovy<br>Haxe<br>PHP<br>Python<br>JavaScript<br>TypeScript<br>Processing|
+
+#### 特徴
+
+- 代表的なオブジェクト指向言語
+  - C++とSmalltalkと比べて比較的記述がわかりやすい
+- プラットフォーム非依存を目標にして、高性能な仮想マシン上で動く
+- マルチスレッドを言語仕様に含んで、並行計算が可能
+- JRE（Java Runtime Engine）
+  - Javaのプログラムは、Javaバイトコードにコンパイルされて、JRE（Java実行環境）上で実行される
+  - javac
+    - Javaをバイトコードにコンパイルするコマンド
+  - java
+    - バイトコードを事項するコマンド
+- サーブレット
+  - Webページを動的に生成できる技術
+- JSP
+  - サーブレットをHTMLテンプレート上に書ける
+- Tomcat
+  - これらを動かすのに使われるソフトウェア
+
+#### 活用するシーン
+
+- Webアプリケーション
+- スマートフォンアプリ
+- 事務処理
+- バッチ処理
+
+#### JavaのFizzBuzz
+
+```java
+// オブジェクト指向を利用して、クラスを定義する
+public class FizzBuzz {
+  private int max;
+  // クラス生成時に実行されるコンストラクタを定義する
+  public FizzBuzz(int max) {
+    this.max = max;
+  }
+
+  // クラス内でのみ有効な変数maxを使って、FizzBuzzを繰り返す
+  public void run() {
+    for (int i = 1; i <= this.max; i++) {
+      printNum(i);
+    }
+  }
+
+  public void printNum(int i) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      System.out.println("FizzBuzz");
+    }else if (i % 3 == 0) {
+      System.out.println("Fizz");
+    }else if (i % 5 == 0) {
+      System.out.println("Buzz");
+    } else {
+      System.out.println(i);
+    }
+  }
+
+  // Javaではmainメソッドを起点として実行される
+  public static void main(String[] args) {
+    FizzBuzz obj = new FizzBuzz(100);
+    obj.run();
+  }
+}
+```
+
+#### JVM Java仮想マシン
+
+- JVM（Java Virtual Machine、Java仮想マシン）
+  - Javaのプログラムを動かすために必要なソフトウェア
+  - Javaバイトコードとして定義された命令セットを実行するスタック型の仮想マシン
+- JVMは実行速度に優れていることで知られている
+  - JVM上で動作するプログラミング言語の開発も進む
+  - Scala、Groovy、Kotlinなど
+
+#### フレームワークでWeb開発を加速
+
+- Spring、Play、Jakarta EEなど
+
+#### Java SE、Java EE、JDKの違い
+
+- JREはローカルでJavaを実行するのに使う
+  - 以前はOracleが単体配布をしていたが、現在はJDKに含まれる
+- Java SE（Java Standard Edition）
+  - Javaの基本機能をまとめたもの
+- Java EE（Java Enterprise Edition）
+  - Java SEを元にしつつ、Webアプリの開発に役立つ拡張機能を追加したもの
+  - 現在はJakarta EEという名称になっている
+- JDK（Java Development Kit）
+  - Javaのアプリを開発する際に必要
+  - OpenJDK、AdoptOpenJDKなど
+
+#### ビルドツール&パッケージマネージャーのMaven、Gradle
+
+- Javaのビルドツール
+  - Maven、Gradle
+    - それぞれパッケージマネージャーのように働く
+    - 外部のMavenリポジトリ（パッケージリポジトリ）を指定してビルドに必要なパッケージを取得できる
+  - Maven
+    - 設定をXMLで記述する
+  - Gradle
+    - カスタマイズが容易なGroovyで設定が書ける
 
 ---
 
