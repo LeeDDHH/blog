@@ -1481,7 +1481,63 @@ for (let i = 1; i <= 100; i++) {
 
 ---
 
-### CoffeeScript　短く手軽に記述できるJavaScript代替
+### Dart　JavaScriptの置き換えからモバイルアプリ開発まで幅広く
+
+- [Webサイト](https://dart.dev/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>オブジェクト指向<br>トランスパイル|JavaScript<br>Java<br>C#<br>Erlang<br>Haxe<br>CoffeeScript||
+
+#### 特徴
+
+- JavaScript対抗としては普及せず
+- Flutterのモバイルアプリ開発で人気
+  - パフォーマンスと生産性を両立したクライアント向け言語に進化
+- ユーザーインターフェイス構築が得意なプログラミング言語
+- JavaScriptへのトランスパイルとクロスプラットフォームでモバイルアプリ開発できるフレームワーク
+- 静的型付け
+- クラスベースのオブジェクト指向言語
+- クライアント、サーバーを分けることなく、同一の言語出開発できる
+- gRPC用のライブラリも公開されている
+- Dartの実行環境
+  - コンパイル言語
+  - 仮想マシンで即時実行できるインタプリタ言語
+  - 開発時は使いやすいdartインタプリタ（仮想マシン）
+  - 実際にデプロイ（利用）するときは高速なdart2nativeによるコンパイル
+  - JavaScript用途ならトランスパイル
+- Dart2.0以降ではクライアント重視に変わっている
+- **Flutter**
+  - クロスプラットフォームのアプリ開発フレームワーク
+  - Android/iOSのスマートフォン向けアプリを開発できる
+
+#### 活用するシーン
+
+- Webフロントエンド
+- Webアプリケーション（APIサーバー）
+- スマートフォンアプリ
+
+#### DartのFizzBuzz
+
+```dart
+isFizz(int i) { return i % 3 == 0; }
+isBuzz(int i) { return i % 5 == 0; }
+
+fizzbuzz(int i) {
+  if (isFizz(i) && isBuzz(i)) return "FizzBuzz";
+  if (isFizz(i)) return "Fizz";
+  if (isBuzz(i)) return "Buzz";
+  return i;
+}
+
+// プログラムはmain()関数から始まる
+main() {
+  for (var i = 1; i <= 100; i++) {
+    var result = fizzbuzz(i);
+    print(result);
+  }
+}
+```
 
 ---
 
