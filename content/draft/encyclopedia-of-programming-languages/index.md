@@ -1874,13 +1874,94 @@ for num in 1..100 {
 
 ---
 
-### Objective-C　macOS/iPhoneアプリ開発で活躍したCの亜種
-
-#### +1 Simula　C++とJavaの先祖？
-
----
-
 ### C#　Windowsの定番言語　UnityやXamarinで人気がさらに加速
+
+- [Webサイト](https://docs.microsoft.com/ja-jp/dotnet/csharp/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>オブジェクト指向|C<br>C++<br>Delphi<br>Eiffel<br>Java|D<br>F#<br>Java<br>TypeScript<br>Dart<br>Kotlin<br>Swift|
+
+#### 特徴
+
+- .Net Frameworkという実行環境の上で動かすことを目的に作られる
+  - Windows向けのアプリケーションの実行環境
+  - C#で書かれたコードは、最初、共通中間言語（CIL）にコンパイルされる
+  - .Net frameworkではCILをネイティブコードに変換してから実行する
+  - 今後はクロスプラットフォームの `.Net Core` が中心にとらえられる
+- Javaと比較して語られる
+  - 共通中間言語（CIL）にコンパイルされてから実行される点
+  - 文法的な類似点
+- .Net Core
+  - Windows、Mac、Linuxをサポートする
+  - WPF（デスクトップアプリケーション）作成もサポートしている
+
+#### 活用するシーン
+
+- Webアプリケーション
+- デスクトップ
+- ゲーム開発
+- スマートフォンアプリ
+
+#### C#の標準化
+
+- C#の仕様の標準化
+  - ECMA-334
+  - ISO/IEC 23270:2003
+  - JIS X 3015
+  - など
+- OSSのMonoが誕生し、他のOSでもC#が動作可能になる
+
+#### C#のFizzBuzz
+
+```csharp
+class FizzBuzz {
+  // プログラムは Main関数を起点として実行される
+  public static void Main() {
+    for (int i = 1; i <= 100; i++) {
+      if (i % 3 == 0 & i % 5 == 0) cout("FizzBuzz");
+      else if (i % 3 == 0) cout("Fizz")
+      else if (i % 5 == 0) cout("Buzz")
+      else cout(i.ToString());
+    }
+  }
+  // staticを指定して定義したメソッドはイブジェクトを生成することなく利用できる
+  public static void cout(string s) {
+    System.Concole.WriteLine(s);
+  }
+}
+```
+
+#### オブジェクト指向を使ったFizzBuzzのプログラム
+
+```csharp
+class FizzBuzz {
+  int max;
+  // クラスを生成したときに実行されるコンストラクタを定義
+  FizzBuzz(int max) {
+    this.max = max;
+  }
+  // クラス内でのみ有効な変数maxを使って、FizzBuzzを繰り返す
+  void Run() {
+    for (int i = 1; i <= 100; i++) {
+      System.Console.WriteLine(this.Check(i));
+    }
+  }
+
+  static Check(int i) {
+    if (i % 3 == 0 & i % 5 == 0) return "FizzBuzz";
+    if (i % 3 == 0) return "Fizz";
+    if (i % 5 == 0) return "Buzz";
+    return i.ToString();
+  }
+  
+  // プログラムは Main関数を起点として実行される
+  public static void Main() {
+    FizzBuzz obj = new FizzBuzz(100);
+    obj.Run();
+  }
+}
+```
 
 ---
 
