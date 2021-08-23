@@ -1817,6 +1817,61 @@ void draw() {
 
 ### Swift　AppleによるiOS/macOS向けプログラミング言語
 
+- [Webサイト](https://swift.org/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>オブジェクト指向|Rust<br>Haskell<br>Ruby<br>Objective-C<br>Python<br>C<br>C#||
+
+#### 特徴
+
+- SwiftのコンパイラはLLVMのフロントエンド
+  - コードの最適化画行いやすくなっている
+- クロージャ
+- タプル
+- ジェネリックプログラミング
+
+#### 活用するシーン
+
+- スマートフォンアプリ
+- デスクトップアプリ
+
+#### SwiftのFizzBuzz
+
+```swift
+func fizzbuzz(i:int) -> String {
+  if i % 3 == 0 && i % 5 == 0 { return "FizzBuzz" }
+  if i % 3 == 0 { return "Fizz" }
+  if i % 5 == 0 { return "Buzz" }
+  return String(i);
+}
+
+for num in 1..100 {
+  print(fizzbuzz(i:num))
+}
+```
+
+#### Swiftの変数
+
+- var
+  - 通常の変数宣言
+- let
+  - 定数扱いで、後から値の変更ができない
+- 型に厳格
+  - 異なる型の変数に代入するとエラーになる
+
+#### Swiftが重視するポイント
+
+- 安全性
+  - デフォルトで入っている仕組み
+    - メモリ安全（メモリ破壊を招かない）
+    - 型安全（型のエラーを招かない）
+    - ARC（Automatic Reference Counting）メモリ管理仕組み
+- 速度
+  - LLVMの採用
+- デザインパターン
+  - オブジェクト指向を下敷きにしながら、なるべく書きやすい言語仕様を保つ
+
 ---
 
 ### Objective-C　macOS/iPhoneアプリ開発で活躍したCの亜種
