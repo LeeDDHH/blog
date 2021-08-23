@@ -1436,6 +1436,49 @@ fb.run();
 
 ### TypeScript　JavaScriptのスーパーセットで大規模アプリの開発向け
 
+- [Webサイト](https://www.typescriptlang.org/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け<br>プロトタイプベースのオブジェクト指向<br>トランスパイル|JavaScript<br>Java<br>C#||
+
+#### 特徴
+
+- JavaScriptのスーパーセット（上位互換）の文法
+- JavaScriptにトランスパイル（変換）して使う
+- 型に関する能力が弱いJavaScriptを補完
+- 型を付け加えて大規模開発でも使いやすいように設計されている
+- 静的型付け言語になったことで、**開発環境でのコード補完や型の間違いを指摘できる**
+- 型定義はCのヘッダファイルと似た仕組み
+- 型推論
+  - 型注釈を省略できる
+  - すべての変数や関数に型を書くような盆雑さがなく、必要なところだけ使える
+- 型があると、バグを減らせたり、エディターの補完機能が使いやすくなったりする
+
+#### 活用するシーン
+
+- Webフロントエンド
+- Webアプリケーション
+- スマートフォンアプリ
+- デスクトップ
+
+#### TypeScriptのFizzBuzz
+
+```typescript
+const fizzbuzz = (num: number): string => {
+  const isFizz = (i: number): boolean => i % 3 === 0
+  const isBuzz = (i: number): boolean => i % 5 === 0
+  if(isFizz(num) && isBuzz(num)) return 'FizzBuzz'
+  if(isFizz(num)) return 'Fizz'
+  if(isBuzz(num)) return 'Buzz'
+  return num.toString()
+}
+
+for (let i = 1; i <= 100; i++) {
+  console.log(fizzbuzz(i))
+}
+```
+
 ---
 
 ### CoffeeScript　短く手軽に記述できるJavaScript代替
