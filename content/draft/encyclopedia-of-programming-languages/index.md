@@ -1543,6 +1543,54 @@ main() {
 
 ### WebAssembly　Webブラウザ用のアセンブリ言語
 
+- [Webサイト](https://webassembly.org/)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|静的型付け|JavaScript<br>アセンブリ<br>asm.js||
+
+#### 特徴
+
+- さまざまな言語で書いたコードをWebAssemblyで出力して高速実行できる
+- JavaScript以外、唯一Webブラウザ上で実行できるプログラミング言語
+- 直接書くというよりも他言語からの変換で生成することを前提としている
+- C/C++、Rustから変換されるケースが知られている
+- JavaScriptを補う言語に近い
+- WebAssemblyだけでJavaScriptができるすべての操作が単独でできるわけではない
+- 高速性
+- JavaScript以外の言語から実行ファイルを作成できる
+- Webブラウザ側で高速な性能を出したいところに使う
+- Webブラウザ上でCADアプリケーション、画像/動画編集ソフトを動かすなど
+- Webブラウザだけでなく、Node.jsやGraalVMでも動作する
+- 統計処理や複雑なアニメーション、ゲームなど速度が求められるケース
+  - JavaScriptの動的型付けでは限界があるときに使う
+
+#### 活用するシーン
+
+- Webフロントエンドの複雑な処理
+
+#### WebAssemblyのコード（WAT、WebAssembly Text format）
+
+```wasm
+;; 引数$aと$bを加算する関数の定義
+;; WebAssemblyでは各ファイルがモジュールとして構成されている
+(module
+  ;; 関数の引数と戻り値を定義
+  (export "add" (func $add))
+  ;; i32は32ビット整数を意味する
+  ;; WebAssemblyで32ビット整数を足し合わせる命令を呼び出す
+  (func $add (param $a i32)(param $b i32) (result i32)
+    (return
+      ;; 関数をJavaScriptから使うために、export宣言を行う
+      (i32.add
+        (get_local $a)
+        (get_local $b)
+      )
+    )
+  )
+)
+```
+
 ---
 
 ### Java　スマートフォンやWebなど幅広く利用されるオブジェクト指向言語
