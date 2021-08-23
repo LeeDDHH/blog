@@ -1965,45 +1965,48 @@ class FizzBuzz {
 
 ---
 
-### VBA　仕事を強力にサポートするExcel/Word等のマクロ言語
-
-#### +1 Excel　関数　プログラミングの入口になる便利な機能
-
-#### +1 Google Apps Script　GoogleのVBA
-
----
-
-### AWK　効率的に使えるテキスト処理専用の言語
-
----
-
-### sed　テキストファイルを加工するUNIX出身言語
-
----
-
-### PowerShell　Windows標準のシェルとスクリプト言語
-
-#### +1　バッチファイル（コマンドプロンプト／ cmd.exe）Windowsの古くからの定番
-
-#### +1　Windows Script Host（WSH）かつてのWindowsの人気スクリプト実行環境
-
----
-
-### Bash／Shell Script　Linux標準のシェルBashはひととおり言語の機能を持っている
-
-#### +1 Z Shell (zsh)　Bashと並ぶ人気のシェル
-
-#### +1 C Shell (csh)　Cの影響を受けたシェル
-
-#### +1 KornShell (ksh) ― 高機能シェルのさきがけ
-
-#### +1 Bourne Shellや互換シェル
-
-#### +1 Friendly Interactive shell（fish）ユーザーフレンドリーなシェル
-
----
-
 ### AppleScript macOSのスクリプト言語
+
+- [Webサイト](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html)
+
+|分類|影響を受けた言語|影響を与えた言語|
+|:---:|:---:|:---:|
+|動的型付け<br>手続き型|HyperTalk<br>Objective-C||
+
+#### 特徴
+
+- macOS向けスクリプト言語
+- バッチ処理
+- アプリ自動操作
+- ファイル処理
+- タスク実行
+- ワークフロー自動化
+- macOSのGUI操作
+
+#### 活用するシーン
+
+- スクリプト
+
+#### AppleScriptのFizzBuzz
+
+```
+on fizzbuzz(i)
+  if i mod 15 is 0 then
+    return "FizzBuzz"
+  else if i mod 3 is 0 then
+    return "Fizz"
+  else if i mod 5 is 0 then
+    return "Buzz"
+  else
+    return i as string
+  end if
+end fizzbuzz
+
+set res to ""
+repeat with i from 1 to 100
+  set res to res & fizzbuzz(i) & "\n"
+end repeat
+```
 
 ---
 
