@@ -33,4 +33,4 @@ description: "出社したり、会議に参加したりした"
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 - [Lift-the-Flap Computers and Coding](https://www.amazon.co.jp/dp/1409591514)
 
-<!-- https://twitter.com/camomile_cafe/status/1429765336732094475?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1430186936770068486?s=20 -->
