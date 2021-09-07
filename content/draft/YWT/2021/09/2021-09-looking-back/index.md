@@ -73,6 +73,7 @@ description: '2021年9月の振り返り'
 - [巻込力](https://gist.github.com/LeeDDHH/850bfdb57925f617e180c2fc3179b00a)
 - [shell scriptを書いて疑問に思ってたあれこれ](https://gist.github.com/LeeDDHH/50179e3d99d1328775f6d931d48259ba)
 - [macのautomatorで使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)
+- [キャリアの悩みで共感したこと](https://gist.github.com/LeeDDHH/312d9337233cf7bdfe19d1e7269cf161)
 
 #### 更新
 
