@@ -67,9 +67,15 @@ description: '2021年9月の振り返り'
 
 ### Gist
 
+#### 新規
+
 - [Spreadsheetの関数を組み合わせて使う時のtips](https://gist.github.com/LeeDDHH/964f5e4919b52439419c3a73fbcf0ee7)
 - [巻込力](https://gist.github.com/LeeDDHH/850bfdb57925f617e180c2fc3179b00a)
 - [shell scriptを書いて疑問に思ってたあれこれ](https://gist.github.com/LeeDDHH/50179e3d99d1328775f6d931d48259ba)
+- [macのautomatorで使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)
+
+#### 更新
+
 - [Macを使って、困ったことがあったら記載](https://gist.github.com/LeeDDHH/a3298867ecd5c50b9ddf36f3fe76a78a)を更新した
 
 ### Twitter
