@@ -74,6 +74,7 @@ description: '2021年9月の振り返り'
 - [shell scriptを書いて疑問に思ってたあれこれ](https://gist.github.com/LeeDDHH/50179e3d99d1328775f6d931d48259ba)
 - [macのautomatorで使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)
 - [キャリアの悩みで共感したこと](https://gist.github.com/LeeDDHH/312d9337233cf7bdfe19d1e7269cf161)
+- [chmodの表記で気になったあれこれ](https://gist.github.com/LeeDDHH/f3a0b7053edd06756db1f3ab1e0cc261)
 
 #### 更新
 
@@ -83,6 +84,7 @@ description: '2021年9月の振り返り'
 
 - [一人で頑張ったタスクのふりかえり](https://twitter.com/camomile_cafe/status/1433994248429326343)
 - [「Gitでは変更の記録を記録をスナップショットで行っている」の意味が分からず、ローカルのプロジェクトをもとに1つずつ追ってみた](https://twitter.com/camomile_cafe/status/1434839060384677894)
+- [KawamataRyoさんのリポジトリを見て、気になったところ](https://twitter.com/camomile_cafe/status/1435402197622083586)
 
 ### 個人用の開発リソース収集サイトのコンテンツ更新
 
