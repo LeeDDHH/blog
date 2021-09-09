@@ -75,10 +75,15 @@ description: '2021年9月の振り返り'
 - [macのautomatorで使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)
 - [キャリアの悩みで共感したこと](https://gist.github.com/LeeDDHH/312d9337233cf7bdfe19d1e7269cf161)
 - [chmodの表記で気になったあれこれ](https://gist.github.com/LeeDDHH/f3a0b7053edd06756db1f3ab1e0cc261)
+- [npmのworkspacesの使い方ついてまとめる](https://gist.github.com/LeeDDHH/2fb2959ddeb5564ca157605f7830a24a)
+- [tsconfig生成時に気になることを集める](https://gist.github.com/LeeDDHH/e0eb75f87f48cd5c5a613a692c66ac78)
+- [忘れがちなコマンドのオプションについてまとめる](https://gist.github.com/LeeDDHH/84854b62f13a16922084ecd52ac06805)gistを作った
+- [eslintの設定に関するあれこれ](https://gist.github.com/LeeDDHH/61fd4077ba50c677583062565b039fa0)
 
 #### 更新
 
 - [Macを使って、困ったことがあったら記載](https://gist.github.com/LeeDDHH/a3298867ecd5c50b9ddf36f3fe76a78a)を更新した
+- [忘れがちなgitコマンド](https://gist.github.com/LeeDDHH/d3a3d99530bc0d9be9c1aa4869c4637e)を更新した
 
 ### Twitter
 
