@@ -84,6 +84,7 @@ description: '2021年9月の振り返り'
 
 - [Macを使って、困ったことがあったら記載](https://gist.github.com/LeeDDHH/a3298867ecd5c50b9ddf36f3fe76a78a)を更新した
 - [忘れがちなgitコマンド](https://gist.github.com/LeeDDHH/d3a3d99530bc0d9be9c1aa4869c4637e)を更新した
+- [firebaseのエミュレーター環境を整える](https://gist.github.com/LeeDDHH/6215f9b3ac6cd291a790dcb39eff721a)を更新した
 
 ### Twitter
 
