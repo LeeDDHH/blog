@@ -77,8 +77,12 @@ description: '2021年9月の振り返り'
 - [chmodの表記で気になったあれこれ](https://gist.github.com/LeeDDHH/f3a0b7053edd06756db1f3ab1e0cc261)
 - [npmのworkspacesの使い方ついてまとめる](https://gist.github.com/LeeDDHH/2fb2959ddeb5564ca157605f7830a24a)
 - [tsconfig生成時に気になることを集める](https://gist.github.com/LeeDDHH/e0eb75f87f48cd5c5a613a692c66ac78)
-- [忘れがちなコマンドのオプションについてまとめる](https://gist.github.com/LeeDDHH/84854b62f13a16922084ecd52ac06805)gistを作った
+- [忘れがちなコマンドのオプションについてまとめる](https://gist.github.com/LeeDDHH/84854b62f13a16922084ecd52ac06805)
 - [eslintの設定に関するあれこれ](https://gist.github.com/LeeDDHH/61fd4077ba50c677583062565b039fa0)
+- [nodejsで遭遇したエラーと対処法について](https://gist.github.com/LeeDDHH/5d786d42a05f801d370da3f71f3b69f6)
+- [javascriptで使えそうなワンライナー](https://gist.github.com/LeeDDHH/7b830f7253204771e5cbc81ea0d023a0)
+- [gasでweb上のurlを定期的に監視する機構を作るために参考にする資料](https://gist.github.com/LeeDDHH/532b312fafaa4b2edcddddf8b41a786f)
+- [他社のシニアフロントエンジニアの募集要項について](https://gist.github.com/LeeDDHH/fe5529fe2eed73d505ff548762645be3)
 
 #### 更新
 
