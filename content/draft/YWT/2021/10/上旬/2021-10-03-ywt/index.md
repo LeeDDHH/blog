@@ -34,4 +34,4 @@ description: "9月のふりかえりを書いたり、料理をしたりした"
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 - [Lift-the-Flap Computers and Coding](https://www.amazon.co.jp/dp/1409591514)
 
-<!-- https://twitter.com/camomile_cafe/status/1444531092522815490?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1444621201133871110?s=20 -->
