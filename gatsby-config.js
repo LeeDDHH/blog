@@ -15,7 +15,8 @@ module.exports = {
       ywt: `ywt`,
       todoList: `todolist`,
       rcp: `random-color-pallete`,
-      rod: `rod`
+      rod: `rod`,
+      designrssbot: `designrssbot`
     },
   },
   plugins: [
