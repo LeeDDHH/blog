@@ -120,6 +120,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       todoList: String
       rcp: String
       rod: String
+      designrssbot: String
     }
 
     type MarkdownRemark implements Node {

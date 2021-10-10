@@ -37,6 +37,7 @@ const Bio = () => {
             todoList
             rcp
             rod
+            designrssbot
           }
         }
       }
@@ -68,7 +69,7 @@ const Bio = () => {
           <br/>
           {` `}
           <AppealLink>
-              { 
+              {
                 social.twitter
                 ? <TwitterBtn>
                     <ATag
@@ -78,7 +79,7 @@ const Bio = () => {
                   </TwitterBtn>
                 : ``
               }
-              { 
+              {
                 social.twitter
                 ? <FacebookBtn>
                     <ATag
@@ -88,7 +89,7 @@ const Bio = () => {
                   </FacebookBtn>
                 : ``
               }
-              { 
+              {
                 subOutput.ywt
                 ? <YWTBtn>
                     <ATag
@@ -99,7 +100,7 @@ const Bio = () => {
                   </YWTBtn>
                 : ``
               }
-              { 
+              {
                 subOutput.todoList
                 ? <TodoListBtn>
                     <ATag
@@ -109,7 +110,7 @@ const Bio = () => {
                   </TodoListBtn>
                 : ``
               }
-              { 
+              {
                 subOutput.rcp
                 ? <RCPBtn>
                     <ATag
@@ -119,7 +120,7 @@ const Bio = () => {
                   </RCPBtn>
                 : ``
               }
-              { 
+              {
                 subOutput.rod
                 ? <RoDBtn>
                     <ATag
@@ -128,7 +129,17 @@ const Bio = () => {
                     />
                   </RoDBtn>
                 : ``
-              }
+            }
+            {
+              subOutput.designrssbot
+              ? <DesignRSSBotBtn>
+                  <ATag
+                    link={`https://twitter.com/${subOutput.designrssbot}`}
+                    text="DesignRSSBot"
+                  />
+                </DesignRSSBotBtn>
+              : ``
+            }
           </AppealLink>
         </p>
       )}
@@ -192,6 +203,10 @@ const RCPBtn = styled(Button)`
 
 const RoDBtn = styled(Button)`
   background-color: goldenrod;
+`
+
+const DesignRSSBotBtn = styled(Button)`
+  background: linear-gradient(-45deg, #48E6ED, #7E1BB5, #FF00F7);
 `
 
 export default Bio
