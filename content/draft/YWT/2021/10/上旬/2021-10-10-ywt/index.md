@@ -1,23 +1,22 @@
 ---
-title: 【YWT】211006
-date: "2021-10-06 20:00:00"
-description: "朝の読書会に参加したり、別のタスクに切り替えたりした"
+title: 【YWT】211010
+date: "2021-10-10 20:00:00"
+description: "久々にブログを書いたり、個人の共有会に参加したりした"
 ---
 
 ## [Y] やったこと
 
-- 5.4km歩いた
-- 朝の読書会に参加した
-- Windows用のインストーラーを作るための調査をした
-  - あまり進展がなかったので、別のタスクに取り掛かった
-- 副業関連の契約書を見て、返信をした
-- AWSのLambdaとDynamoDBを使ったプロジェクト構成を調べた
-- 悪寒を感じて、早めに寝る準備をした
+- 4.9km歩いた
+- ブログを2つ書いた
+  - [awscliの初期設定をする](https://expfrom.me/aws-cli-init-setting/)
+  - [Digital Color Meterを使って、画面に表示されている色をHEX値で取得する](https://expfrom.me/get-color-with-mac-built-in-app/)
+- デザイナーコミュニティのYoutubeLiveを見た
+- 個人の共有会に参加した
 
 ## [W] わかったこと
 
-- windowsのインストーラーをビルドするときに文字化けする原因がまだわからない状態だった
-  - さすがにこれ以上時間を使っても進捗が出ないだけだったのでほかのタスクに取り掛かった
+- 来週の水曜日あたりにデザイナーコミュニティでちょっとした共有をすることになった
+- lambdaとdynamodbを使った例を探したけど、なかなか理解ができなかった
 
 ## [T] 次にやること
 
@@ -35,4 +34,4 @@ description: "朝の読書会に参加したり、別のタスクに切り替え
   - [金融学](https://www.amazon.co.jp/dp/B07BB6Z7FW)
 - [Lift-the-Flap Computers and Coding](https://www.amazon.co.jp/dp/1409591514)
 
-<!-- https://twitter.com/camomile_cafe/status/1448074121674477570?s=20 -->
+<!-- https://twitter.com/camomile_cafe/status/1448075440027881474?s=20 -->
