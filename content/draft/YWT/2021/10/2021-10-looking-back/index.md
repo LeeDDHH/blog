@@ -8,111 +8,111 @@ description: '2021年10月の振り返り'
 
 ### 徒歩/運動
 
-- 今月142.4km歩いた
-  - 平均1日4.7kmぐらい歩いた
-  - 一日どこも出なかった日が3日ほどあって、4キロ以上歩いた日は19日ぐらいあった
-  - 目標150km以上歩くことに対し、7.6km足りなかった
-  - 雨で外に出たくなかったのもあって、その分ちょっと足りなかった
-  - 10月こそ涼しくなる日が多くなると思うので、150km以上歩くことを目標にしたい
+- 今月180.9km歩いた
+  - 平均1日5.8kmぐらい歩いた
+  - 一日どこも出なかった日が2日ほどあって、4キロ以上歩いた日は26日ぐらいあった
+  - 目標150km以上歩くことに対し、30km超えていた
+  - 朝晩歩いたことで、けっこうな距離になった
+  - 11月からだんだん寒くなるし、朝起きてからは無理せず歩けるだけ歩くようにして、150km以上歩くことを目標にしたい
 
 ### 冷え性対策
 
-- 9月は思っていたほど気温が下がらなかったのもあって、そんなに冷え性を感じることはなかった
-- キャンプへ行った時にカイロを使ったがそんなに寒くはならなかった
+- 10月から本格的に寒くなり始めたのもあって思っていたほど気温が下がらなかったのもあって、防寒の準備をした
+- 寒いのは寒いけど、暖房をつけるほどではなかった
 
 ## 生活
 
-- 家から出なかった日が3日ほどあった
+- 家から出なかった日が2日ほどあった
 - 今月も賃貸を月初に払って、その後に払うタイミングのことで気にしなくていい感じだった
-- 韓国の芸能番組をよく見てた
-- 家族で入っていたNetflixアカウントがあったみたいで、自分も入れるようにユーザーを追加してもらった
-- Spreadsheetで管理する家計簿にセル内の数値だけを抽出して合計を算出するように設定した
-  - 毎回項目ごとに書いておいて、合計欄に手入力で記載するのが面倒だったのが、これで楽になった
-- キャリアで悩んでいたことがあって、gistに書き出した
+- [キャンプで使うゴミ袋](https://www.muji.com/jp/ja/store/cmdty/detail/4550344885444)を買った
+- Podcastのロゴ作成の費用を相方に送った
+- アヒージョをけっこう食べた
+- 特定のSlackチャンネルにBotを招待して、チャンネル内のテキストをSpeeadsheetに転載する方法について調べた
+  - 以前は、slackのoutgoing webhookを使うことで実装できたけど、いつの間にかslack appから作るのが推奨されるみたい
+- 個人同士の共有会をした
 - なんだかんだ週1ぐらいは出社していた
   - 実際の機材で確認しないとわからないのがいくつかあって、出社するしかなかった
-- discordサーバーつながりの人同士でオンライン飲み会に参加した
-- いつもの散歩コースではなく、他のルートも開拓した
-  - 坂の傾斜がなだらかで歩きやすかったが、その分普段のコースより1kmぐらい長く歩くことになった
-  - でも、そんなに疲れるわけではなかった
-- 気圧の変化が激しかったのもあって、急に体調が悪くなった日が3日ぐらいあった
-  - 無理せずそのまま寝たけど、朝起きるのがけっこう遅いぐらい熟睡した
-- 出会いアプリからつながった人とデートをした
-  - でも、2回目のデートまでにはつながらなかった
-- 縁があって、副業の説明会に参加した
-  - 難易度的に難しいような気がしたけど、求められるもの次第で参加しようかと思った
-- キャンプに行った
-  - キャンプをした次の日に仕事をするのは控えたほうがいいと思った
+- [エンジニアネタ](https://twitter.com/camomile_cafe/status/1446634380739313668?s=20)のツイートをした
+- デザイナーコミュニティに入った
+  - 調整役みたいなポジションになった
+  - 4つの企画の調整役をした
+- 夜中に起きた地震で足首をくじいた
+  - 整形外科に通って、治った
+- パスポートの更新に行った
+  - 2週間くらいして、受け取りに行った
+- 縁があって、副業を開始した
+  - 難易度的に難しいのもあり、不安に思った
+    - 今でも不安には思っているけど
+  - ただ、求められるポジションというか仕事があったので、そちらでコミットをした
+    - UXの調査とかUI上に隠れている仕様とかを見つけた
+  - [FBも受けた](https://ywt.expfrom.me/docs/2021/10/30.html)
+  - 来月以降の仕事においても、時間配分を考えたほうがいいと思った
+- 防災用のものを買った
+  - [モバイル電源](https://www.amazon.co.jp/gp/product/B0936N467W)
+  - [ポータブルソーラーパネル](https://www.amazon.co.jp/gp/product/B08LDDJR6G)
+  - [寝袋](https://www.amazon.co.jp/gp/product/B08CV8XM26/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+  - 災害用トイレ
+- ロフトの作業環境を改善するために[座布団](https://www.amazon.co.jp/gp/product/B08M9SPBGL)と[座椅子](https://www.amazon.co.jp/gp/product/B0834T6HS4)を買った
+- podcastを3本収録をした
 
 ## 会社でのコミュニケーション
 
-- 物理的なデバイスの問題なのか、それともアプリケーション側の問題なのかを区別するためのヒアリング項目を返した
-- デザイナーが構成したプロト版の画面に対して自分の意見を伝えた
-- 外部のエンジニア向けのヒアリングシートを書いた
-- マーケティングチームに商品ページに載せるサムネイルについて意見を言った
-- 3か月以上前に実装してた機能だったけど、コメントを残しておいて正解だった
-- OSの違いによる不具合を見つけて対応をした
+- Mac用/Windows用のインストーラーが作れた
+- Windows用のインストーラーがあまり進まなかった時、他のタスクに切り替えてみた
+- 丸投げで来られても困る連絡が来て、いかに返そうかと考えたら、詳細情報が分かるようにヒアリングシートを書くしかなかった
+- エンジニア増員に関する話をCTOとした
+  - わりと、[日本人はあまり考慮していないケース](https://ywt.expfrom.me/docs/2021/10/29.html)のリスクに関しても話した
 
 ## アウトプット
 
 ### ブログ
 
-- 毎日のYWT（30日分）
+- 毎日のYWT（31日分）
+- [【AWS】awscliの初期設定をする | camolog](https://expfrom.me/aws-cli-init-setting/)
+- [【Mac】Digital Color Meterを使って、画面に表示されている色をHEX値で取得する | camolog](https://expfrom.me/get-color-with-mac-built-in-app/)
+- [【Expo】React NativeプロジェクトをiOS Simulatorで起動する | camolog](https://expfrom.me/launch-react-native-with-ios-simulator/)
+- [【React、React Native】ReactとReact Nativeでの構文の違い | camolog](https://expfrom.me/react-and-react-native-syntax-diff/)
+- [【Mac】キーボードの入力ソースからUSを除外し、Google IMEのひらがなと英数をデフォルトにする | camolog](https://expfrom.me/mac-no-show-us-keyboard/)
 
 ### Gist
 
 #### 新規
 
-- [Spreadsheetの関数を組み合わせて使う時のtips](https://gist.github.com/LeeDDHH/964f5e4919b52439419c3a73fbcf0ee7)
-- [巻込力](https://gist.github.com/LeeDDHH/850bfdb57925f617e180c2fc3179b00a)
-- [shell scriptを書いて疑問に思ってたあれこれ](https://gist.github.com/LeeDDHH/50179e3d99d1328775f6d931d48259ba)
-- [macのautomatorで使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)
-- [キャリアの悩みで共感したこと](https://gist.github.com/LeeDDHH/312d9337233cf7bdfe19d1e7269cf161)
-- [chmodの表記で気になったあれこれ](https://gist.github.com/LeeDDHH/f3a0b7053edd06756db1f3ab1e0cc261)
-- [npmのworkspacesの使い方ついてまとめる](https://gist.github.com/LeeDDHH/2fb2959ddeb5564ca157605f7830a24a)
-- [tsconfig生成時に気になることを集める](https://gist.github.com/LeeDDHH/e0eb75f87f48cd5c5a613a692c66ac78)
-- [忘れがちなコマンドのオプションについてまとめる](https://gist.github.com/LeeDDHH/84854b62f13a16922084ecd52ac06805)
-- [eslintの設定に関するあれこれ](https://gist.github.com/LeeDDHH/61fd4077ba50c677583062565b039fa0)
-- [nodejsで遭遇したエラーと対処法について](https://gist.github.com/LeeDDHH/5d786d42a05f801d370da3f71f3b69f6)
-- [javascriptで使えそうなワンライナー](https://gist.github.com/LeeDDHH/7b830f7253204771e5cbc81ea0d023a0)
-- [gasでweb上のurlを定期的に監視する機構を作るために参考にする資料](https://gist.github.com/LeeDDHH/532b312fafaa4b2edcddddf8b41a786f)
-- [他社のシニアフロントエンジニアの募集要項について](https://gist.github.com/LeeDDHH/fe5529fe2eed73d505ff548762645be3)
-- [typescriptのジェネリックについて](https://gist.github.com/LeeDDHH/03c25b5f7ad5d28516f493cf2d741da0)
-- [プロダクトのロゴを簡単に作るための方法](https://gist.github.com/LeeDDHH/a09300bf5509c70d98fc02208992cd44)
-- [typescript関連で書いたgistのindex](https://gist.github.com/LeeDDHH/71d21ca69c4cca831675600fe687f7fe)
-- [超 筋トレが最強のソリューションである 筋肉が人生を変える超科学的な理由](https://gist.github.com/LeeDDHH/a024e754b91fd600adb10c0e05e41a13)
-- [firebaseの機能を調査したgistのリンク集](https://gist.github.com/LeeDDHH/ec99024241bf9ed2eeab88dc696f5330)
-- [firebaseのcloud functionsのあれこれを集める](https://gist.github.com/LeeDDHH/1a2ca30f19f0c7c7944453e56800e97a)
-- [firebase-cliを使ったデプロイに関するあれこれを集める](https://gist.github.com/LeeDDHH/226ab93bd8be3a38de4a41893492192a)
-- [firebase-cliのあれこれを集める](https://gist.github.com/LeeDDHH/bfdc604cd6a12eaa1478c296087291fc)
-- [firebaseのレファレンスページへのリンク](https://gist.github.com/LeeDDHH/b12fd664d527299dba87ab6caa823cc8)
-- [firebaseのエミュレーター環境を整える](https://gist.github.com/LeeDDHH/6215f9b3ac6cd291a790dcb39eff721a)
+- [aws-cliで使えるiamのoptionについて](https://gist.github.com/LeeDDHH/87a7b0c53e77d6dc10710ab1216d46bd)
+- [macでpkgbuildを使って、インストーラーを作る時のメモ](https://gist.github.com/LeeDDHH/a9e673347b4f3ddde8e4aa2a1eeeb8e7)
+- [好奇心](https://gist.github.com/LeeDDHH/4dffb396311f8aa53382e14743735716)
+- [chromeのdevtoolsを使って、便利だったものをまとめる](https://gist.github.com/LeeDDHH/0ea96745c800c2d8d1f702295c922e88)
+- [web開発時に役立つスニペット](https://gist.github.com/LeeDDHH/edfd9e71c502cd41449d9a4cf3193481)
+- [mac-automator.md](https://gist.github.com/LeeDDHH/cf793ef7084ee3044657c55cd927d03e)
+- [在宅HACKS](https://gist.github.com/LeeDDHH/b046d66666c3758647090a5209b399b1)
 
 #### 更新
 
-- [Macを使って、困ったことがあったら記載](https://gist.github.com/LeeDDHH/a3298867ecd5c50b9ddf36f3fe76a78a)を更新した
-- [忘れがちなgitコマンド](https://gist.github.com/LeeDDHH/d3a3d99530bc0d9be9c1aa4869c4637e)を更新した
+- 特になし
 
 ### Twitter
 
-- [一人で頑張ったタスクのふりかえり](https://twitter.com/camomile_cafe/status/1433994248429326343)
-- [「Gitでは変更の記録を記録をスナップショットで行っている」の意味が分からず、ローカルのプロジェクトをもとに1つずつ追ってみた](https://twitter.com/camomile_cafe/status/1434839060384677894)
-- [KawamataRyoさんのリポジトリを見て、気になったところ](https://twitter.com/camomile_cafe/status/1435402197622083586)
+- [今月のちょっとしたふりかえり](https://twitter.com/camomile_cafe/status/1451013231112163329?s=20)
+- [エンジニアネタ](https://twitter.com/camomile_cafe/status/1446634380739313668?s=20)
+- [火は鉄を試し誘惑は正しき人を試す](https://twitter.com/camomile_cafe/status/1450021391802134531?s=20)
+- [デザイナーコミュニティーにコーディングの相談をするチャンネル作成の提案をした](https://twitter.com/camomile_cafe/status/1451762320527413253?s=20)
+- [他人と比較して落ち込むという悪い癖がついてしまいそうで困ると思った](https://twitter.com/camomile_cafe/status/1452152746484764674?s=20)
+- [メンタルを強くしていきたいと思った](https://twitter.com/camomile_cafe/status/1452180885881561088?s=20)
 
 ### 個人用の開発リソース収集サイトのコンテンツ更新
 
-- コンテンツを更新
+- 特になし
+
+### LT
+
+- [「一人でやる自動化」の考え方](https://docs.google.com/presentation/d/1CSfY35ZDu4se9anteVmLFT0np4ZDPvfxF_agOPhYRbk/edit)
+- [アツイマンガ - エモがないと 生きている味がしない](https://docs.google.com/presentation/d/1KLE826i0QorvYizFIvxVlFQZyDRbi0UDEt_isDf63-4/edit#slide=id.p)
 
 ## 本
 
 ### 読了
 
-- [巻込力](https://www.amazon.co.jp/dp/4766834380)
-- [仕事は「段取りとスケジュール」で9割決まる!](https://www.amazon.co.jp/dp/4756920047)
-- [超 筋トレが最強のソリューションである 筋肉が人生を変える超科学的な理由](https://www.amazon.co.jp/dp/4866510587)
-- [「大人のADHD」のための段取り力](https://www.amazon.co.jp/dp/4062596962)
-- [「段取りが良い人」と「段取りが悪い人」の習慣](https://www.amazon.co.jp/dp/475692056X)
-- [実用Git](https://www.amazon.co.jp/dp/4873114403)
+- とくになし
 
 ### 積読
 
@@ -128,37 +128,29 @@ description: '2021年10月の振り返り'
 
 ## 個人の課題
 
-### 9月の目標
+### 10月の目標
 
-- 9月の目標は `アプリのデータ保存/fuzzy-search導入` が目標だった
-  - しかし、全然開発する気にならなかった
-  - アプリを作ることで再現しようとしたことが、MacのAutomatorを使うことで解決できてしまい、手をつけなかった
-  - Electronのアプリを作ることにモチベーションが下がってしまった
-- 代わりに、[DesignNewsBot](https://twitter.com/designrssbot)というツイッターのbotを作った
-  - 前から何かしらのbotを作ってみたかったのもあって、デザイン関連のニュースや情報を配信する媒体のRSSを定期的にツイートするものを作った
-  - サーバーはfirebaseのcloud functionsにして、DBはfirestoreで扱った
-  - RSS取得はそんなに頻繁にする必要がなかったので1日に1回の頻度でスクレイピングをする
-  - ツイートは30分に1回のペースで行う
-  - 定期実行のスケジュールはfirebaseの機能ではなく、firebase cloud functionsで外部からコールできるようにurlを設けて、GASから定期的に実行するようにした
-    - firebase cloud functionsの機能で定期実行をすると、無料範囲ではアカウントごとに3つまでしか指定ができなかった
-    - 正確な時間に定期実行する必要はなく、ちょっと誤差があってもいい処理だったので、GASから定期的にurlへアクセスように設定した
+- 10月の目標は `firebaseでなにかプロジェクトを作る` が目標だった
+  - しかし、全然開発するほどの余裕がなかった
+  - 副業と技術の勉強でそれどころではなかった
+- 11月からもしばらくは新しい技術に触れることになるので、個別の開発の目標はしばらく保留になりそうだ
 
 ### その他活動
 
 #### 開発
 
-- Electronで[特定の画面を表示するときだけDockにアイコンを表示する](https://github.com/LeeDDHH/alias-agent/commit/5fb906d85b068a470dd1205ac70a90907a91e1c4)ようにした
+- とくになし
 
 #### アイデア
 
-- 特になし
+- キャンプに行ったときに電波状態がそんなによくなく、天気予報アプリを起動してキャンプ場の天気情報を取得するまで時間がかかっていた
+  - 天気情報をあらかじめ取得して、リクエストがある場合は静的なデータとして返すアプリがほしいと思った
 
-### 10月の目標
+### 11月の目標
 
 #### メイン課題
 
-- Electronアプリ開発は保留にする
-- せっかくfirebaseを触ってみたのもあるので、10月もfirebaseでなにかプロジェクトを作る
+- Udemyで買った講義もあるので、それをこなすことにする
 - なるべく、PCに向かっている時間は減らして、その分の時間に人と会ったり、文字媒体を読んだりする時間に当てる
 - やりたいこととは何かについて考えて、書き出してみる
 
