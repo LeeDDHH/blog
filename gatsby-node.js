@@ -121,6 +121,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       rcp: String
       rod: String
       designrssbot: String
+      sshkeygen: String
     }
 
     type MarkdownRemark implements Node {

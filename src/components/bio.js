@@ -140,6 +140,17 @@ const Bio = () => {
                 </DesignRSSBotBtn>
               : ``
             }
+            {
+              subOutput.sshkeygen
+              ? <SSHKeyGenBtn>
+                  <ATag
+                    link={`https://${subOutput.sshkeygen}.expfrom.me`}
+                    text="SSHKeyGen"
+                    color="black"
+                    />
+                </SSHKeyGenBtn>
+              : ``
+            }
           </AppealLink>
         </p>
       )}
@@ -207,6 +218,10 @@ const RoDBtn = styled(Button)`
 
 const DesignRSSBotBtn = styled(Button)`
   background: linear-gradient(-45deg, #48E6ED, #7E1BB5, #FF00F7);
+`
+
+const SSHKeyGenBtn = styled(Button)`
+  background-color: #FF7F50;
 `
 
 export default Bio

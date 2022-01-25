@@ -16,7 +16,8 @@ module.exports = {
       todoList: `todolist`,
       rcp: `random-color-pallete`,
       rod: `rod`,
-      designrssbot: `designrssbot`
+      designrssbot: `designrssbot`,
+      sshkeygen: `ssh-keygen`
     },
   },
   plugins: [
