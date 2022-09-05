@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SearchConsole from '../components/searchConsole';
 import Pagination from "../components/Pagination";
-import SEO from "../components/seo"
+import SEOComponent from "../components/seo"
 
 const BlogIndex = ({ pageContext, data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -15,7 +15,7 @@ const BlogIndex = ({ pageContext, data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <SearchConsole title="All posts" />
-        <SEO title="All posts" />
+        <SEOComponent title="All posts" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
@@ -29,7 +29,7 @@ const BlogIndex = ({ pageContext, data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SearchConsole title="All posts" />
-      <SEO title="All posts" />
+      <SEOComponent title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
