@@ -64,7 +64,7 @@ const Bio = () => {
         />
       )}
       {author?.name && (
-        <p>
+        <div>
           {author?.summary || null} <strong>{author.name}</strong>
           <br/>
           {` `}
@@ -152,7 +152,7 @@ const Bio = () => {
               : ``
             }
           </AppealLink>
-        </p>
+        </div>
       )}
     </div>
   )
