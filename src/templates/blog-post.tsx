@@ -1,24 +1,27 @@
+"use strict"
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, PageProps } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SearchConsole from '../components/searchConsole';
+import SearchConsole from "../components/searchConsole"
 import SEOComponent from "../components/seo"
 import Iframely from "../components/iframely"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate: React.FC<
+  PageProps<GatsbyTypes.BlogPostBySlugQuery>
+> = ({ data, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site?.siteMetadata?.title || `Title`
   const { previous, next } = data
 
   return (
     <Layout location={location} title={siteTitle}>
       <Iframely />
-      <SearchConsole title={post.frontmatter.title} />
+      <SearchConsole title={post?.frontmatter?.title || ""} />
       <SEOComponent
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        title={post?.frontmatter?.title || ""}
+        description={post?.frontmatter?.description || post?.excerpt || ""}
       />
       <article
         className="blog-post"
@@ -26,11 +29,11 @@ const BlogPostTemplate = ({ data, location }) => {
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <h1 itemProp="headline">{post?.frontmatter?.title}</h1>
+          <p>{post?.frontmatter?.date}</p>
         </header>
         <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
+          dangerouslySetInnerHTML={{ __html: post?.html || "" }}
           itemProp="articleBody"
         />
         <hr />
@@ -50,15 +53,15 @@ const BlogPostTemplate = ({ data, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+              <Link to={previous.fields?.slug || ""} rel="prev">
+                ← {previous.frontmatter?.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+              <Link to={next.fields?.slug || ""} rel="next">
+                {next.frontmatter?.title} →
               </Link>
             )}
           </li>

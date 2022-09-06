@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react'
-import { Helmet } from 'react-helmet'
+"use strict"
+import React, { useEffect } from "react"
+import { Helmet } from "react-helmet"
 
-const Iframely = () => {
+const Iframely: React.FC = () => {
   // 古いブログ記事に遷移したときにもiframelyがロードされるように、rendering後loadする
   useEffect(() => {
     if (window && window.iframely) {
