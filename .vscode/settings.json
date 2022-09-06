@@ -14,5 +14,10 @@
       "strings": "on",
       "other": "on"
     }
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

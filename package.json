@@ -11,9 +11,9 @@
     "babel-plugin-styled-components": "2.0.7",
     "gatsby": "^4.22.0",
     "gatsby-awesome-pagination": "0.3.8",
-    "gatsby-image": "^2.5.0",
     "gatsby-plugin-google-analytics": "^4.22.0",
     "gatsby-plugin-google-tagmanager": "^4.22.0",
+    "gatsby-plugin-image": "^2.22.0",
     "gatsby-plugin-manifest": "^4.22.0",
     "gatsby-plugin-offline": "^5.22.0",
     "gatsby-plugin-postcss": "^5.22.0",
@@ -22,6 +22,8 @@
     "gatsby-plugin-sitemap": "^5.22.0",
     "gatsby-plugin-styled-components": "5.22.0",
     "gatsby-plugin-twitter": "^4.22.0",
+    "gatsby-plugin-typegen": "^3.0.0",
+    "gatsby-plugin-typescript": "^4.22.0",
     "gatsby-remark-copy-linked-files": "^5.22.0",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "^6.22.0",
@@ -40,25 +42,37 @@
     "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
-    "prettier": "2.7.1"
+    "@graphql-codegen/cli": "^2.12.0",
+    "@graphql-codegen/typescript": "^2.7.3",
+    "@graphql-codegen/typescript-operations": "^2.5.3",
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-helmet": "^6.1.5",
+    "@types/styled-components": "^5.1.26",
+    "prettier": "2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
-  "main": "n/a",
+  "main": "dist/src/templates/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
+    "tstypecheck": "tsc",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "dist-clean": "node -e 'fs.rmSync(`dist`, {recursive:true, force:true})';",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
