@@ -37,6 +37,7 @@ const Bio: React.FC = () => {
             rcp
             rod
             designrssbot
+            everydaywise
           }
         }
       }
@@ -150,6 +151,16 @@ const Bio: React.FC = () => {
             ) : (
               ``
             )}
+            {subOutput.everydaywise ? (
+              <EveryDayWiseBtn>
+                <ATag
+                  link={`https://${subOutput.everydaywise}.expfrom.me`}
+                  text="EveryDayWise"
+                />
+              </EveryDayWiseBtn>
+            ) : (
+              ``
+            )}
           </AppealLink>
         </div>
       )}
@@ -229,6 +240,10 @@ const DesignRSSBotBtn = styled(Button)`
 
 const SSHKeyGenBtn = styled(Button)`
   background-color: #ff7f50;
+`
+
+const EveryDayWiseBtn = styled(Button)`
+  background-color: #ff7b00;
 `
 
 export default Bio

@@ -26,6 +26,7 @@ const siteMetadata = {
     rod: `rod`,
     designrssbot: `designrssbot`,
     sshkeygen: `ssh-keygen`,
+    everydaywise: `every-day-wise`,
   },
 }
 
