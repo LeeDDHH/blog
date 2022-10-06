@@ -164,6 +164,7 @@ const createSchemaCustomization = ({
       rod: String
       designrssbot: String
       sshkeygen: String
+      everydaywise: String
     }
 
     type MarkdownRemark implements Node {

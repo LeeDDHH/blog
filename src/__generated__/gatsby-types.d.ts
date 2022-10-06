@@ -2659,6 +2659,7 @@ type SiteFieldsEnum =
   | 'siteMetadata.social.facebook'
   | 'siteMetadata.social.twitter'
   | 'siteMetadata.subOutput.designrssbot'
+  | 'siteMetadata.subOutput.everydaywise'
   | 'siteMetadata.subOutput.rcp'
   | 'siteMetadata.subOutput.rod'
   | 'siteMetadata.subOutput.sshkeygen'
@@ -3488,6 +3489,7 @@ type StringQueryOperatorInput = {
 
 type SubOutput = {
   readonly designrssbot: Maybe<Scalars['String']>;
+  readonly everydaywise: Maybe<Scalars['String']>;
   readonly rcp: Maybe<Scalars['String']>;
   readonly rod: Maybe<Scalars['String']>;
   readonly sshkeygen: Maybe<Scalars['String']>;
@@ -3497,6 +3499,7 @@ type SubOutput = {
 
 type SubOutputFilterInput = {
   readonly designrssbot: InputMaybe<StringQueryOperatorInput>;
+  readonly everydaywise: InputMaybe<StringQueryOperatorInput>;
   readonly rcp: InputMaybe<StringQueryOperatorInput>;
   readonly rod: InputMaybe<StringQueryOperatorInput>;
   readonly sshkeygen: InputMaybe<StringQueryOperatorInput>;
@@ -3520,7 +3523,7 @@ type WebPOptions = {
 type BioQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type BioQueryQuery = { readonly avatar: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null, readonly site: { readonly siteMetadata: { readonly author: { readonly name: string | null, readonly summary: string | null } | null, readonly social: { readonly twitter: string | null, readonly facebook: string | null } | null, readonly subOutput: { readonly ywt: string | null, readonly todoList: string | null, readonly rcp: string | null, readonly rod: string | null, readonly designrssbot: string | null } | null } | null } | null };
+type BioQueryQuery = { readonly avatar: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null, readonly site: { readonly siteMetadata: { readonly author: { readonly name: string | null, readonly summary: string | null } | null, readonly social: { readonly twitter: string | null, readonly facebook: string | null } | null, readonly subOutput: { readonly ywt: string | null, readonly todoList: string | null, readonly rcp: string | null, readonly rod: string | null, readonly designrssbot: string | null, readonly everydaywise: string | null } | null } | null } | null };
 
 type BlogIndexQueryVariables = Exact<{
   skip: Scalars['Int'];
