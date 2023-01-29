@@ -1,6 +1,6 @@
 ---
 title: 【TypeScript】tsconfig.jsonの主なオプションについて
-date: "2023-01-29 14:08:00"
+date: "2023-01-29 14:15:00"
 description: "TypeScriptのtsconfig.jsonを設定する際の主なオプションとフロントエンド・バックエンドでの設定についてまとめる"
 ---
 
