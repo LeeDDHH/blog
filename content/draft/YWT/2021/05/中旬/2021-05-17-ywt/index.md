@@ -6,8 +6,8 @@ description: "ライブラリの実行箇所を変えてみたり、キャンプ
 
 ## [Y] やったこと
 
-- 2.9km歩いた
-- ライブラリのissueを漁ったり調べたりした
+- 2.9km 歩いた
+- ライブラリの issue を漁ったり調べたりした
 - キャンプに行く前日の準備をした
 
 ## [W] わかったこと
@@ -21,6 +21,6 @@ description: "ライブラリの実行箇所を変えてみたり、キャンプ
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1394293423344033792?s=20 -->

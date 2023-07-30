@@ -6,9 +6,9 @@ description: "Twitterの知り合いと鎌倉に行ったり、Podcastの編集�
 
 ## [Y] やったこと
 
-- 6.1km歩いた
-- Twitterの知り合いと鎌倉に行った
-- Podcastの編集をした
+- 6.1km 歩いた
+- Twitter の知り合いと鎌倉に行った
+- Podcast の編集をした
 
 ## [W] わかったこと
 
@@ -21,6 +21,6 @@ description: "Twitterの知り合いと鎌倉に行ったり、Podcastの編集�
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1399013312784859143?s=20 -->

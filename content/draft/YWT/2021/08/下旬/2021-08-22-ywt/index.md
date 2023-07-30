@@ -6,7 +6,7 @@ description: "読書したり、オンライン勉強会に参加したりした
 
 ## [Y] やったこと
 
-- 7.2km歩いた
+- 7.2km 歩いた
 - [未経験からセキュリティエンジニアへの転職！～セキュリティ業界出身エージェントがその方法を伝授～](https://connpass.com/event/221529/)という勉強会に参加した
 - 図書館で借りた本を読んだ
   - [プログラミング言語大全](https://www.amazon.co.jp/dp/4297113473)
@@ -15,8 +15,8 @@ description: "読書したり、オンライン勉強会に参加したりした
 
 ## [W] わかったこと
 
-- [プログラミング言語大全](https://www.amazon.co.jp/dp/4297113473)でいろんな言語のFizzBuzzの書き方がわかった
-  - C、C++、Go、Rust、Python、Ruby、PHP、Lua、JavaScriptまですすめた
+- [プログラミング言語大全](https://www.amazon.co.jp/dp/4297113473)でいろんな言語の FizzBuzz の書き方がわかった
+  - C、C++、Go、Rust、Python、Ruby、PHP、Lua、JavaScript まですすめた
 - [フロム・ザ・バレル](https://www.amazon.co.jp/dp/B001TZASVQ)が思っていたよりも飲みやすかった
 
 ## [T] 次にやること
@@ -25,8 +25,8 @@ description: "読書したり、オンライン勉強会に参加したりした
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

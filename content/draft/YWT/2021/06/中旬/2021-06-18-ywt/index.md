@@ -7,7 +7,7 @@ description: "再レンダリング防止策のコードを書いたり、セミ
 ## [Y] やったこと
 
 - 歩かなかった
-- UI実装をすすめた
+- UI 実装をすすめた
 - `React.memo` 、 `useCallback` 、 `useMemo` を使って再レンダリング防止の対策をした
 - 強み発掘セミナーに参加した
 
@@ -18,7 +18,7 @@ description: "再レンダリング防止策のコードを書いたり、セミ
   - 自分で決めた特定のルールを守るという欲求がある
     - 究極、ハンターハンターのクラピカみたいなものかもしれない
   - 去年の今頃を振り返ってみて、自分の場合コードを読む力が身について来たのかもしれない
-    - 転職して、現職のコードを2週間読んで、あとはとくにサポートなしで実装を進めている
+    - 転職して、現職のコードを 2 週間読んで、あとはとくにサポートなしで実装を進めている
   - 他人に対してイライラすることがあっても、話をすればだいたい解決する
     - 他人との合意点を探すことに慣れてきたのかもしれない
 - 自分では気づかなかったこととして「自分で決めた特定のルールが発動する条件」の勝ちパターンを分析することがあった
@@ -30,8 +30,8 @@ description: "再レンダリング防止策のコードを書いたり、セミ
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

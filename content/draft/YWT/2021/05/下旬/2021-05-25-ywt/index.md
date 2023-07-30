@@ -6,17 +6,17 @@ description: "TypeScriptで作った環境のビルドを試したり、Podcast�
 
 ## [Y] やったこと
 
-- 2km歩いた
+- 2km 歩いた
 - ビルドができず、色々と方法を試した
 - 今月の出費を計算してみた
-- 久々にPodcastの収録をした
+- 久々に Podcast の収録をした
 
 ## [W] わかったこと
 
 - ビルドできたと思ったら、全然ライブラリが機能しなかった
-- 今月、2回もキャンプに行ってた割には前月よりも出費がすくなくて済んだ
+- 今月、2 回もキャンプに行ってた割には前月よりも出費がすくなくて済んだ
   - キャンプを趣味にすると、コスパがいいのかもしれないと思った
-- Podcastの相方の近況が聞けてよかった
+- Podcast の相方の近況が聞けてよかった
 
 ## [T] 次にやること
 
@@ -25,6 +25,6 @@ description: "TypeScriptで作った環境のビルドを試したり、Podcast�
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1397216080091811844?s=20 -->

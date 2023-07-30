@@ -6,7 +6,7 @@ description: "不具合の調査をしたり、新しいウィスキーを買っ
 
 ## [Y] やったこと
 
-- 2.2km歩いた
+- 2.2km 歩いた
 - 仕事前に[豆乳入りのコーヒー](https://twitter.com/camomile_cafe/status/1432127332542607364?s=20)を作った
 - 昼に[そばを作って](https://twitter.com/camomile_cafe/status/1432239571312386051?s=20)食べた
 - 読み終わった本を図書館に返却した
@@ -14,10 +14,10 @@ description: "不具合の調査をしたり、新しいウィスキーを買っ
 
 ## [W] わかったこと
 
-- 今日で[Twitterをやってから4年目](https://twitter.com/camomile_cafe/status/1432147190672097289?s=20)だったようだ
-- そば2枚を茹でて食べても50円しないことがわかった
-- スーパーで[ブラックニッカ クリア](https://www.amazon.co.jp/dp/B005VZYNJS)を買うと、Amazonよりも安いことがわかった
-  - 1gあたり1円ぐらいの安さだった
+- 今日で[Twitter をやってから 4 年目](https://twitter.com/camomile_cafe/status/1432147190672097289?s=20)だったようだ
+- そば 2 枚を茹でて食べても 50 円しないことがわかった
+- スーパーで[ブラックニッカ クリア](https://www.amazon.co.jp/dp/B005VZYNJS)を買うと、Amazon よりも安いことがわかった
+  - 1g あたり 1 円ぐらいの安さだった
 
 ## [T] 次にやること
 
@@ -25,8 +25,8 @@ description: "不具合の調査をしたり、新しいウィスキーを買っ
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

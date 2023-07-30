@@ -6,7 +6,7 @@ description: "非同期通信時の改善コードを真似したり、ミーテ
 
 ## [Y] やったこと
 
-- 4.3km歩いた
+- 4.3km 歩いた
 - [async await 内で try catch したときのコードの書き方を改善するコード](https://gist.github.com/LeeDDHH/3c54aeb8466cc734e619a6535bf11c14)を書いてみた
 - 不具合の件でミーティングに参加した
 - デフォルトデータの読み込み処理を書いた
@@ -21,8 +21,8 @@ description: "非同期通信時の改善コードを真似したり、ミーテ
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

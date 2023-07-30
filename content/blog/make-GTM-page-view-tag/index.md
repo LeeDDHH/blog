@@ -4,7 +4,7 @@ date: "2021-02-14 20:45:00"
 description: "Google Tag ManagerとGoogle Analyticsを組み合わせ、ページビューのトリガーを設定する"
 ---
 
-以前の記事で以下の2つの設定を行う方法を紹介した
+以前の記事で以下の 2 つの設定を行う方法を紹介した
 
 <p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://expfrom.me/make-gtm-container/" data-iframely-url="//cdn.iframe.ly/1cWYZXm"></a></div></div>
@@ -14,12 +14,12 @@ description: "Google Tag ManagerとGoogle Analyticsを組み合わせ、ペー�
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://expfrom.me/make-ga-properties/" data-iframely-url="//cdn.iframe.ly/R4ybyiJ"></a></div></div>
 </p>
 
-GTMとGAを使って実際にイベントトラッキングをするため、以下の設定をしたため、書き残す
+GTM と GA を使って実際にイベントトラッキングをするため、以下の設定をしたため、書き残す
 
 - **トリガーの作成**
-- **トラッキングIDの設定**
+- **トラッキング ID の設定**
 - **タグの作成**
-- **GTMコンテナーの状態を公開する**
+- **GTM コンテナーの状態を公開する**
 
 ## トリガーを作成する
 
@@ -45,7 +45,7 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 
 ![trigger-save-done](trigger-save-done.png)
 
-## トラッキングIDを変数として作成する
+## トラッキング ID を変数として作成する
 
 次に、 `Variables > New` をクリックする
 
@@ -57,11 +57,11 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 ![variables-configuration](variables-configuration.png)
 
 変数の種類を選択する画面に変わったら、設定したい変数の種類を選択する  
-今回の例では、Google AnalyticsのトラッキングIDを設定したいため、**Google アナリティクス設定**を選択した
+今回の例では、Google Analytics のトラッキング ID を設定したいため、**Google アナリティクス設定**を選択した
 
 ![variables-type](variables-type.png)
 
-選択後、画面が切り替わったら、トラッキングIDに**UAのトラッキングID**を設定する
+選択後、画面が切り替わったら、トラッキング ID に**UA のトラッキング ID**を設定する
 
 選択した種類と変数の名前を確認し、問題なければ**Save**をクリックする
 
@@ -83,7 +83,7 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 ![tag-configuration-1](tag-configuration-1.png)
 
 画面が変わったら、設定したいタグの種類を選択する  
-今回の例では、UAのトラッキングIDを使ってGoogle Analyticsにイベントを送りたかったため、**Google アナリティクス:ユニバーサル アナリティクス**を選択した
+今回の例では、UA のトラッキング ID を使って Google Analytics にイベントを送りたかったため、**Google アナリティクス:ユニバーサル アナリティクス**を選択した
 
 ![tag-type](tag-type.png)
 
@@ -92,9 +92,9 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 
 ![tag-configuration-2](tag-configuration-2.png)
 
-もし、変数としてUAのトラッキングIDを管理したくなかったり、何かの事情で変数として指定したUAのトラッキングIDは残しつつ新たなトラッキングIDを指定したりする必要があるとする
+もし、変数として UA のトラッキング ID を管理したくなかったり、何かの事情で変数として指定した UA のトラッキング ID は残しつつ新たなトラッキング ID を指定したりする必要があるとする
 
-その場合は、**このタグでオーバーライド設定を有効にする**をチェックして、別途UAのトラッキングIDを指定する
+その場合は、**このタグでオーバーライド設定を有効にする**をチェックして、別途 UA のトラッキング ID を指定する
 
 ![tag-configuration-3](tag-configuration-3.png)
 
@@ -114,7 +114,7 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 
 ![tag-save-done](tag-save-done.png)
 
-## GTMコンテナーの状態を公開する
+## GTM コンテナーの状態を公開する
 
 設定した**トリガー**、**変数**、**タグ**をもとに、サイト側でイベントを発火させるため、公開作業をする
 
@@ -123,7 +123,7 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 
 ![publish-submit](publish-submit.png)
 
-画面が切り替わったら、公開するGTMコンテナーの**バージョン名**と**詳細説明**を記載する
+画面が切り替わったら、公開する GTM コンテナーの**バージョン名**と**詳細説明**を記載する
 
 問題なければ、**Publish**をクリックする
 
@@ -139,9 +139,9 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 
 ## おまけ
 
-設定が終わり、とくに何もなければGTMのタグは正常にイベント発火をするが、念のためGTMを設定したページで最終確認もしておく
+設定が終わり、とくに何もなければ GTM のタグは正常にイベント発火をするが、念のため GTM を設定したページで最終確認もしておく
 
-タグが正しく発火しているかどうかチェックするためには、以下のGoogleChromeの拡張機能が必要となるので、インストールする
+タグが正しく発火しているかどうかチェックするためには、以下の GoogleChrome の拡張機能が必要となるので、インストールする
 
 <p>
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://chrome.google.com/webstore/detail/tag-assistant-legacy-by-g/kejbdjndbnbjgmefkgdddjlbokphdefk" data-iframely-url="//cdn.iframe.ly/fcoh2Ha"></a></div></div>
@@ -154,11 +154,11 @@ GTMとGAを使って実際にイベントトラッキングをするため、以
 
 画面が変わり、**Enable**をクリックする
 
-GTMコンテナーID、UAのトラッキングIDが表示されなければ、一度拡張機能の画面を閉じて、再度開く
+GTM コンテナー ID、UA のトラッキング ID が表示されなければ、一度拡張機能の画面を閉じて、再度開く
 
 ![extension-enable](extension-enable.png)
 
-このような画面になって、 `Google Analytics` と `Google Tag Manager` で指定したIDが表示されれば、正常にイベントが取れている
+このような画面になって、 `Google Analytics` と `Google Tag Manager` で指定した ID が表示されれば、正常にイベントが取れている
 
 ![extension-done](extension-done.png)
 

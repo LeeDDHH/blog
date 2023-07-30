@@ -4,7 +4,7 @@ date: "2021-01-20 14:25:57"
 description: "Mac版のSpreadsheetを均一なサイズのセルにしてみた"
 ---
 
-マス目のワイヤーフレームが必要になり、Mac版のSpreadsheetで方眼紙を作ってみた
+マス目のワイヤーフレームが必要になり、Mac 版の Spreadsheet で方眼紙を作ってみた
 
 ## やったこと
 
@@ -15,7 +15,7 @@ description: "Mac版のSpreadsheetを均一なサイズのセルにしてみた"
 
 ### 全列選択する
 
-A列1行目を選択する
+A 列 1 行目を選択する
 
 ![1-select-a1-cell](1-select-a1-cell.png)
 

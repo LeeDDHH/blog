@@ -7,10 +7,10 @@ description: "開発リソースサイトのコンテンツを更新したり、
 ## [Y] やったこと
 
 - 歩かなかった
-- [next-seo](https://github.com/garmeeh/next-seo#readme)を使ってSEO対策をした
-  - OGP用の画像を追加した
-  - metaタグとmanifestを追加した
-- 4月の目標候補をいくつか書いた
+- [next-seo](https://github.com/garmeeh/next-seo#readme)を使って SEO 対策をした
+  - OGP 用の画像を追加した
+  - meta タグと manifest を追加した
+- 4 月の目標候補をいくつか書いた
 - [開発リソースサイト](http://rod.expfrom.me/)にコンテンツを追加した
 
 ## [W] わかったこと
@@ -26,6 +26,6 @@ description: "開発リソースサイトのコンテンツを更新したり、
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1375047745942130690?s=20 -->

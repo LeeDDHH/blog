@@ -6,8 +6,8 @@ description: "サイトにコンテンツを追加したり、本を読み切っ
 
 ## [Y] やったこと
 
-- 3.9km歩いた
-- [開発やプログラミング勉強に役立つリソースサイト](https://rod.expfrom.me/)に27個のコンテンツを更新した
+- 3.9km 歩いた
+- [開発やプログラミング勉強に役立つリソースサイト](https://rod.expfrom.me/)に 27 個のコンテンツを更新した
 - [Fuzzy logic](https://zetawiki.com/wiki/%ED%8D%BC%EC%A7%80_%EB%85%BC%EB%A6%AC)について説明があるページを読んだ
 - [図解サーバー ~仕事で使える基礎の知識~](https://gist.github.com/LeeDDHH/1424ba23082aaf192f7934dfc5464e7a)を読み切った
 
@@ -21,8 +21,8 @@ description: "サイトにコンテンツを追加したり、本を読み切っ
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

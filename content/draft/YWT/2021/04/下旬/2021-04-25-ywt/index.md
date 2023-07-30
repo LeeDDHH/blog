@@ -7,7 +7,7 @@ description: "個人プロジェクトを進めたり、韓国の芸能番組を
 ## [Y] やったこと
 
 - 歩かなかった
-- 個人プロジェクトをReact + TypeScript + Electronで組み直した
+- 個人プロジェクトを React + TypeScript + Electron で組み直した
 - 韓国の芸能番組を見た
 
 ## [W] わかったこと
@@ -16,12 +16,12 @@ description: "個人プロジェクトを進めたり、韓国の芸能番組を
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowのshow/hideを制御する
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow の show/hide を制御する
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1386326579874205698?s=20 -->

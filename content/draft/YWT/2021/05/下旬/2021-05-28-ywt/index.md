@@ -6,13 +6,13 @@ description: "Windows版で動かない現象にあたったり、検証のた�
 
 ## [Y] やったこと
 
-- 3.5km歩いた
-- Mac版のビルドを作った
+- 3.5km 歩いた
+- Mac 版のビルドを作った
 - 物理出社をした
 
 ## [W] わかったこと
 
-- Windows版でビルドしようとしたら、一部のライブラリが読み込めなかった
+- Windows 版でビルドしようとしたら、一部のライブラリが読み込めなかった
 
 ## [T] 次にやること
 
@@ -21,6 +21,6 @@ description: "Windows版で動かない現象にあたったり、検証のた�
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1398285961893539845?s=20 -->

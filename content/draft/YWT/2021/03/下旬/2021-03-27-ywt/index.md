@@ -6,18 +6,18 @@ description: "温泉に行ったり、前前職で使っていたコワーキン
 
 ## [Y] やったこと
 
-- 15.4km歩いた
+- 15.4km 歩いた
 - 湯守の里で休養した
-- [Reactで作ったTodolist](https://todolist.expfrom.me/)、[サブプロジェクト](http://random-color-pallete.expfrom.me/)にSEO対策をした
+- [React で作った Todolist](https://todolist.expfrom.me/)、[サブプロジェクト](http://random-color-pallete.expfrom.me/)に SEO 対策をした
   - `react-helmet` で対応した
 - 前前職で使っていたコワーキングスペースに寄ってみた
 
 ## [W] わかったこと
 
-- [TwitterやFacebookなどのサービスのクローラーではJavaScriptレンダーをしない](https://stackoverflow.com/questions/59222217/twitter-card-meta-tags-work-in-index-html-not-in-react-helmet)ので、 `react-helmet` のようなライブラリでmetaタグを生成させても拾ってくれなかった
-  - twitter関連のmetaタグは、おとなしく `index.html` に書くのが吉だと思った
+- [Twitter や Facebook などのサービスのクローラーでは JavaScript レンダーをしない](https://stackoverflow.com/questions/59222217/twitter-card-meta-tags-work-in-index-html-not-in-react-helmet)ので、 `react-helmet` のようなライブラリで meta タグを生成させても拾ってくれなかった
+  - twitter 関連の meta タグは、おとなしく `index.html` に書くのが吉だと思った
 - 前前職で使っていたコワーキングスペースに土曜日だけ使ってみようと思った
-  - 2回ぐらいなら交通費込みで4000円もしなかった
+  - 2 回ぐらいなら交通費込みで 4000 円もしなかった
   - 水、コーヒー飲み放題にスペースが広く使える点を考えたら割とありではないかと思った
 
 ## [T] 次にやること
@@ -27,6 +27,6 @@ description: "温泉に行ったり、前前職で使っていたコワーキン
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1375820359082012674?s=20 -->

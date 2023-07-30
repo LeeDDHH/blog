@@ -6,18 +6,18 @@ description: "出社したり、不具合解消のためのコードを書いた
 
 ## [Y] やったこと
 
-- 4.7km歩いた
+- 4.7km 歩いた
 - 出社をした
-- OS側とアプリ側で違いのある仕様があって、確認と実装をした
+- OS 側とアプリ側で違いのある仕様があって、確認と実装をした
 - 読み終わった本を返却した
-  - [自分で考えて動く社員が育つOJTマネジメント](https://www.amazon.co.jp/dp/4866801034)
+  - [自分で考えて動く社員が育つ OJT マネジメント](https://www.amazon.co.jp/dp/4866801034)
 - 新たに本を借りた
-  - [実用Git](https://www.amazon.co.jp/dp/4873114403)
-  - [Atomic Design ~堅牢で使いやすいUIを効率良く設計する](https://www.amazon.co.jp/dp/477419705X)
-  - [「大人のADHD」のための段取り力](https://www.amazon.co.jp/dp/4062596962)
+  - [実用 Git](https://www.amazon.co.jp/dp/4873114403)
+  - [Atomic Design ~堅牢で使いやすい UI を効率良く設計する](https://www.amazon.co.jp/dp/477419705X)
+  - [「大人の ADHD」のための段取り力](https://www.amazon.co.jp/dp/4062596962)
   - [「段取りが良い人」と「段取りが悪い人」の習慣](https://www.amazon.co.jp/dp/475692056X)
 - [開発やプログラミング勉強に役立つリソースサイト](https://rod.expfrom.me/)にコンテンツを更新した
-- [Findyのイベント](https://findy.connpass.com/event/222574/)に参加した
+- [Findy のイベント](https://findy.connpass.com/event/222574/)に参加した
 - リリース時に使うコマンドを種類ごとにワンコマンドで実行できるように簡略化した
 
 ## [W] わかったこと
@@ -45,8 +45,8 @@ description: "出社したり、不具合解消のためのコードを書いた
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

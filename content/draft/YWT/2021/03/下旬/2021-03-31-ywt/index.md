@@ -6,10 +6,10 @@ description: "今月の振り返りをしたり、今年度の技術部の目標
 
 ## [Y] やったこと
 
-- 4.5km歩いた
+- 4.5km 歩いた
 - 技術部の半年間の目標を立てた
 - ほぼ全画面に渡って影響が発生する実装になりそうで軌道修正をした
-- 4月からの実装で心配になることについてCTOと話した
+- 4 月からの実装で心配になることについて CTO と話した
 
 ## [W] わかったこと
 
@@ -21,13 +21,13 @@ description: "今月の振り返りをしたり、今年度の技術部の目標
 
 ## [T] 次にやること
 
-- Electronのwindowをフレームレス化する方法を調べる
-- Electron 12以降のipc通信の仕方について調べる
-- rendererプロセスに公開するAPIの作り方について調べる
+- Electron の window をフレームレス化する方法を調べる
+- Electron 12 以降の ipc 通信の仕方について調べる
+- renderer プロセスに公開する API の作り方について調べる
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（78/200）
+- node.js 関連の積読を解消する（78/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1377236922033008641?s=20 -->

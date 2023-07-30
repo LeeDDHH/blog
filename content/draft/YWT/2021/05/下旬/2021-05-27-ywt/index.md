@@ -6,7 +6,7 @@ description: "メニュー項目を追加したり、Amazon Primeでアニメを
 
 ## [Y] やったこと
 
-- 2.7km歩いた
+- 2.7km 歩いた
 - メニュー項目を追加した
 - キャンプで使いそうな物を買った
 - アニメを見た
@@ -14,7 +14,7 @@ description: "メニュー項目を追加したり、Amazon Primeでアニメを
 ## [W] わかったこと
 
 - 「シャドーハウス」というアニメが思ってたより面白かった
-  - 3話までは世界観を理解するのに時間がかかるが、それ以降は興味津々と見た
+  - 3 話までは世界観を理解するのに時間がかかるが、それ以降は興味津々と見た
 
 ## [T] 次にやること
 
@@ -23,6 +23,6 @@ description: "メニュー項目を追加したり、Amazon Primeでアニメを
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1397928818501771265?s=20 -->

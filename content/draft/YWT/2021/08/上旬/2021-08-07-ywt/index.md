@@ -6,9 +6,9 @@ description: "図書館で本を借りたり、おとなしく家で過ごした
 
 ## [Y] やったこと
 
-- 2.9km歩いた
+- 2.9km 歩いた
 - 図書館で取り寄せした本を借りた
-  - そのうち、2冊を限読した
+  - そのうち、2 冊を限読した
 
 ## [W] わかったこと
 
@@ -20,8 +20,8 @@ description: "図書館で本を借りたり、おとなしく家で過ごした
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

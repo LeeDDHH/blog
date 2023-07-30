@@ -4,9 +4,9 @@ date: "2021-01-23 17:34:00"
 description: "新しくReact、Reduxのプロジェクトを作る際に使ったパッケージについてまとめた"
 ---
 
-新しくReact、Reduxのプロジェクトを作ろうとしたが、ビルドがうまく行かなかった
+新しく React、Redux のプロジェクトを作ろうとしたが、ビルドがうまく行かなかった
 
-調査した結果、なんとか動くものにはなったので、Babel、React、Redux、Webpackの組み合わせで使うためのパッケージについて残す
+調査した結果、なんとか動くものにはなったので、Babel、React、Redux、Webpack の組み合わせで使うためのパッケージについて残す
 
 # 使用するパッケージ
 
@@ -39,12 +39,12 @@ description: "新しくReact、Reduxのプロジェクトを作る際に使っ�
 
 - 最新版の `babel`
   - `@babel/core`
-- 出力するECMAScriptのバージョン、polyfillの指定のためのプリセット
+- 出力する ECMAScript のバージョン、polyfill の指定のためのプリセット
   - `@babel/preset-env`
 - `React` 用のプリセット
   - `@babel/preset-react`
 
-[webpackとBabelの基本を理解する(2) ―Babel編― - Qiita](https://qiita.com/koedamon/items/92c986456e4b9e845acd)  
+[webpack と Babel の基本を理解する(2) ―Babel 編― - Qiita](https://qiita.com/koedamon/items/92c986456e4b9e845acd)  
 [@babel/preset-env · Babel](https://babeljs.io/docs/en/babel-preset-env)
 
 `npm` でインストールする場合、以下のコマンドになる
@@ -63,20 +63,20 @@ npm i -D @babel/core @babel/preset-env @babel/preset-react
 
 ## Webpack
 
-- Babel使って、JavaScriptファイルをトランスパイリングするためのパッケージ
+- Babel 使って、JavaScript ファイルをトランスパイリングするためのパッケージ
   - `babel-loader`
-- webpackで生成下JavaScript/CSSなどを埋め込んだHTMLを生成するために使うパッケージ
+- webpack で生成下 JavaScript/CSS などを埋め込んだ HTML を生成するために使うパッケージ
   - `html-webpack-plugin`
-- webpackを使うためのパッケージ
+- webpack を使うためのパッケージ
   - `webpack`
-- webpackをコマンドライン上で使うためのパッケージ
+- webpack をコマンドライン上で使うためのパッケージ
   - `webpack-cli`
 - ローカルで開発用のサーバーを立ち上げるために使うパッケージ
   - `webpack-dev-server`
 
 [babel-loader | webpack](https://webpack.js.org/loaders/babel-loader/)  
 [HtmlWebpackPlugin | webpack](https://webpack.js.org/plugins/html-webpack-plugin/)  
-[webpackでhtmlファイルも出力する - emahiro/b.log](https://ema-hiro.hatenablog.com/entry/2017/10/12/015748)  
+[webpack で html ファイルも出力する - emahiro/b.log](https://ema-hiro.hatenablog.com/entry/2017/10/12/015748)  
 [Command Line Interface | webpack](https://webpack.js.org/api/cli/)  
 [DevServer | webpack](https://webpack.js.org/configuration/dev-server/)
 
@@ -120,24 +120,24 @@ module.exports = {
 
 ## React、Redux
 
-- Reactを使うためのパッケージ
+- React を使うためのパッケージ
   - `react`
-- ReactとDOMをつなげるためのパッケージ
+- React と DOM をつなげるためのパッケージ
   - `react-dom`
-- ReactとReduxをバインディングするためのパッケージ
+- React と Redux をバインディングするためのパッケージ
   - `react-redux`
-- Reactのルーティング用のパッケージ
+- React のルーティング用のパッケージ
   - `react-router-dom`
-- Reduxを使うためのパッケージ
+- Redux を使うためのパッケージ
   - `redux`
 
-[ReactDOMのrender()とReact.Componentのrender()の違いを理解する - Qiita](https://qiita.com/tatane616/items/9808f8861586fb2b2926)  
+[ReactDOM の render()と React.Component の render()の違いを理解する - Qiita](https://qiita.com/tatane616/items/9808f8861586fb2b2926)  
 [reactjs - React vs ReactDOM? - Stack Overflow](https://stackoverflow.com/questions/34114350/react-vs-reactdom)  
 [ReactDOM – React](https://reactjs.org/docs/react-dom.html)
 
-ちなみに、 `react-router-dom` は、 `v4` から `react-router` で使っていたコアな機能を使いつつ、`Link` や `BrowserRouter` のような新しいAPIが使える
+ちなみに、 `react-router-dom` は、 `v4` から `react-router` で使っていたコアな機能を使いつつ、`Link` や `BrowserRouter` のような新しい API が使える
 
-[react-routerとreact-router-domの違い - Qiita](https://qiita.com/koja1234/items/486f7396ed9c2568b235)  
+[react-router と react-router-dom の違い - Qiita](https://qiita.com/koja1234/items/486f7396ed9c2568b235)  
 [what's the diff between `react-router-dom` & `react-router`? · Issue #4648 · ReactTraining/react-router](https://github.com/ReactTraining/react-router/issues/4648)
 
 `npm` でインストールする場合、以下のコマンドになる
@@ -146,4 +146,4 @@ module.exports = {
 npm i -S react react-dom redux react-redux react-router-dom
 ```
 
-後は、React、Reduxで開発をしていく
+後は、React、Redux で開発をしていく

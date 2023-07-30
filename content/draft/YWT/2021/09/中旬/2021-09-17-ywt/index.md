@@ -6,12 +6,12 @@ description: "ビルドの確認をしたり、Netflixでドラマを見たり�
 
 ## [Y] やったこと
 
-- 2.2km歩いた
+- 2.2km 歩いた
 - [おとなが愉しむボードゲームの世界](https://twitter.com/camomile_cafe/status/1438657357194485760?s=20)という本を買った
 - ビルドの確認をした
 - 本を読んだ
-- RSSで取得したい媒体を1つ見つけた
-- Netflixでストレンジャー・シングスの1クールを見た
+- RSS で取得したい媒体を 1 つ見つけた
+- Netflix でストレンジャー・シングスの 1 クールを見た
 
 ## [W] わかったこと
 
@@ -24,8 +24,8 @@ description: "ビルドの確認をしたり、Netflixでドラマを見たり�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

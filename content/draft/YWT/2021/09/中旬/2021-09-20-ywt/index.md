@@ -6,14 +6,14 @@ description: "Netflixを見たり、コードをいじったりした"
 
 ## [Y] やったこと
 
-- 1.1km歩いた
-- Netflixでペーパー・ハウスを見た
-- `firebase.config` にTwitterのdeveloper APIを登録した
+- 1.1km 歩いた
+- Netflix でペーパー・ハウスを見た
+- `firebase.config` に Twitter の developer API を登録した
 - コードのリファクタリングをした
 
 ## [W] わかったこと
 
-- ここ2日間、食料を買わなかったのでまとめて買った
+- ここ 2 日間、食料を買わなかったのでまとめて買った
 
 ## [T] 次にやること
 
@@ -21,8 +21,8 @@ description: "Netflixを見たり、コードをいじったりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

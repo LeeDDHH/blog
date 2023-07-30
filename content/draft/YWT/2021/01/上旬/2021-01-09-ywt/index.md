@@ -8,15 +8,15 @@ description: "本と付き合う1日"
 
 ## [Y] やったこと
 
-- 4km歩いた
+- 4km 歩いた
 - [高円寺図書館](https://www.library.city.suginami.tokyo.jp/facilities/kouenji.html)で図書館会員証を作った
-- 宅配で[1秒タオル（ホットマン）](https://www.hotman-onlineshop.com/ec/sp/slist/1byosmt)を受け取った
+- 宅配で[1 秒タオル（ホットマン）](https://www.hotman-onlineshop.com/ec/sp/slist/1byosmt)を受け取った
 - 本の貸し出し、取り寄せをした
-- [初心者からちゃんとしたプロになる\_Webデザイン基礎入門](https://books.mdn.co.jp/books/3219203009/)を読み始めた
-- 久々に1階の作業スペースで本を読んだり、まとめたりした
-- [知の整理術1章](https://github.com/LeeDDHH/book-output/blob/main/%E7%9F%A5%E3%81%AE%E6%95%B4%E7%90%86%E8%A1%93/list.md)をまとめた
-- 知の整理術2章を読み始めた
-- オンライン男子会のbosyuを下書きした
+- [初心者からちゃんとしたプロになる\_Web デザイン基礎入門](https://books.mdn.co.jp/books/3219203009/)を読み始めた
+- 久々に 1 階の作業スペースで本を読んだり、まとめたりした
+- [知の整理術 1 章](https://github.com/LeeDDHH/book-output/blob/main/%E7%9F%A5%E3%81%AE%E6%95%B4%E7%90%86%E8%A1%93/list.md)をまとめた
+- 知の整理術 2 章を読み始めた
+- オンライン男子会の bosyu を下書きした
 
 ## [W] わかったこと
 
@@ -27,13 +27,13 @@ description: "本と付き合う1日"
 - 貸出、取り寄せ限定のサービスコーナーもあった
   - [和田図書サービスコーナー](https://www.library.city.suginami.tokyo.jp/facilities/wada.html)
   - [高円寺駅前図書サービスコーナー](https://www.library.city.suginami.tokyo.jp/facilities/ekimae.html)
-- たまに1階で作業をするとロフトでやるより集中ができた
+- たまに 1 階で作業をするとロフトでやるより集中ができた
   - ロフトは寝るスペースも兼ねて使っているのもあって、リラックスした状態で作業してたからゆっくりめのペースだったのかもしれない
 - ワイヤーフレームで簡単な絵を描くぐらいなら、自分でもなんとかなりそうなことがわかった
-- コーディングはなんとかやってこれたが、Webデザインに関してはほとんど勘でやってきたなと感じた
+- コーディングはなんとかやってこれたが、Web デザインに関してはほとんど勘でやってきたなと感じた
 
 ## [T] 次にやること
 
-- OculusQuest2の初期設定をする
-- 知の整理術2章を読み続ける
+- OculusQuest2 の初期設定をする
+- 知の整理術 2 章を読み続ける
 - 技術書典で買った本を読み始める

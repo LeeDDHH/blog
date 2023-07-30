@@ -6,19 +6,19 @@ description: "物理出社したり、2回目のワクチンの接種を受け�
 
 ## [Y] やったこと
 
-- 12.5km歩いた
-- [electronでDBを使うときに参考にするパッケージ](https://gist.github.com/LeeDDHH/5a760e4ca178d914516b67ff342d6056)についてまとめた
-- 1回目のワクチン接種のときの反省点として色々ものを買っておいた
+- 12.5km 歩いた
+- [electron で DB を使うときに参考にするパッケージ](https://gist.github.com/LeeDDHH/5a760e4ca178d914516b67ff342d6056)についてまとめた
+- 1 回目のワクチン接種のときの反省点として色々ものを買っておいた
   - 甘草のど飴
   - 冷えピタ
   - ポカリ
-- 制作しているアプリのUIの調整をした
+- 制作しているアプリの UI の調整をした
 - 機能改善のために現在の仕様調査をした
 
 ## [W] わかったこと
 
 - 早めに家から出て一駅先から電車に乗ってみたらいい感じの運動になった
-- 2回目のワクチン接種で思ってたよりも早い時間帯に倦怠感が襲ってきた
+- 2 回目のワクチン接種で思ってたよりも早い時間帯に倦怠感が襲ってきた
 
 ## [T] 次にやること
 
@@ -26,8 +26,8 @@ description: "物理出社したり、2回目のワクチンの接種を受け�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

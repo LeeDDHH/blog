@@ -6,9 +6,9 @@ description: "検証をすすめたり、ビルドの以来を頼んだりした
 
 ## [Y] やったこと
 
-- 7km歩いた
+- 7km 歩いた
 - 検証をすすめた
-- 自分のローカルでビルドしたものでは期待通りの動作をしなかったため、CTOにビルドの依頼をした
+- 自分のローカルでビルドしたものでは期待通りの動作をしなかったため、CTO にビルドの依頼をした
 
 ## [W] わかったこと
 
@@ -18,12 +18,12 @@ description: "検証をすすめたり、ビルドの以来を頼んだりした
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowのshow/hideを制御する
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow の show/hide を制御する
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1384884628037586950?s=20 -->

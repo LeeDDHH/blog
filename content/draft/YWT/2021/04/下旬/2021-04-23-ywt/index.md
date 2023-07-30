@@ -6,11 +6,11 @@ description: "家にあった酒を飲み干したり、寝たりした"
 
 ## [Y] やったこと
 
-- 1.1km歩いた
+- 1.1km 歩いた
 - 家にあった酒を昼間から飲んだ
 - 朝、二度寝した
 - 昼寝した
-- [Qiitaの記事を参考に](https://qiita.com/sprout2000/items/9c91362e7d7b7c2c6d22)React + Electron + TypeScriptの環境を書いてみた
+- [Qiita の記事を参考に](https://qiita.com/sprout2000/items/9c91362e7d7b7c2c6d22)React + Electron + TypeScript の環境を書いてみた
 
 ## [W] わかったこと
 
@@ -18,12 +18,12 @@ description: "家にあった酒を飲み干したり、寝たりした"
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowのshow/hideを制御する
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow の show/hide を制御する
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1385597865490214914?s=20 -->

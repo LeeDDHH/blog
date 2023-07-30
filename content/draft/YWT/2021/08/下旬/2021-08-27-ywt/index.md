@@ -6,13 +6,13 @@ description: "クラッシュレポートを追ったり、不具合の調査を
 
 ## [Y] やったこと
 
-- 7.8km歩いた
+- 7.8km 歩いた
 - 新たに本を借りた
   - [人生を変える一番シンプルな方法　セドナメソッド](https://www.amazon.co.jp/dp/4072932906)
   - [人生を変える「見る力」](https://www.amazon.co.jp/dp/483767271X)
   - [超筋トレが最強のソリューションである　筋肉が人生を変える超科学的な理由](https://www.amazon.co.jp/dp/4866510587)
   - [巻込力](https://www.amazon.co.jp/dp/4766834380)
-- Macのクラッシュレポートの読み方を調べた
+- Mac のクラッシュレポートの読み方を調べた
 - [remotehour](https://remotehour.com)をはじめて使った
 
 ## [W] わかったこと
@@ -26,8 +26,8 @@ description: "クラッシュレポートを追ったり、不具合の調査を
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

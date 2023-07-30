@@ -6,8 +6,8 @@ description: "カインズで買い物をしたり、着火剤を自作したり
 
 ## [Y] やったこと
 
-- 7km歩いた
-- [imgタグとcssのbackground-imageを使い分ける](https://gist.github.com/LeeDDHH/24ec711e3aa0ca83c297fc0087864f29)知見を翻訳した
+- 7km 歩いた
+- [img タグと css の background-image を使い分ける](https://gist.github.com/LeeDDHH/24ec711e3aa0ca83c297fc0087864f29)知見を翻訳した
 - カインズでガスコンロを買った
 - 牛乳パックを使って、自作の着火剤を作った
 
@@ -25,8 +25,8 @@ description: "カインズで買い物をしたり、着火剤を自作したり
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

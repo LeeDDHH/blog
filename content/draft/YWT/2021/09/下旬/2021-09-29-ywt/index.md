@@ -6,11 +6,11 @@ description: "検証結果をもとにローカルで確認をしたり、twitte
 
 ## [Y] やったこと
 
-- 10.8km歩いた
+- 10.8km 歩いた
 - プロダクトの検証結果をもとに自分のローカルで確かめた
-- 社内に、自分が作ったtwitterbotの共有をした
+- 社内に、自分が作った twitterbot の共有をした
 - たまっていた領収証の整理をした
-- twitterbotで定期的にツイートする対象を追加した
+- twitterbot で定期的にツイートする対象を追加した
 
 ## [W] わかったこと
 
@@ -22,8 +22,8 @@ description: "検証結果をもとにローカルで確認をしたり、twitte
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

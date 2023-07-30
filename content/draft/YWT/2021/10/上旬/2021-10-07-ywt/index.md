@@ -6,13 +6,13 @@ description: "プロダクトに進捗を出したり、共有会に参加した
 
 ## [Y] やったこと
 
-- 8.1km歩いた
+- 8.1km 歩いた
 - プロダクトの進捗を出した
 - 個人の共有会に参加した
 
 ## [W] わかったこと
 
-- mac版を基準に拡張機能のインストーラーを導入した
+- mac 版を基準に拡張機能のインストーラーを導入した
   - インストーラーを起動できるところまでは確認済み
 
 ## [T] 次にやること
@@ -21,8 +21,8 @@ description: "プロダクトに進捗を出したり、共有会に参加した
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

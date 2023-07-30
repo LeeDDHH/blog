@@ -6,7 +6,7 @@ description: "本を読んだり、実装する内容の仕様検討に参加し
 
 ## [Y] やったこと
 
-- 4km歩いた
+- 4km 歩いた
 - 実装する内容の仕様検討会に参加した
 - `clip-path:polygon()` を使って、画面の一部の範囲のみ強調する実装をした
 
@@ -18,14 +18,14 @@ description: "本を読んだり、実装する内容の仕様検討に参加し
 
 ## [T] 次にやること
 
-- input領域のデザインをする
-- ElectronのBrowserWindowのshow/hideを制御する
-- ElectronのBrowserWindowをmoveableにする
+- input 領域のデザインをする
+- Electron の BrowserWindow の show/hide を制御する
+- Electron の BrowserWindow を moveable にする
 - 図書館で借りた本を読む（D-7）
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1379785942303535104?s=20 -->

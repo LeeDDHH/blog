@@ -6,16 +6,16 @@ description: "物理出社したり、100均でキャンプ用品を買ったり
 
 ## [Y] やったこと
 
-- 10.2km歩いた
+- 10.2km 歩いた
 - 物理出社をした
 - 不具合の原因調査をした
-- 帰りに100均でキャンプ用品を買った
-- TRPGのキャラメイクに参加した
+- 帰りに 100 均でキャンプ用品を買った
+- TRPG のキャラメイクに参加した
 
 ## [W] わかったこと
 
 - 出社すると冷房が効くから涼しいけど、目の乾きや体調調整などに気を使う
-- 22時をすぎるとかなり眠くなる
+- 22 時をすぎるとかなり眠くなる
 
 ## [T] 次にやること
 
@@ -23,8 +23,8 @@ description: "物理出社したり、100均でキャンプ用品を買ったり
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -7,11 +7,11 @@ description: "Windows用のデータを取ったり、プロダクトへの導�
 ## [Y] やったこと
 
 - 歩かなかった
-- Windows版の入力データを取り、まとめた
+- Windows 版の入力データを取り、まとめた
 
 ## [W] わかったこと
 
-- データが一定の形式になることが決まって、SpreadSheetでデータの構造を作ったら楽だった
+- データが一定の形式になることが決まって、SpreadSheet でデータの構造を作ったら楽だった
 
 ## [T] 次にやること
 
@@ -20,6 +20,6 @@ description: "Windows用のデータを取ったり、プロダクトへの導�
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1392843457320738821?s=20 -->

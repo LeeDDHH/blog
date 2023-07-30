@@ -6,17 +6,17 @@ description: "9月のふりかえりを書いたり、料理をしたりした"
 
 ## [Y] やったこと
 
-- 6.1km歩いた
-- 9月のふりかえりを書いた
-- お腹が減りすぎて料理を2品作った
+- 6.1km 歩いた
+- 9 月のふりかえりを書いた
+- お腹が減りすぎて料理を 2 品作った
   - [水餃子](https://twitter.com/camomile_cafe/status/1444596469256769536)
   - [砂肝のアヒージョ](https://twitter.com/camomile_cafe/status/1444618734144876546)
 
 ## [W] わかったこと
 
 - アプリを作りにあたって画面ありきの場合、認証処理を書いておく必要があると感じた
-  - firebaseの認証を使えばなんとかなると思った
-  - next.jsをvercalにデプロイして、そこから認証をかけるようにするとユーザーごとにページを表示できるだろうと予想が立てられた
+  - firebase の認証を使えばなんとかなると思った
+  - next.js を vercal にデプロイして、そこから認証をかけるようにするとユーザーごとにページを表示できるだろうと予想が立てられた
 
 ## [T] 次にやること
 
@@ -24,8 +24,8 @@ description: "9月のふりかえりを書いたり、料理をしたりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

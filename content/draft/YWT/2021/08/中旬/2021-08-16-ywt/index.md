@@ -6,12 +6,12 @@ description: "実装方法を考えたり、ウィースキーを買ったりし
 
 ## [Y] やったこと
 
-- 4.7km歩いた
+- 4.7km 歩いた
 - 図書館で借りた本を返した
 - ウィスキーを買った
 - アイデア会議に参加した
-- YouTubeの実況を見た
-- Electronで[特定の画面を表示するときだけDockにアイコンを表示する](https://github.com/LeeDDHH/alias-agent/commit/5fb906d85b068a470dd1205ac70a90907a91e1c4)ようにした
+- YouTube の実況を見た
+- Electron で[特定の画面を表示するときだけ Dock にアイコンを表示する](https://github.com/LeeDDHH/alias-agent/commit/5fb906d85b068a470dd1205ac70a90907a91e1c4)ようにした
 
 ## [W] わかったこと
 
@@ -24,8 +24,8 @@ description: "実装方法を考えたり、ウィースキーを買ったりし
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

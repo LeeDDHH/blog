@@ -6,14 +6,14 @@ description: "出社したり、会議に参加したりした"
 
 ## [Y] やったこと
 
-- 9.6km歩いた
+- 9.6km 歩いた
 - 不具合の調査をした
 - アイデア会議に参加した
 
 ## [W] わかったこと
 
 - 明日も出社することが確定した
-- 特定のOSでしか起きない現象だと思っていたら、潜在的な問題だったことがわかった
+- 特定の OS でしか起きない現象だと思っていたら、潜在的な問題だったことがわかった
 - しばらく家でしか作業してなかったこともあり、外出するだけで疲れた
 - 明日、デートの約束をした人からなかったことにしようという連絡を受けて虚しくなった
 
@@ -23,8 +23,8 @@ description: "出社したり、会議に参加したりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

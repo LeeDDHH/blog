@@ -6,10 +6,10 @@ description: "書き出し用の関数を作ったり、プロダクトの今後
 
 ## [Y] やったこと
 
-- 2km歩いた
+- 2km 歩いた
 - 朝の読書会に参加した
 - 今月の家賃を払った
-- [CHUMSステンレスクッカーが付いた雑誌](https://travel.watch.impress.co.jp/docs/news/1322242.html)を買った
+- [CHUMS ステンレスクッカーが付いた雑誌](https://travel.watch.impress.co.jp/docs/news/1322242.html)を買った
 - ファイル書き出し用のファイルと関数を作った
 - 作業用椅子をキャンプ椅子にした
 - プロダクトのメンテナンス性向上のためのことを話し合った
@@ -27,6 +27,6 @@ description: "書き出し用の関数を作ったり、プロダクトの今後
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1400046601989595138?s=20 -->

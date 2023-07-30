@@ -6,16 +6,16 @@ description: "買い物をしたり、部屋の模様替えをしたりした"
 
 ## [Y] やったこと
 
-- 5.6km歩いた
-- Amazonからの荷物を受け取った
+- 5.6km 歩いた
+- Amazon からの荷物を受け取った
 - 部屋の模様替えをした
 - 新しい靴を買った
 - 作業環境を変えてみた
 
 ## [W] わかったこと
 
-- 100均のオッドマンを2つ使って、フットレスト代わりにしたら思ってたよりも楽だった
-- 100均のアルコールバーナー用の五徳のおかげで、これからのキャンプが楽になりそうだった
+- 100 均のオッドマンを 2 つ使って、フットレスト代わりにしたら思ってたよりも楽だった
+- 100 均のアルコールバーナー用の五徳のおかげで、これからのキャンプが楽になりそうだった
 - チタン製のクッカー、ポータブルケトルが欲しくなった
 - アディダスのファルコンランがまぁまぁ良かった
 - インナーテントを別途買うことで、夏限定のタープ+テントのセットで泊まりができそうだった
@@ -27,6 +27,6 @@ description: "買い物をしたり、部屋の模様替えをしたりした"
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1398642615571030016?s=20 -->

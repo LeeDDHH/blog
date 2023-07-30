@@ -6,12 +6,12 @@ description: "映画を見たり、家賃を払ったりした"
 
 ## [Y] やったこと
 
-- 6.7km歩いた
+- 6.7km 歩いた
 - 今月の家賃を払った
 - [オールド](https://old-movie.jp/)を映画館で見た
 - カインズで買い物をした
-- 8月の家計簿を整理した
-- 9月の家計簿をつくった
+- 8 月の家計簿を整理した
+- 9 月の家計簿をつくった
 - ドトールのチャージをした
 - 一人で休日の儀を行った
 
@@ -25,8 +25,8 @@ description: "映画を見たり、家賃を払ったりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

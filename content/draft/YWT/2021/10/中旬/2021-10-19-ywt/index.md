@@ -6,13 +6,13 @@ description: "レモン鍋を食べた"
 
 ## [Y] やったこと
 
-- 4.6km歩いた
+- 4.6km 歩いた
 - 実装に悩まされた
 - [レモン鍋を食べた](https://twitter.com/camomile_cafe/status/1450417037147136002?s=20)
 
 ## [W] わかったこと
 
-- レモン鍋は1回で十分だった
+- レモン鍋は 1 回で十分だった
 
 ## [T] 次にやること
 
@@ -20,8 +20,8 @@ description: "レモン鍋を食べた"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

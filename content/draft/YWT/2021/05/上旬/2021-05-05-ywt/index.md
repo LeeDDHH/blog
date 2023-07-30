@@ -7,7 +7,7 @@ description: "おとなしく連休最後の日を過ごした"
 
 ## [Y] やったこと
 
-- 1.3km歩いた
+- 1.3km 歩いた
 - オンライン読書会に参加した
 - 個人プロジェクトのコードを書いた
 
@@ -22,6 +22,6 @@ description: "おとなしく連休最後の日を過ごした"
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1389948095304060932?s=20 -->

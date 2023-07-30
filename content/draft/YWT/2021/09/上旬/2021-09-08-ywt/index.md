@@ -6,17 +6,17 @@ description: "リリース作業をしたり、ヒアリングシートを書い
 
 ## [Y] やったこと
 
-- 3km歩いた
+- 3km 歩いた
 - 朝の読書会をした
-- KawamataRyoさんのリポジトリを見て、[気になるところをツイート](https://twitter.com/camomile_cafe/status/1435402197622083586)した
+- KawamataRyo さんのリポジトリを見て、[気になるところをツイート](https://twitter.com/camomile_cafe/status/1435402197622083586)した
 - リリース作業をした
 - アプリの動作検証をした
 - 外部のエンジニア向けのヒアリングシートを書いた
-- [chmodの表記で気になったあれこれ](https://gist.github.com/LeeDDHH/f3a0b7053edd06756db1f3ab1e0cc261)を載せるgistを作った
+- [chmod の表記で気になったあれこれ](https://gist.github.com/LeeDDHH/f3a0b7053edd06756db1f3ab1e0cc261)を載せる gist を作った
 
 ## [W] わかったこと
 
-- 自分も何かのコンテンツを定期的にツイートするbotを作ってみたいと思った
+- 自分も何かのコンテンツを定期的にツイートする bot を作ってみたいと思った
   - 会社で扱っているテーマに近いことをスクレイピングしてツイートするのもありだと思った
   - 朝会で話す話題を集めてツイートするのも話題探しに困らないと思った
 - ヒアリングシートをちゃんと書こうとしたら、けっこう時間がかかった
@@ -28,8 +28,8 @@ description: "リリース作業をしたり、ヒアリングシートを書い
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

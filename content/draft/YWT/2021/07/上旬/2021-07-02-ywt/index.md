@@ -7,11 +7,11 @@ description: "Electronの終了時にダイアログを表示する処理を加�
 ## [Y] やったこと
 
 - 歩かなかった
-- Electronのウィンドウ/アプリ終了時の処理を加えた
-- UI調整をした
+- Electron のウィンドウ/アプリ終了時の処理を加えた
+- UI 調整をした
 - ブログのアウトラインを書いた
-- Podcastの打ち合わせをした
-- Nintendo Switchでベヨネッタを買った
+- Podcast の打ち合わせをした
+- Nintendo Switch でベヨネッタを買った
 
 ## [W] わかったこと
 
@@ -24,8 +24,8 @@ description: "Electronの終了時にダイアログを表示する処理を加�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

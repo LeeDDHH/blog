@@ -6,16 +6,16 @@ description: "firebaseのドキュメントを読んだり、ローカルでfire
 
 ## [Y] やったこと
 
-- 4.6km歩いた
+- 4.6km 歩いた
 - 日用品のストックを補充した
-- firebaseのドキュメントを読んだ
-  - 読んだドキュメントのまとめをGistにまとめた
-  - まとめた[Gistのリンク集](https://gist.github.com/LeeDDHH/ec99024241bf9ed2eeab88dc696f5330)自体をまとめた
-- [firebase cloud functionsでスクレイピングした結果をfirestoreに入れてみた](https://twitter.com/camomile_cafe/status/1436998246065266730?s=20)
+- firebase のドキュメントを読んだ
+  - 読んだドキュメントのまとめを Gist にまとめた
+  - まとめた[Gist のリンク集](https://gist.github.com/LeeDDHH/ec99024241bf9ed2eeab88dc696f5330)自体をまとめた
+- [firebase cloud functions でスクレイピングした結果を firestore に入れてみた](https://twitter.com/camomile_cafe/status/1436998246065266730?s=20)
 
 ## [W] わかったこと
 
-- フロントエンジニアがfirebaseをサーバー代わりに使う理由がちょっとわかった
+- フロントエンジニアが firebase をサーバー代わりに使う理由がちょっとわかった
 
 ## [T] 次にやること
 
@@ -23,8 +23,8 @@ description: "firebaseのドキュメントを読んだり、ローカルでfire
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

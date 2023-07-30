@@ -6,7 +6,7 @@ description: "図書館で本を借りたり、買い物をしたりした"
 
 ## [Y] やったこと
 
-- 5.5km歩いた
+- 5.5km 歩いた
 - 新宿の図書館で本を借りた
 - 無印良品で[自立しやすいごみ袋](https://www.muji.com/jp/ja/store/cmdty/detail/4550344885444)を買った
 - 今月の家賃を払った
@@ -17,8 +17,8 @@ description: "図書館で本を借りたり、買い物をしたりした"
 
 - キャンプに行ったときに電波状態がそんなによくなく、天気予報アプリを起動してキャンプ場の天気情報を取得するまで時間がかかっていた
   - 天気情報をあらかじめ取得して、リクエストがある場合は静的なデータとして返すアプリがほしいと思った
-  - キャンプ場の施設名から緯度経度を取得する場合、Google Maps APIを使えば、なんとかなりそうだった
-  - 天気情報はOpenWeatherMapで取得すれば、の無料枠でも十分取れそうだった
+  - キャンプ場の施設名から緯度経度を取得する場合、Google Maps API を使えば、なんとかなりそうだった
+  - 天気情報は OpenWeatherMap で取得すれば、の無料枠でも十分取れそうだった
 
 ## [T] 次にやること
 
@@ -26,8 +26,8 @@ description: "図書館で本を借りたり、買い物をしたりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)
