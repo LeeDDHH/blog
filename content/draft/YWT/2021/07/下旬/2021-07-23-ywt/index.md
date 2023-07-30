@@ -6,7 +6,7 @@ description: "図書館で借りた本を読んだり、昼寝をしたりした
 
 ## [Y] やったこと
 
-- 6.1km歩いた
+- 6.1km 歩いた
 - ちょっと昼寝をした
 - 図書館で借りた本を読んだ
 
@@ -21,8 +21,8 @@ description: "図書館で借りた本を読んだり、昼寝をしたりした
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

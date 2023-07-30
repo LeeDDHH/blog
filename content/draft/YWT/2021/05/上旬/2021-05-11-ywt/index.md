@@ -6,9 +6,9 @@ description: "出社してプロダクトに必要なデータを作ったり、
 
 ## [Y] やったこと
 
-- 4.5km歩いた
+- 4.5km 歩いた
 - プロダクトに必要なデータを一覧化するためにデバッグをした
-  - Mac版は終わり、Windows版は帰宅して継続
+  - Mac 版は終わり、Windows 版は帰宅して継続
 - 開発のタスク整理や今後の取組みについて話した
 
 ## [W] わかったこと
@@ -22,6 +22,6 @@ description: "出社してプロダクトに必要なデータを作ったり、
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1392102331832061952?s=20 -->

@@ -6,8 +6,8 @@ description: "バージョンアップに向けて検証をしたり、開発ス
 
 ## [Y] やったこと
 
-- 9.2km歩いた
-- 出社して推奨動作OSでの検証をすすめた
+- 9.2km 歩いた
+- 出社して推奨動作 OS での検証をすすめた
 - 今月使う有給の日を確認した
 
 ## [W] わかったこと
@@ -18,12 +18,12 @@ description: "バージョンアップに向けて検証をしたり、開発ス
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowのshow/hideを制御する
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow の show/hide を制御する
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1384489182811148289?s=20 -->

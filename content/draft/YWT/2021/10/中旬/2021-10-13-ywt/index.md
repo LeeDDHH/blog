@@ -6,8 +6,8 @@ description: "デザイナーコミュニティでLTをしたり、パスポー�
 
 ## [Y] やったこと
 
-- 5.1km歩いた
-- デザイナーコミュニティでLTをした
+- 5.1km 歩いた
+- デザイナーコミュニティで LT をした
   - [「一人でやる自動化」の考え方](https://docs.google.com/presentation/d/1CSfY35ZDu4se9anteVmLFT0np4ZDPvfxF_agOPhYRbk/edit)
 - 領事館でパスポートの更新をするための書類を揃えた
 
@@ -22,8 +22,8 @@ description: "デザイナーコミュニティでLTをしたり、パスポー�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -4,7 +4,7 @@ date: "2021-01-19 09:44:16"
 description: "Mac版のAdobe Creative Cloudが自動起動されないように設定する"
 ---
 
-Macを起動するたびに、[Adobe Creative Cloud](https://www.adobe.com/jp/creativecloud.html)が自動起動されて、煩わしかった
+Mac を起動するたびに、[Adobe Creative Cloud](https://www.adobe.com/jp/creativecloud.html)が自動起動されて、煩わしかった
 
 ## 問題
 
@@ -22,4 +22,4 @@ Macを起動するたびに、[Adobe Creative Cloud](https://www.adobe.com/jp/cr
 
 ---
 
-これでMacを起動するたびに自動起動されることはない
+これで Mac を起動するたびに自動起動されることはない

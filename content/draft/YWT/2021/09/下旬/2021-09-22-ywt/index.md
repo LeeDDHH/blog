@@ -6,26 +6,26 @@ description: "個人のタスクをこなしたり、gistを書いたりした"
 
 ## [Y] やったこと
 
-- 4.1km歩いた
+- 4.1km 歩いた
 - パーミッション問題の調査をした
-- 自分宛てのMRを確認した
-- マーケティングチームからの素材に関するFBをした
-- 9月に行けるキャンプ地を調べた
-- firebaseから収集した記事をテストとして1回投稿してみた
-- firebaseで収集する記事の重複登録をしない機構を実装した
-- gasで特定のurlに定期的にアクセスする例を検索してスクラップした
-  - [gasでweb上のurlを定期的に監視する機構を作るために参考にする資料](https://gist.github.com/LeeDDHH/532b312fafaa4b2edcddddf8b41a786f)
+- 自分宛ての MR を確認した
+- マーケティングチームからの素材に関する FB をした
+- 9 月に行けるキャンプ地を調べた
+- firebase から収集した記事をテストとして 1 回投稿してみた
+- firebase で収集する記事の重複登録をしない機構を実装した
+- gas で特定の url に定期的にアクセスする例を検索してスクラップした
+  - [gas で web 上の url を定期的に監視する機構を作るために参考にする資料](https://gist.github.com/LeeDDHH/532b312fafaa4b2edcddddf8b41a786f)
 - シニアフロントエンジニアの募集要項について、他社の例を見て、スクラップした
   - [他社のシニアフロントエンジニアの募集要項について](https://gist.github.com/LeeDDHH/fe5529fe2eed73d505ff548762645be3)
-- 利用しているサブスクの10月分をスキップした
+- 利用しているサブスクの 10 月分をスキップした
 
 ## [W] わかったこと
 
-- Catalinaのパーミッション突破をnode.jsでしないほうが良さそう
-- 9月に行けそうなキャンプ地の候補として「シャワー施設あり、都内から最大で2時間以内」で調べたら良さそうなところが2つあった
+- Catalina のパーミッション突破を node.js でしないほうが良さそう
+- 9 月に行けそうなキャンプ地の候補として「シャワー施設あり、都内から最大で 2 時間以内」で調べたら良さそうなところが 2 つあった
   - [スカイバレーキャンプ場](https://www.skyvalleycamp.com)
   - [月尾根自然の森](https://nature-fun.com/camp-recommend/tsukione/)
-- サブスクを11月もスキップすることになったら退会も考えようと思った
+- サブスクを 11 月もスキップすることになったら退会も考えようと思った
 
 ## [T] 次にやること
 
@@ -33,8 +33,8 @@ description: "個人のタスクをこなしたり、gistを書いたりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

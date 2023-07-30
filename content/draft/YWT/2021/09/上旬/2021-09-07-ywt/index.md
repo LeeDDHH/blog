@@ -6,9 +6,9 @@ description: "gistに投稿したり、新たなエラーの原因究明と対�
 
 ## [Y] やったこと
 
-- 5.3km歩いた
-- [macのautomatorで使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)のgistを作った
-- [キャリアの悩みで共感したことがあって](https://gist.github.com/LeeDDHH/312d9337233cf7bdfe19d1e7269cf161)gistに載せた
+- 5.3km 歩いた
+- [mac の automator で使っているあれこれを書く](https://gist.github.com/LeeDDHH/fc5a6d20fef7d4e753041d12c8d33ad4)の gist を作った
+- [キャリアの悩みで共感したことがあって](https://gist.github.com/LeeDDHH/312d9337233cf7bdfe19d1e7269cf161)gist に載せた
 - アプリの再起動時にクラッシュレポートが表示される不具合の対策を書いた
 - デザイナーが構成したプロト版の画面に対して自分の意見を伝えた
 
@@ -28,8 +28,8 @@ description: "gistに投稿したり、新たなエラーの原因究明と対�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

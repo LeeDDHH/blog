@@ -6,16 +6,16 @@ description: "緊急の不具合調査をしたり、ミーティングに参加
 
 ## [Y] やったこと
 
-- 6.4km歩いた
+- 6.4km 歩いた
 - 図書館で借りた本を読んだ
 - 緊急で不具合の調査をした
-- 実装中のタスクのFBについてヒアリングをした
-- YouTubeで実況動画をみた
+- 実装中のタスクの FB についてヒアリングをした
+- YouTube で実況動画をみた
 
 ## [W] わかったこと
 
-- Electron側でいつの間にか仕様が変わっているみたいな記載があった
-- PWA版のYouTubeがメモリを少なく消費している用に見えた
+- Electron 側でいつの間にか仕様が変わっているみたいな記載があった
+- PWA 版の YouTube がメモリを少なく消費している用に見えた
 
 ## [T] 次にやること
 
@@ -23,8 +23,8 @@ description: "緊急の不具合調査をしたり、ミーティングに参加
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

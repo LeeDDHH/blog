@@ -4,11 +4,11 @@ date: "2021-10-17 15:00:00"
 description: "Expoを使ってReact NativeのプロジェクトをiOSのシミュレーターで起動する方法についてまとめる"
 ---
 
-React Nativeプロジェクトを触る機会があり、プロジェクトをwebで確認することはできたものの、iOS端末がないため、実機での確認ができなかった
+React Native プロジェクトを触る機会があり、プロジェクトを web で確認することはできたものの、iOS 端末がないため、実機での確認ができなかった
 
-そのため、Expoを起動したプロジェクトにMacのiOS Simulatorを使って確認するための方法についてまとめる
+そのため、Expo を起動したプロジェクトに Mac の iOS Simulator を使って確認するための方法についてまとめる
 
-## Expoを起動する
+## Expo を起動する
 
 前提として、以下の作業は済ませているとする
 
@@ -19,11 +19,11 @@ React Nativeプロジェクトを触る機会があり、プロジェクトをwe
 
 `expo start`
 
-すると以下のように、起動している `expo` からQRコードを読み込んでスマホからでも確認ができるような状態となる
+すると以下のように、起動している `expo` から QR コードを読み込んでスマホからでも確認ができるような状態となる
 
 ![launched-expo-project](launched-expo-project.png)
 
-## iOS Simulatorを起動する
+## iOS Simulator を起動する
 
 ただ、この状態で `Press i │ open iOS simulator` にしたがって、 `i` を押してもシミュレーターは起動しない
 
@@ -41,7 +41,7 @@ React Nativeプロジェクトを触る機会があり、プロジェクトをwe
 
 ![select-other-ios-device](select-other-ios-device.png)
 
-## ExpoのプロジェクトをiOS Simulatorで起動する
+## Expo のプロジェクトを iOS Simulator で起動する
 
 上記の準備ができたら、あとはターミナルから `i` を押して、起動している `iOS Simulator` から `expo` のプロジェクトを起動する
 
@@ -82,4 +82,4 @@ React Nativeプロジェクトを触る機会があり、プロジェクトをwe
 
 ## 最後に
 
-ちょうどAndroidのスマホしか持っていなかったため、iOS系のデバイスでの確認ができず、困っていたが、これで確認ができるようになってよかった
+ちょうど Android のスマホしか持っていなかったため、iOS 系のデバイスでの確認ができず、困っていたが、これで確認ができるようになってよかった

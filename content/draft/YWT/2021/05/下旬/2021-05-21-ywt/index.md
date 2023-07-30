@@ -6,7 +6,7 @@ description: "プロジェクトの技術構成を変えたり、キャンプの
 
 ## [Y] やったこと
 
-- 1.6km歩いた
+- 1.6km 歩いた
 - プロジェクトのフロント周りの構成を変更した
 - 明日のキャンプで使う物をまとめておいた
 - 今夜から明日の朝まで晴れると見越して、洗濯物をした
@@ -25,6 +25,6 @@ description: "プロジェクトの技術構成を変えたり、キャンプの
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1395724822416707584?s=20 -->

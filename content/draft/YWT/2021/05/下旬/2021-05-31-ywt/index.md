@@ -6,14 +6,14 @@ description: "業務用スーパーで肉を安く買ったり、前からほし
 
 ## [Y] やったこと
 
-- 3.1km歩いた
+- 3.1km 歩いた
 - 業務用スーパーで肉を安く買った
 - 酒屋で[ヘルメス チェリーブランデー](https://www.amazon.co.jp/dp/B0045WLMQU)を買った
-- 新しく作っているアプリのWindows環境での確認ができた
+- 新しく作っているアプリの Windows 環境での確認ができた
 
 ## [W] わかったこと
 
-- 業務用スーパーで68円/100gの鶏肉が買えることがわかった
+- 業務用スーパーで 68 円/100g の鶏肉が買えることがわかった
   - しかもレモンペッパーで美味しそうなやつだった
 - 図書館で予約した本の取り置き期限が明日だったことを思い出した
 
@@ -27,6 +27,6 @@ description: "業務用スーパーで肉を安く買ったり、前からほし
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1399324820521689088 -->

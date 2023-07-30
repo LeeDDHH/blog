@@ -7,16 +7,16 @@ description: "Xcodeのエラーでいろいろ調べたり、ヒアリングシ�
 ## [Y] やったこと
 
 - 歩かなかった
-- [npmのworkspacesの使い方ついてまとめる](https://gist.github.com/LeeDDHH/2fb2959ddeb5564ca157605f7830a24a)gistを作った
-- [tsconfig生成時に気になることを集める](https://gist.github.com/LeeDDHH/e0eb75f87f48cd5c5a613a692c66ac78)gistを作った
-- よく使うけど、[忘れがちなコマンドのオプションについてまとめる](https://gist.github.com/LeeDDHH/84854b62f13a16922084ecd52ac06805)gistを作った
-- [eslintの設定に関するあれこれ](https://gist.github.com/LeeDDHH/61fd4077ba50c677583062565b039fa0)のgistを作った
-- 一人でwill-can-mustを書いてみた
+- [npm の workspaces の使い方ついてまとめる](https://gist.github.com/LeeDDHH/2fb2959ddeb5564ca157605f7830a24a)gist を作った
+- [tsconfig 生成時に気になることを集める](https://gist.github.com/LeeDDHH/e0eb75f87f48cd5c5a613a692c66ac78)gist を作った
+- よく使うけど、[忘れがちなコマンドのオプションについてまとめる](https://gist.github.com/LeeDDHH/84854b62f13a16922084ecd52ac06805)gist を作った
+- [eslint の設定に関するあれこれ](https://gist.github.com/LeeDDHH/61fd4077ba50c677583062565b039fa0)の gist を作った
+- 一人で will-can-must を書いてみた
 
 ## [W] わかったこと
 
-- Xcodeが開かず、午前中はけっこう時間を使った
-- ビルド関連でMacの場合2つのOSを見ないといけないところがあって、だいぶ面倒だった
+- Xcode が開かず、午前中はけっこう時間を使った
+- ビルド関連で Mac の場合 2 つの OS を見ないといけないところがあって、だいぶ面倒だった
 
 ## [T] 次にやること
 
@@ -24,8 +24,8 @@ description: "Xcodeのエラーでいろいろ調べたり、ヒアリングシ�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -7,7 +7,7 @@ description: "Electronプロジェクトのコードを書いたり、Youtubeの
 ## [Y] やったこと
 
 - 歩かなかった
-- Electronのウィンドウからフォーカスが外れたらそのウィンドウを非表示にする処理を入れた
+- Electron のウィンドウからフォーカスが外れたらそのウィンドウを非表示にする処理を入れた
 - 生成されたレンダラープロセスの `input` タグにオートフォーカスが当たるように処理を入れた
 
 ## [W] わかったこと
@@ -16,11 +16,11 @@ description: "Electronプロジェクトのコードを書いたり、Youtubeの
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1389202803759796234?s=20 -->

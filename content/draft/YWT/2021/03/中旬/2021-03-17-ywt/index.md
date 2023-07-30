@@ -9,7 +9,7 @@ description: "タスクのために調査したことが無駄になったり、
 - 歩かなかった
 - これから実装するタスクのことで相談する会に参加した
   - しばらく立てていた計画を書き直す必要があった
-- 相談後の仕様の話に関するMTGに参加した
+- 相談後の仕様の話に関する MTG に参加した
 
 ## [W] わかったこと
 
@@ -21,11 +21,11 @@ description: "タスクのために調査したことが無駄になったり、
 ## [T] 次にやること
 
 - 表示するデータの入力を進める
-- Apolloの使い方についてチュートリアルを進める
+- Apollo の使い方についてチュートリアルを進める
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1372166960960573442?s=20 -->

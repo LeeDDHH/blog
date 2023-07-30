@@ -6,14 +6,14 @@ description: "朝のオンライン読書会に参加したり、ちょっと本
 
 ## [Y] やったこと
 
-- 5.3km歩いた
-- 買い物ゼロ秒時代の未来地図の[デジタル時代に広がる6つの「買い物の仕方」](https://gist.github.com/LeeDDHH/09fbf3dfd372403d67d989dcbae7f62f)についてまとめた
-- 2つのipcRendererの間でデータの受け渡しをする必要があり、構成を考えた
-- 短い時間だったけど、Twitterのスペースを使ってみた
+- 5.3km 歩いた
+- 買い物ゼロ秒時代の未来地図の[デジタル時代に広がる 6 つの「買い物の仕方」](https://gist.github.com/LeeDDHH/09fbf3dfd372403d67d989dcbae7f62f)についてまとめた
+- 2 つの ipcRenderer の間でデータの受け渡しをする必要があり、構成を考えた
+- 短い時間だったけど、Twitter のスペースを使ってみた
 
 ## [W] わかったこと
 
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズのkindle版が半額になっていた
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズの kindle 版が半額になっていた
   - 一部の本は杉並区の図書館で借りられるみたいで、予約をしようと思った
 
 ## [T] 次にやること
@@ -22,8 +22,8 @@ description: "朝のオンライン読書会に参加したり、ちょっと本
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

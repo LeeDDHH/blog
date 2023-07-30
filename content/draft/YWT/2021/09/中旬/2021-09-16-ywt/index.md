@@ -6,21 +6,21 @@ description: "OSごとのUI実装の調整をしたり、本を読んだりし�
 
 ## [Y] やったこと
 
-- 7km歩いた
+- 7km 歩いた
 - [Mellow Days | 80's Japanese City Pop 시티팝 シティポップ#3](https://www.youtube.com/watch?v=p6H54g875T4)というメドレーを聴いた
-- OSごとのUI実装の調整をした
-- [よく使うけど、忘れがちなJavaScriptのスニペット](https://gist.github.com/LeeDDHH/4cb8a49aa853a3779105c2ec67f543bc)というgistを作った
+- OS ごとの UI 実装の調整をした
+- [よく使うけど、忘れがちな JavaScript のスニペット](https://gist.github.com/LeeDDHH/4cb8a49aa853a3779105c2ec67f543bc)という gist を作った
 - 本を読んだ
 - パイプの掃除をした
 - 要らないプラスチック製品を捨てた
 - メンバーの曖昧な質問に対するヒアリングをし、解決した
-- RSSで取得したい媒体を1つ見つけた
+- RSS で取得したい媒体を 1 つ見つけた
 
 ## [W] わかったこと
 
 - 昨日は気圧のせいで疲れていたみたいで、今朝は普通に起きた
 - [こういう曲](https://www.youtube.com/watch?v=p6H54g875T4)いいなと思った
-- ネットで見てる記事をブラウザのタブにためっぱなしにしがちだったけど、ちょくちょくまとめてscrapboxに送ったらスッキリしていい感じだった
+- ネットで見てる記事をブラウザのタブにためっぱなしにしがちだったけど、ちょくちょくまとめて scrapbox に送ったらスッキリしていい感じだった
 - 夜、散歩するのにちょうどいい天気になった
 
 ## [T] 次にやること
@@ -29,8 +29,8 @@ description: "OSごとのUI実装の調整をしたり、本を読んだりし�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

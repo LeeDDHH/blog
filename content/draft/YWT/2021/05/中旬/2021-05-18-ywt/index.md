@@ -6,12 +6,12 @@ description: "曇っている中でテントの設営をしたり、BBQをした
 
 ## [Y] やったこと
 
-- 5.3km歩いた
+- 5.3km 歩いた
 - キャンプ場で設営をした
 
 ## [W] わかったこと
 
-- ふもとっぱらの夜は10°台に落ちる
+- ふもとっぱらの夜は 10° 台に落ちる
 - カイロは何かしら常備しておいて損はないと思った
 
 ## [T] 次にやること
@@ -21,6 +21,6 @@ description: "曇っている中でテントの設営をしたり、BBQをした
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1395002805778194437?s=20 -->

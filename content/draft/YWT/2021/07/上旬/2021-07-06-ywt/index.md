@@ -6,9 +6,9 @@ description: "MTGの司会進行役をしたり、調べ物をしたりした"
 
 ## [Y] やったこと
 
-- 5.1km歩いた
-- 入門Node.jsプログラミングという本を読んだ
-- 予定していたタスクの9割を午前中に済ませた
+- 5.1km 歩いた
+- 入門 Node.js プログラミングという本を読んだ
+- 予定していたタスクの 9 割を午前中に済ませた
 - 昼に買い物をした
 - ライブラリーの仕様上、コントロールできない操作があったので、他の方法がないか調べた
 
@@ -22,8 +22,8 @@ description: "MTGの司会進行役をしたり、調べ物をしたりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

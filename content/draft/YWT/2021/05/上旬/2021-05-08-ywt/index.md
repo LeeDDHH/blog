@@ -6,9 +6,9 @@ description: "個人プロジェクトのコードを書いたり、明日Twitte
 
 ## [Y] やったこと
 
-- 1.8km歩いた
+- 1.8km 歩いた
 - 入力したキーを修飾キー、一般キーの順で並び替えて表示するようにした
-- 明日Twitterのスペースで話す内容をまとめた
+- 明日 Twitter のスペースで話す内容をまとめた
 
 ## [W] わかったこと
 
@@ -22,6 +22,6 @@ description: "個人プロジェクトのコードを書いたり、明日Twitte
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1391031924890603523?s=20 -->

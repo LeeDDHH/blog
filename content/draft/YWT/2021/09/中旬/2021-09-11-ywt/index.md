@@ -6,14 +6,14 @@ description: "firebaseのドキュメントを読んだり、オンライン飲�
 
 ## [Y] やったこと
 
-- 6.2km歩いた
-- firebaseのドキュメントを読んだ
+- 6.2km 歩いた
+- firebase のドキュメントを読んだ
 - オンライン飲み会に参加した
 
 ## [W] わかったこと
 
-- firebaseの機能を使う際、本番環境にデータを書き込むのは避けたかったので `emulator` の使い方を調べた
-  - node.js環境で `firebase init emulators` をすることでfirebaseで使うサービスのローカルでの実行環境が構築できた
+- firebase の機能を使う際、本番環境にデータを書き込むのは避けたかったので `emulator` の使い方を調べた
+  - node.js 環境で `firebase init emulators` をすることで firebase で使うサービスのローカルでの実行環境が構築できた
 
 ## [T] 次にやること
 
@@ -21,8 +21,8 @@ description: "firebaseのドキュメントを読んだり、オンライン飲�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

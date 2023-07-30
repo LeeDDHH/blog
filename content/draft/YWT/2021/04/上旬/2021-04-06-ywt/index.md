@@ -6,8 +6,8 @@ description: "Electronプロジェクトをすすめたり、今週の予定を�
 
 ## [Y] やったこと
 
-- 7.2km歩いた
-- [Electronでメインウィンドウを画面いっぱいにして透明化する](https://github.com/LeeDDHH/alias-agent/commit/36681575021fe8e6098ecc3fb88e6d62881906ba)実装をすすめた
+- 7.2km 歩いた
+- [Electron でメインウィンドウを画面いっぱいにして透明化する](https://github.com/LeeDDHH/alias-agent/commit/36681575021fe8e6098ecc3fb88e6d62881906ba)実装をすすめた
 - コンポーネントの実装を進めた
 
 ## [W] わかったこと
@@ -16,16 +16,16 @@ description: "Electronプロジェクトをすすめたり、今週の予定を�
   - 今日の実装を進めて、共通化したらさらにカオスになることだけはわかった
 - 昨日今日で寒くなった気がした
 - 仕様衝突するところがあり、明日話し合うことになった
-- 金曜日にCEOと1on1することになった
+- 金曜日に CEO と 1on1 することになった
 
 ## [T] 次にやること
 
-- input領域のデザインをする
+- input 領域のデザインをする
 - 図書館で借りた本を読む（D-8）
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1379390636282015745?s=20 -->

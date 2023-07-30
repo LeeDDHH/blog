@@ -6,7 +6,7 @@ description: "ローカルで再現しない現象の再現方法を探したり
 
 ## [Y] やったこと
 
-- 6.7km歩いた
+- 6.7km 歩いた
 - ローカルで再現しない現象を再現させるためにあれこれと試した
 - グローバルショートカットキーの登録時の処理を見直した
 - アプリ終了時のブラウザ後処理を見直した
@@ -14,7 +14,7 @@ description: "ローカルで再現しない現象の再現方法を探したり
 
 ## [W] わかったこと
 
-- 3年間使ってたサーキュレーターが逝ってしまった
+- 3 年間使ってたサーキュレーターが逝ってしまった
   - 急遽、ニトリで買い直した
   - 閉店時間ギリギリに間に合って買えた
 
@@ -24,8 +24,8 @@ description: "ローカルで再現しない現象の再現方法を探したり
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -6,10 +6,10 @@ description: "デートをしたり、副業の案件説明会に参加したり
 
 ## [Y] やったこと
 
-- 10.3km歩いた
+- 10.3km 歩いた
 - デートをした
 - 副業として受けるかもしれない案件の説明会に参加した
-- Bot用の背景画像を探した
+- Bot 用の背景画像を探した
 
 ## [W] わかったこと
 
@@ -21,8 +21,8 @@ description: "デートをしたり、副業の案件説明会に参加したり
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

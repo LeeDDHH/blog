@@ -6,14 +6,14 @@ description: "図書館で借りた本を読んだり、TRPGのセッション�
 
 ## [Y] やったこと
 
-- 2.4km歩いた
+- 2.4km 歩いた
 - 図書館で借りた本を読んだ
-- TRPGのセッションに参加した
-  - だいたい5時間かかった
+- TRPG のセッションに参加した
+  - だいたい 5 時間かかった
 
 ## [W] わかったこと
 
-- TRPGはサイコロの出目に影響を受けやすくて扱いが難しかった
+- TRPG はサイコロの出目に影響を受けやすくて扱いが難しかった
   - 後半はいい感じに活躍ができて、充実してた
 - デザイン関連の話し合いをして、自分も他人になにか助言ができるぐらいのことはできるようになった気がした
 
@@ -23,8 +23,8 @@ description: "図書館で借りた本を読んだり、TRPGのセッション�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -6,11 +6,11 @@ description: "朝から簡単な記事を2つ書いていいスタートが切�
 
 ## [Y] やったこと
 
-- 4.5km歩いた
-- ビルド結果をFBしてもらった
+- 4.5km 歩いた
+- ビルド結果を FB してもらった
 - 自動起動で毎回紛らわしかったアプリの自動起動を切る方法について記事を書いた
-  - [【Spotify】Mac起動時の自動起動を切る | camolog](https://expfrom.me/turn-off-spotify-launch-function/)
-  - [【Adobe Creative Cloud】Mac起動時の自動起動を切る | camolog](https://expfrom.me/turn-off-adobe-creative-cloud-launch/)
+  - [【Spotify】Mac 起動時の自動起動を切る | camolog](https://expfrom.me/turn-off-spotify-launch-function/)
+  - [【Adobe Creative Cloud】Mac 起動時の自動起動を切る | camolog](https://expfrom.me/turn-off-adobe-creative-cloud-launch/)
 - 24（日）に外出する用事ができた
 
 ## [W] わかったこと
@@ -18,7 +18,7 @@ description: "朝から簡単な記事を2つ書いていいスタートが切�
 - ビルド結果はよかったものの、絡んでいる技術がバージョンアップしたため、その対応も必要になった
 - ここ最近、体調不良が続いていることだけはわかった
   - 原因は不明だけど、先に頭痛がしてくる
-- Spreadsheetで方眼紙を書く方法がわかった
+- Spreadsheet で方眼紙を書く方法がわかった
 
 ## [T] 次にやること
 

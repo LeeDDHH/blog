@@ -6,10 +6,10 @@ description: "OZENでマッチングが決まったり、Electronのコードを
 
 ## [Y] やったこと
 
-- 5.3km歩いた
-- [React + TypeScript + Electron用のテンプレートリポジトリ](https://github.com/LeeDDHH/react-typescript-electron-template)を作った
+- 5.3km 歩いた
+- [React + TypeScript + Electron 用のテンプレートリポジトリ](https://github.com/LeeDDHH/react-typescript-electron-template)を作った
 - `webpack` の `devServer` を複数立ち上げられた
-- Electronで書いているプロジェクトのTodoリストを書き出した
+- Electron で書いているプロジェクトの Todo リストを書き出した
 - `Tray` の表示項目だけを管理するよう、関数を分離した
 - メインで表示している画面をグローバルショートカットで表示/非表示にできるようにした
 - 明日、高尾山に行くための準備をした
@@ -23,11 +23,11 @@ description: "OZENでマッチングが決まったり、Electronのコードを
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1388462726083604481?s=20 -->

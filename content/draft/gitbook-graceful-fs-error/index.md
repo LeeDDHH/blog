@@ -4,13 +4,13 @@ date: "2021-02-13 12:00:00"
 description: "node.jsとnpmのバージョンを上げたらgitbookコマンドでエラーが出てたので対応した"
 ---
 
-その日にあったことをYWTに合わせて書くための[Gitbook](https://github.com/GitbookIO/gitbook)を書いていたが、node.jsとnpmを上げてから試そうとしたらエラーが発生し、困っていた
+その日にあったことを YWT に合わせて書くための[Gitbook](https://github.com/GitbookIO/gitbook)を書いていたが、node.js と npm を上げてから試そうとしたらエラーが発生し、困っていた
 
 なんとか `gitbook-cli` のコマンドが使えるようになったので、実行時のエラーも含めて対応を書く
 
 ## 実行環境
 
-node.jsの12バージョンで使っていた[Gitbook](https://github.com/GitbookIO/gitbook)を以下の環境で使おうとした
+node.js の 12 バージョンで使っていた[Gitbook](https://github.com/GitbookIO/gitbook)を以下の環境で使おうとした
 
 - node,js: 14.15.4
 - npm: 7.5.4
@@ -30,13 +30,13 @@ TypeError: cb.apply is not a function
     at FSReqCallback.oncomplete (fs.js:184:5)
 ```
 
-何年か前にGoogle Tag Managerを触ってた時のUIのまま覚えていて手順でコンテナーを作ろうとしたが、すっかり変わってしまった
+何年か前に Google Tag Manager を触ってた時の UI のまま覚えていて手順でコンテナーを作ろうとしたが、すっかり変わってしまった
 
-新しくなったUIでコンテナー作成とコンテナーのIDを確認する方法がわかったので、その手順をまとめる
+新しくなった UI でコンテナー作成とコンテナーの ID を確認する方法がわかったので、その手順をまとめる
 
 ## トリガーを作成する
 
-## トラッキングIDを変数として作成する
+## トラッキング ID を変数として作成する
 
 ## タグを作成する
 
@@ -46,16 +46,16 @@ TypeError: cb.apply is not a function
 
 表示される画面の**Create Account**をクリックする
 
-アカウントは、基本的に1つあればそのアカウント内で複数のコンテナーが作れる  
+アカウントは、基本的に 1 つあればそのアカウント内で複数のコンテナーが作れる  
 コンテナーに関しては後述する
 
 ![create-account](create-account.png)
 
-アカウント作成ページでは以下の5つの項目を埋める
+アカウント作成ページでは以下の 5 つの項目を埋める
 
 1. ユーザーが識別するための**アカウント名**
 2. アカウントを所有する組織の**国**
-3. **Googleに匿名でデータの共有**を有効/無効にする
+3. **Google に匿名でデータの共有**を有効/無効にする
 4. **コンテナーの名前**
 5. コンテナーのの**プラットフォーム**の種類
 
@@ -66,19 +66,19 @@ TypeError: cb.apply is not a function
 
 ![detail-container](detail-container.png)
 
-## コンテナーIDを確認する
+## コンテナー ID を確認する
 
-コンテナーを生成すると、最初にGoogle Tag Managerで使うためのIDを表示してくれる
+コンテナーを生成すると、最初に Google Tag Manager で使うための ID を表示してくれる
 
-オレンジの枠に書かれている**GTM-**からはじまる文字列が、よく**GTMのID**、**GTMコンテナーのID**と呼ばれるIDである
+オレンジの枠に書かれている**GTM-**からはじまる文字列が、よく**GTM の ID**、**GTM コンテナーの ID**と呼ばれる ID である
 
-一般的なHTMLのページであれば、スクリプトをコピーして**head**タグに貼り付ければ動作するだろう
+一般的な HTML のページであれば、スクリプトをコピーして**head**タグに貼り付ければ動作するだろう
 
 ![gtm-tag-id](gtm-tag-id.png)
 
-OKボタンをクリックすると、以下の画面が表示される
+OK ボタンをクリックすると、以下の画面が表示される
 
-もし、再度**GTMのID**を確認したいのであれば、このページのオレンジの枠で囲ったところをクリックすると、表示してくれる
+もし、再度**GTM の ID**を確認したいのであれば、このページのオレンジの枠で囲ったところをクリックすると、表示してくれる
 
 ![re-view-gtm-tag-id](re-view-gtm-tag-id.png)
 

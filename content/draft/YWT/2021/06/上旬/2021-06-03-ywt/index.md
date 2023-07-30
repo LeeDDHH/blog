@@ -6,18 +6,18 @@ description: "Amazonからの荷物を受け取ったり、アニメを見たり
 
 ## [Y] やったこと
 
-- 3.4km歩いた
-- Amazonの荷物を受け取った
-- Amazon musicを聞きはじめた
+- 3.4km 歩いた
+- Amazon の荷物を受け取った
+- Amazon music を聞きはじめた
 - 昼に散歩した
 - エラー発生時のダイアログ表示処理をした
 - ファイル読み込みの仕様を策定した
-- ODDTAXIというアニメを見た
+- ODDTAXI というアニメを見た
 
 ## [W] わかったこと
 
-- 最近のはやりの曲に疎かったけど、Amazon musicを聞いてなんとなくわかった
-- ODDTAXIみたいな展開のアニメは好きだなと思った
+- 最近のはやりの曲に疎かったけど、Amazon music を聞いてなんとなくわかった
+- ODDTAXI みたいな展開のアニメは好きだなと思った
   - タクシーという閉鎖された空間の中で登場人物同士が絡む
   - ある人物と関わりのある情報が他の人物と偶然絡む
   - こういう展開が好きなんだなと思った
@@ -29,6 +29,6 @@ description: "Amazonからの荷物を受け取ったり、アニメを見たり
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1400443987006156803?s=20 -->

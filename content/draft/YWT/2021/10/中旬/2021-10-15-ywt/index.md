@@ -6,9 +6,9 @@ description: "出社したり、デザイナーコミュニティへの予定調
 
 ## [Y] やったこと
 
-- 4.4km歩いた
+- 4.4km 歩いた
 - デザイナーコミュニティのイベント日程ページを作成した
-  - チェック項目のUIが環境によって異なるケースがあって、その連絡をした
+  - チェック項目の UI が環境によって異なるケースがあって、その連絡をした
 - 表記ゆれによる仕様の確認をした
 
 ## [W] わかったこと
@@ -21,8 +21,8 @@ description: "出社したり、デザイナーコミュニティへの予定調
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

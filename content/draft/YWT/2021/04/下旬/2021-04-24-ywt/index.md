@@ -6,13 +6,13 @@ description: "韓国料理の会に参加したり、紀伊國屋書店で本を
 
 ## [Y] やったこと
 
-- 6.6km歩いた
+- 6.6km 歩いた
 - 韓国料理を作る会に参加した
 - 紀伊國屋書店で気になる本を買った
 
 ## [W] わかったこと
 
-- キャンプ好きな人がけっこういるみたいで、5月にキャンプいく予定が増えた
+- キャンプ好きな人がけっこういるみたいで、5 月にキャンプいく予定が増えた
 - 他人とキャンプすることになったら、以下のものが必要になりそうな感じがした
   - 焚き火台
   - 虫除けオイル
@@ -22,12 +22,12 @@ description: "韓国料理の会に参加したり、紀伊國屋書店で本を
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowのshow/hideを制御する
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow の show/hide を制御する
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1385913947887337478?s=20 -->

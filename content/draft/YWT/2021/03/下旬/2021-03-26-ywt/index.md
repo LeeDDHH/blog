@@ -10,12 +10,12 @@ description: "ライブラリのバージョンアップ調査をしたり、現
 - [開発リソースサイト](http://rod.expfrom.me/)にコンテンツを追加した
 - 現タスクの実装量が多かったので最初にリリースするものの量を決め直した
 - ライブラリの調査とバージョンアップのコミットをした
-- [私が意識し続けている19の思考](https://www.amazon.co.jp/gp/product/B07X9MKYTL)という本を読んだ
+- [私が意識し続けている 19 の思考](https://www.amazon.co.jp/gp/product/B07X9MKYTL)という本を読んだ
 
 ## [W] わかったこと
 
 - ライブラリのバージョンを上げるだけで表示が崩れる箇所があったので、細かい改修が大変そうだと思った
-- styled-componentsのバージョン上げとTypeScript用のtypesを組み合わせる必要があって厄介そうだった
+- styled-components のバージョン上げと TypeScript 用の types を組み合わせる必要があって厄介そうだった
 - 最近身体が冷えることがあり、そろそろ温泉にでも行きたいと思った
 
 ## [T] 次にやること
@@ -25,6 +25,6 @@ description: "ライブラリのバージョンアップ調査をしたり、現
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1375419852354056198?s=20 -->

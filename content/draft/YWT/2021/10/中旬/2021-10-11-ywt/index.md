@@ -6,10 +6,10 @@ description: "Amazonの受け取りをしたり、会社に午前休を出した
 
 ## [Y] やったこと
 
-- 2.8km歩いた
-- amazonの受け取りをした
+- 2.8km 歩いた
+- amazon の受け取りをした
 - パスポート更新のために午前半休申請を出した
-- pkgbuildの使い方をgistに書いた
+- pkgbuild の使い方を gist に書いた
 
 ## [W] わかったこと
 
@@ -22,8 +22,8 @@ description: "Amazonの受け取りをしたり、会社に午前休を出した
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

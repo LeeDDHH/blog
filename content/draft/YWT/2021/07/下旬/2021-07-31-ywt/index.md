@@ -6,13 +6,13 @@ description: "7月のふりかえりをしたり、アプリ開発のタスク�
 
 ## [Y] やったこと
 
-- 2.8km歩いた
-- 7月のふりかえりを書いた
-- 個人でやっているElectronアプリ開発で次にやるタスクについて考えた
+- 2.8km 歩いた
+- 7 月のふりかえりを書いた
+- 個人でやっている Electron アプリ開発で次にやるタスクについて考えた
 
 ## [W] わかったこと
 
-- 7月はgistにアウトプットしたのが多い方だった
+- 7 月は gist にアウトプットしたのが多い方だった
 
 ## [T] 次にやること
 
@@ -20,8 +20,8 @@ description: "7月のふりかえりをしたり、アプリ開発のタスク�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -6,13 +6,13 @@ description: "個人プロジェクトのコードを書いたり、Twitterの�
 
 ## [Y] やったこと
 
-- 1.8km歩いた
+- 1.8km 歩いた
 - ルートディレクトリで実行することを前提にコマンドを打ち込んだら実行するようにコードを組んでみた
-- Twitterのスペースでビブリオバトルをやってみた
+- Twitter のスペースでビブリオバトルをやってみた
 
 ## [W] わかったこと
 
-- `child_process` の `exec` をPromiseで扱うには、`util.promisify` で囲う必要があることが分かった
+- `child_process` の `exec` を Promise で扱うには、`util.promisify` で囲う必要があることが分かった
 - コードを細かく分けようとしたら、きりがないなと思った
 
 ## [T] 次にやること
@@ -22,6 +22,6 @@ description: "個人プロジェクトのコードを書いたり、Twitterの�
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1391392736201388036?s=20 -->

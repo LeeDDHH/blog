@@ -6,13 +6,13 @@ description: "見た目の部分の調整をしたり、持っているスキル
 
 ## [Y] やったこと
 
-- 7.7km歩いた
-- UI実装をすすめた
+- 7.7km 歩いた
+- UI 実装をすすめた
 - 今の会社にいるからこそ、自分ができることについて話をした
 
 ## [W] わかったこと
 
-- TypeScriptで `text-align` を使おうとしたら、指定するタイプのエラーが発生した
+- TypeScript で `text-align` を使おうとしたら、指定するタイプのエラーが発生した
   - `csstype` で `CSS.Properties` をタイプ指定したら直った
 
 ## [T] 次にやること
@@ -21,8 +21,8 @@ description: "見た目の部分の調整をしたり、持っているスキル
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

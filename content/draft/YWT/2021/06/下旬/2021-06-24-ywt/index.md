@@ -6,17 +6,17 @@ description: "早朝に起きられたり、収録をしたりした"
 
 ## [Y] やったこと
 
-- 3.4km歩いた
-- 朝5時半に起きられた
+- 3.4km 歩いた
+- 朝 5 時半に起きられた
 - 素材の配置のためのコードを書いた
-- Reactで配列のstateを扱うときの調べ物をした
-- base64に画像ファイルをエンコードする方法を調べた
-- Podcastの収録をした
+- React で配列の state を扱うときの調べ物をした
+- base64 に画像ファイルをエンコードする方法を調べた
+- Podcast の収録をした
 
 ## [W] わかったこと
 
-- Reactで配列のstateを扱うときにshallow copyをしてから操作すべきだと学んだ
-- CommonJSだとES6で書いていた文法通りの読み込みができないところが多々あった
+- React で配列の state を扱うときに shallow copy をしてから操作すべきだと学んだ
+- CommonJS だと ES6 で書いていた文法通りの読み込みができないところが多々あった
 - 職業と自分のアイデンティティについて考えた
 
 ## [T] 次にやること
@@ -25,8 +25,8 @@ description: "早朝に起きられたり、収録をしたりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

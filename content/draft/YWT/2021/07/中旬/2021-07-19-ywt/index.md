@@ -6,8 +6,8 @@ description: "Electronの機能を使うときのサンプルコードを書い�
 
 ## [Y] やったこと
 
-- 6.4km歩いた
-- [Electronでグローバルショートカット機能を使うための例](https://gist.github.com/LeeDDHH/972b9eca9b278b6f245abb9482851f94)を書いた
+- 6.4km 歩いた
+- [Electron でグローバルショートカット機能を使うための例](https://gist.github.com/LeeDDHH/972b9eca9b278b6f245abb9482851f94)を書いた
 - 散らばっている処理の調査をした
 - 溜まってた家計簿の整理をした
 - 母親に電話をした
@@ -16,7 +16,7 @@ description: "Electronの機能を使うときのサンプルコードを書い�
 ## [W] わかったこと
 
 - 似たような処理がバラバラと書かれてはいたけど、それぞれ動きとしては必要なものだった
-  - まとめられるところは1つの関数にする必要性を感じた
+  - まとめられるところは 1 つの関数にする必要性を感じた
 
 ## [T] 次にやること
 
@@ -24,8 +24,8 @@ description: "Electronの機能を使うときのサンプルコードを書い�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

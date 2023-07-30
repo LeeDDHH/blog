@@ -6,8 +6,8 @@ description: "0から書いたプロジェクトを会社のリポジトリと�
 
 ## [Y] やったこと
 
-- 6km歩いた
-- React+TypeScript+Electronで構成したプロジェクトのビルドまで確認した
+- 6km 歩いた
+- React+TypeScript+Electron で構成したプロジェクトのビルドまで確認した
   - 確認後、会社で扱うリポジトリとしてアップした
 - 他のリポジトリの仕様に依存するライブラリがあったが、条件付きでプロジェクトに導入することにした
 
@@ -22,6 +22,6 @@ description: "0から書いたプロジェクトを会社のリポジトリと�
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1391740740120682497?s=20 -->

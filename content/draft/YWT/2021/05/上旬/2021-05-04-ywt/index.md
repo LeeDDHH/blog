@@ -17,11 +17,11 @@ description: "修飾キーと一般キーの処理分けを書いたり、友だ
 
 ## [T] 次にやること
 
-- ElectronのBrowserWindowをmoveableにする
+- Electron の BrowserWindow を moveable にする
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Managing merge conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts)
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
+- node.js 関連の積読を解消する（69/200）
 
 <!-- https://twitter.com/camomile_cafe/status/1389560662687318019?s=20 -->

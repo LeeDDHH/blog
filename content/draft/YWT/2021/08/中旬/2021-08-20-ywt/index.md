@@ -6,10 +6,10 @@ description: "昭島で映画を見たり、ウィスキーを買ったりした
 
 ## [Y] やったこと
 
-- 7.3km歩いた
+- 7.3km 歩いた
 - [竜とそばかすの姫](https://twitter.com/camomile_cafe/status/1428542913831608324?s=20)を見た
 - カインズで買い物をした
-  - [ウィスキーを2本](https://twitter.com/camomile_cafe/status/1428592668116873219?s=20)
+  - [ウィスキーを 2 本](https://twitter.com/camomile_cafe/status/1428592668116873219?s=20)
   - [取っ手が取り外せるフライパン](https://twitter.com/camomile_cafe/status/1428598903532756994?s=20)
   - [ウィスキーグラス](https://twitter.com/camomile_cafe/status/1428604089483464704?s=20)
   - その他、洗剤とかザルとか
@@ -34,7 +34,7 @@ description: "昭島で映画を見たり、ウィスキーを買ったりした
   - [キャンディマン](https://www.universalpictures.jp/micro/candyman)
   - [メインストリーム](https://happinet-phantom.com/mainstream/)
   - [DUNE 砂の惑星](https://wwws.warnerbros.co.jp/dune-movie/)
-- [ティーチャーズ ハイランド クリーム](https://www.amazon.co.jp/dp/B001TP4S26)という1000円しないウィスキーがあることに驚いた
+- [ティーチャーズ ハイランド クリーム](https://www.amazon.co.jp/dp/B001TP4S26)という 1000 円しないウィスキーがあることに驚いた
 -
 
 ## [T] 次にやること
@@ -43,8 +43,8 @@ description: "昭島で映画を見たり、ウィスキーを買ったりした
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

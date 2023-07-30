@@ -6,14 +6,14 @@ description: "個人プロジェクトのコードを書いたり、マッチン
 
 ## [Y] やったこと
 
-- 3.6km歩いた
+- 3.6km 歩いた
 - 再レンダリング防止のためのコードを書いた
 - [Loop Hero](https://store.steampowered.com/app/1282730/Loop_Hero/)というゲームをプレイした
 - マッチングアプリでつながった人と会った
 
 ## [W] わかったこと
 
-- TypeScriptのジェネリックの使い方がちょっとわかってきたような気がする
+- TypeScript のジェネリックの使い方がちょっとわかってきたような気がする
 - [Loop Hero](https://store.steampowered.com/app/1282730/Loop_Hero/)というゲームを実況で見てたけど、実際やってみると楽しかった
 - 結婚とかに関する質問って難しいと思った
   - どんなタイプの人が好きなのかはなかなかパッと出なかった
@@ -25,8 +25,8 @@ description: "個人プロジェクトのコードを書いたり、マッチン
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

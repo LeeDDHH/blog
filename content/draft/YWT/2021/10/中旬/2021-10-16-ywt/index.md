@@ -6,15 +6,15 @@ description: "podcastの収録をしたり、久々の飲み会に参加した�
 
 ## [Y] やったこと
 
-- 8.7km歩いた
-- podcastの収録をした
+- 8.7km 歩いた
+- podcast の収録をした
 - デザイナーコミュニティで予定調整の件で、マネージャーと連絡をした
 - 飲み会に参加した
 - 副業の仕事をすすめた
 
 ## [W] わかったこと
 
-- 久々のpodcastの収録であれこれと話しをしたら3本の収録をした
+- 久々の podcast の収録であれこれと話しをしたら 3 本の収録をした
 - たまには何もしない日があってもいいと思った
 
 ## [T] 次にやること
@@ -23,8 +23,8 @@ description: "podcastの収録をしたり、久々の飲み会に参加した�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

@@ -6,19 +6,19 @@ description: "ローカルでデーター移行をしたり、ビルドをした
 
 ## [Y] やったこと
 
-- 9.8km歩いた
+- 9.8km 歩いた
 - [会社の過去のキャンペーン情報をユーザーに伝えた](https://twitter.com/camomile_cafe/status/1354617966667517955)
-- DAWソフトの[Studio One Prime 5](https://www.mi7.co.jp/products/presonus/studioone/prime/)を使ってみた
+- DAW ソフトの[Studio One Prime 5](https://www.mi7.co.jp/products/presonus/studioone/prime/)を使ってみた
 - 粗大ごみ処理の申請をした
-- Amazonの受け取りをした
+- Amazon の受け取りをした
   - [AGF ブレンディ まろやかな香りブレンド 袋 160g 【 インスタントコーヒー 】【 水に溶けるコーヒー 】【 詰め替え エコパック 】](https://www.amazon.co.jp/gp/product/B0756VT7CF)
-  - [EMS腹筋ベルト 筋トレ 腹筋マシントレーニン器具 腹筋マシン器具 お腹 延長ベルト 腹筋器具 ダイエット器具 6つモード15つレベル 段階調節 スペクトラムスタンダード](https://www.amazon.co.jp/gp/product/B08P1YKBPZ)
+  - [EMS 腹筋ベルト 筋トレ 腹筋マシントレーニン器具 腹筋マシン器具 お腹 延長ベルト 腹筋器具 ダイエット器具 6 つモード 15 つレベル 段階調節 スペクトラムスタンダード](https://www.amazon.co.jp/gp/product/B08P1YKBPZ)
 - 物理出社した
-- SSDのデータをHDDにバックアップした
+- SSD のデータを HDD にバックアップした
 
 ## [W] わかったこと
 
-- 韓国からEMSで何か来たみたいだったけど、出社で受け取りに失敗した
+- 韓国から EMS で何か来たみたいだったけど、出社で受け取りに失敗した
 - 会社の製品を宣伝できる機会があって、少し会社に貢献している感が感じられた
 - 自分でわかるツールだったらどうにかなったはずだったけど、さすがに知らないアプリを触るとなると、やはり時間がかかる
 - 運用のことで、そろそろ変えてみたほうがいいライブラリを話してみた

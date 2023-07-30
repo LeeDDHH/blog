@@ -6,19 +6,19 @@ description: "別プロセスで走らせる処理の準備をしたり、明日
 
 ## [Y] やったこと
 
-- 6km歩いた
+- 6km 歩いた
 - 図書館で取り置きした本を借りた
   - [センスがないと思っている人のための読むデザイン](https://www.amazon.co.jp/dp/4845116936)
-  - [簡単だけど、すごく良くなる77のルール デザイン力の基本](https://www.amazon.co.jp/dp/4534057113)
+  - [簡単だけど、すごく良くなる 77 のルール デザイン力の基本](https://www.amazon.co.jp/dp/4534057113)
   - [プログラミング言語大全](https://www.amazon.co.jp/dp/4297113473)
 - `child_process` の `fork` を使うことで別プロセスから前処理をすることにした
-- 明日出社してやることをCTOと話した
+- 明日出社してやることを CTO と話した
 - ハイボール用にウィスキーの軽量カップを買った
 
 ## [W] わかったこと
 
-- `fork` で親プロセスと子プロセスの両方ともTypeScriptで書けそうな気がした
-  - `process.on` の `error` イベントの書き方がJavaScriptとはまた違うような感じだった
+- `fork` で親プロセスと子プロセスの両方とも TypeScript で書けそうな気がした
+  - `process.on` の `error` イベントの書き方が JavaScript とはまた違うような感じだった
   - `Class` で定義された仕様になるべく深く絡まないように調整した
 
 ## [T] 次にやること
@@ -27,8 +27,8 @@ description: "別プロセスで走らせる処理の準備をしたり、明日
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

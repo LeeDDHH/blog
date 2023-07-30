@@ -6,14 +6,14 @@ description: "エンジニアネタのツイートをしたり、awsのIAMに関
 
 ## [Y] やったこと
 
-- 5.2km歩いた
+- 5.2km 歩いた
 - エンジニアネタのツイートをした
-- awsのユーザー設定に必要なIAMに関して調べた
+- aws のユーザー設定に必要な IAM に関して調べた
 
 ## [W] わかったこと
 
 - ちょっとしたネタをツイートしたら、思いの外伸びた
-- IAMに関しては、aws-cliでIAMに関するアクセスができるように権限を付与した
+- IAM に関しては、aws-cli で IAM に関するアクセスができるように権限を付与した
 
 ## [T] 次にやること
 
@@ -21,8 +21,8 @@ description: "エンジニアネタのツイートをしたり、awsのIAMに関
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

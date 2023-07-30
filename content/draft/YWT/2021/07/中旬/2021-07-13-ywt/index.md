@@ -6,10 +6,10 @@ description: "issueを更新したり、改善できそうなところのFBを�
 
 ## [Y] やったこと
 
-- 5.4km歩いた
-- 途中まで書いたプロジェクトのissueを更新した
-- UI調整をした
-- 会議をしながら、改善できそうなところのFBを返した
+- 5.4km 歩いた
+- 途中まで書いたプロジェクトの issue を更新した
+- UI 調整をした
+- 会議をしながら、改善できそうなところの FB を返した
 
 ## [W] わかったこと
 
@@ -21,8 +21,8 @@ description: "issueを更新したり、改善できそうなところのFBを�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

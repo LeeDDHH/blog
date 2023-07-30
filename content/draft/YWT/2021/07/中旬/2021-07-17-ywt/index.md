@@ -6,16 +6,16 @@ description: "仕事したり、マッサージを受けたりした"
 
 ## [Y] やったこと
 
-- 9km歩いた
-- CTO、CEOを含めたミーティングをした
-- Electron内で使うDBを作った
+- 9km 歩いた
+- CTO、CEO を含めたミーティングをした
+- Electron 内で使う DB を作った
 - グローバルショートカットの登録前の確認処理のマトリックスを書いた
 - 久々にマッサージを受けに行った
 
 ## [W] わかったこと
 
-- 8時から17時まで働いてみた結果、1日の使い方がかなり良かった
-  - 起床、散歩、シャワーまでの時間後に微妙な空き時間を活かしてなかったけど、17時以降に寝るまでまとまった時間ができた
+- 8 時から 17 時まで働いてみた結果、1 日の使い方がかなり良かった
+  - 起床、散歩、シャワーまでの時間後に微妙な空き時間を活かしてなかったけど、17 時以降に寝るまでまとまった時間ができた
 
 ## [T] 次にやること
 
@@ -23,8 +23,8 @@ description: "仕事したり、マッサージを受けたりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

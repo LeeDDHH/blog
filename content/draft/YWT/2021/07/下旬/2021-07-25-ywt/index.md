@@ -6,14 +6,14 @@ description: "図書館で借りた本を読み終えたり、YouTubeの配信�
 
 ## [Y] やったこと
 
-- 4.1km歩いた
+- 4.1km 歩いた
 - [脳にいい２４時間の使い方](https://www.amazon.co.jp/dp/B01LY63FTG)を読み終えた
 - サーバーに関する本を読み始めた
-- YouTubeの配信を見た
+- YouTube の配信を見た
 
 ## [W] わかったこと
 
-- 起床時間を考えると、1日に終わりに新しい知識を頭に入れるには自分には合わないと思った
+- 起床時間を考えると、1 日に終わりに新しい知識を頭に入れるには自分には合わないと思った
 
 ## [T] 次にやること
 
@@ -21,8 +21,8 @@ description: "図書館で借りた本を読み終えたり、YouTubeの配信�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

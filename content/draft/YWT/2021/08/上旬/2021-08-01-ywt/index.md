@@ -6,15 +6,15 @@ description: "家賃を払ったり、家計簿を作ったりした"
 
 ## [Y] やったこと
 
-- 10.1km歩いた
+- 10.1km 歩いた
 - 今月の家賃を払った
 - 洗濯機の掃除をした
 - トイレの掃除をした
-- 7月の家計簿を整理した
-- 8月の家計簿をつくった
+- 7 月の家計簿を整理した
+- 8 月の家計簿をつくった
 - ドトールのチャージをした
 - 本のまとめをちょっと書いた
-- [JavaScriptで使えるfuzzy系のパッケージ](https://gist.github.com/LeeDDHH/d8e5552bd4ce34e1cb6096954fb292a0)のgistを書いた
+- [JavaScript で使える fuzzy 系のパッケージ](https://gist.github.com/LeeDDHH/d8e5552bd4ce34e1cb6096954fb292a0)の gist を書いた
 
 ## [W] わかったこと
 
@@ -26,8 +26,8 @@ description: "家賃を払ったり、家計簿を作ったりした"
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

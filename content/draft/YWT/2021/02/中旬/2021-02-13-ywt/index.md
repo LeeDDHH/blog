@@ -6,10 +6,10 @@ description: "本をまとめたり、静かに家で過ごしたりした"
 
 ## [Y] やったこと
 
-- 1.3km歩いた
+- 1.3km 歩いた
 - 今読んでいる図書館の本の返却日を延長した
-- Gistに情報をまとめた
-  - [Google日本語入力で変換できること](https://gist.github.com/LeeDDHH/e7cbaf57630c47821b6cba9888016b63)
+- Gist に情報をまとめた
+  - [Google 日本語入力で変換できること](https://gist.github.com/LeeDDHH/e7cbaf57630c47821b6cba9888016b63)
   - [나쁜 습관에서 벗어나기](https://gist.github.com/LeeDDHH/936f46d14ed1c6c85f83141cd65d84d3)（悪い習慣から抜け出す）
 - 今読んでいる図書館の本を[ちょっとまとめてみた](https://scrapbox.io/camomilecafe/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3)
 - [今のスマホ用のケースを新調した](https://www.amazon.co.jp/gp/product/B07XRGSNS7)
@@ -23,5 +23,5 @@ description: "本をまとめたり、静かに家で過ごしたりした"
 
 ## [T] 次にやること
 
-- TypeScriptのチュートリアルをすすめる
+- TypeScript のチュートリアルをすすめる
 - 図書館で借りた本を読む（D-7）

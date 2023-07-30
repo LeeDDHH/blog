@@ -6,7 +6,7 @@ description: "気持ちを落ち着かせたり、CSSの直しをしたりした
 
 ## [Y] やったこと
 
-- 5.2km歩いた
+- 5.2km 歩いた
 - イライラした気持ちを落ち着かせた
 
 ## [W] わかったこと
@@ -19,7 +19,7 @@ description: "気持ちを落ち着かせたり、CSSの直しをしたりした
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- React Native関連
+- React Native 関連
   - [The Complete React Native + Hooks Course](https://www.udemy.com/course/the-complete-react-native-and-redux-course/)
 
 <!-- https://twitter.com/camomile_cafe/status/1455775792533684232?s=20 -->

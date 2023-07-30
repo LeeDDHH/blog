@@ -6,17 +6,17 @@ description: "iMacでパーティションを分ける方法を探したり、�
 
 ## [Y] やったこと
 
-- 10.3km歩いた
-- iMacでパーティションを分けた
-- Xcodeのインストールを試した
+- 10.3km 歩いた
+- iMac でパーティションを分けた
+- Xcode のインストールを試した
 - マーケティングチームに商品ページに載せるサムネイルについて意見を言った
 
 ## [W] わかったこと
 
-- M1版のiMacのパーティションの区切り方がCatalinaまでのやり方と違ってた
-- Xcodeのインストールの仕様が全然予想もしなかった
-  - Xcode自体は11.2GBが必要だった
-  - しかし、インストール前に内部でほかのモジュールをダウンロードする必要があったみたいで45GB以上追加でストレージを見積もる必要があった
+- M1 版の iMac のパーティションの区切り方が Catalina までのやり方と違ってた
+- Xcode のインストールの仕様が全然予想もしなかった
+  - Xcode 自体は 11.2GB が必要だった
+  - しかし、インストール前に内部でほかのモジュールをダウンロードする必要があったみたいで 45GB 以上追加でストレージを見積もる必要があった
 
 ## [T] 次にやること
 
@@ -24,8 +24,8 @@ description: "iMacでパーティションを分ける方法を探したり、�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

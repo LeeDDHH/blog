@@ -6,10 +6,10 @@ description: "不具合の調査をしたり、図書館から本を借りたり
 
 ## [Y] やったこと
 
-- 5.9km歩いた
+- 5.9km 歩いた
 - `electron-rebuild` のオプションを使ったネイティブライブラリの最適化ができないか試した
 - 図書館に取り置きした本を借りた
-  - [仕事は「段取りとスケジュール」で9割決まる](https://www.amazon.co.jp/dp/4756920047)
+  - [仕事は「段取りとスケジュール」で 9 割決まる](https://www.amazon.co.jp/dp/4756920047)
   - [齋藤孝の企画塾](https://www.amazon.co.jp/dp/4480428739)
   - [大人の週末起業](https://www.amazon.co.jp/dp/4295403032)
 
@@ -23,8 +23,8 @@ description: "不具合の調査をしたり、図書館から本を借りたり
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)

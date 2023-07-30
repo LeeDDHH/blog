@@ -6,13 +6,13 @@ description: "b8taに寄ってみたり、コンセプトを分解して考え�
 
 ## [Y] やったこと
 
-- 10.2km歩いた
+- 10.2km 歩いた
 - 実家からの郵便物をちょっと片付けた
-- [Webディレクションの新・標準ルール](https://github.com/LeeDDHH/book-output/blob/main/Web%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%96%B0%E3%83%BB%E6%A8%99%E6%BA%96%E3%83%AB%E3%83%BC%E3%83%AB_%E7%8F%BE%E5%A0%B4%E3%81%AE%E5%8A%B9%E7%8E%87%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E6%9C%80%E6%96%B0%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%E3%81%A8%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/list.md)をちょっと読んだ
+- [Web ディレクションの新・標準ルール](https://github.com/LeeDDHH/book-output/blob/main/Web%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%96%B0%E3%83%BB%E6%A8%99%E6%BA%96%E3%83%AB%E3%83%BC%E3%83%AB_%E7%8F%BE%E5%A0%B4%E3%81%AE%E5%8A%B9%E7%8E%87%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%81%99%E3%82%8B%E6%9C%80%E6%96%B0%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC%E3%81%A8%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88/list.md)をちょっと読んだ
 - コンセプトとキャッチコピーの違いについて調べた
 - [b8ta](https://b8ta.jp/)の新宿店と有楽町店に寄ってみた
 - [b8ta](https://b8ta.jp/)で展示中だった[cainz](https://www.cainz.com/jp/index.html)の商品を買った
-  - [取っ手が外せる ストーンマーブル フライパン・鍋5点セット](https://www.cainz.com/jp/b8ta/4549509547853.html)
+  - [取っ手が外せる ストーンマーブル フライパン・鍋 5 点セット](https://www.cainz.com/jp/b8ta/4549509547853.html)
   - [くつろぎケット首・肩](https://www.cainz.com/jp/b8ta/4549509701484.html)
 
 ## [W] わかったこと
@@ -27,7 +27,7 @@ description: "b8taに寄ってみたり、コンセプトを分解して考え�
 
 ## [T] 次にやること
 
-- TypeScriptのチュートリアルをすすめる
+- TypeScript のチュートリアルをすすめる
 - 電子書籍を読む
 - エンジニアが集まる喫茶店のコンセプトづくりを各項目ごとに単語単位で出してみる
   - 「誰に」

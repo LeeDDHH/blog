@@ -6,16 +6,16 @@ description: "M1の環境を整えたり、図書館に本を返却したりし�
 
 ## [Y] やったこと
 
-- 6km歩いた
-- [Macからgithubでssh接続するまでにやること](https://gist.github.com/LeeDDHH/706e72e4b9958a285ec4a6ae4d2ba1d9)のgistを書いた
-- M1に会社のプロダクトのコードが動かせるように環境構築をした
+- 6km 歩いた
+- [Mac から github で ssh 接続するまでにやること](https://gist.github.com/LeeDDHH/706e72e4b9958a285ec4a6ae4d2ba1d9)の gist を書いた
+- M1 に会社のプロダクトのコードが動かせるように環境構築をした
 - 図書館に本を返却した
 
 ## [W] わかったこと
 
-- M1環境だとNode.jsの15以上しか基本的に動かないようだ
-  - ただ、ターミナルのアプリを「Rosettaを使用して開く」にしてから動かすと、Nodeのバージョン管理ツールから他のバージョンもインストールできる
-  - M1環境で動かすユーザーもいるからM1は1台ほしいと思った
+- M1 環境だと Node.js の 15 以上しか基本的に動かないようだ
+  - ただ、ターミナルのアプリを「Rosetta を使用して開く」にしてから動かすと、Node のバージョン管理ツールから他のバージョンもインストールできる
+  - M1 環境で動かすユーザーもいるから M1 は 1 台ほしいと思った
 
 ## [T] 次にやること
 
@@ -23,8 +23,8 @@ description: "M1の環境を整えたり、図書館に本を返却したりし�
 - [github learning lab](https://lab.github.com/githubtraining)のチュートリアルをすすめる
   - [Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)
   - [Introduction to Node with Express](https://lab.github.com/everydeveloper/introduction-to-node-with-express)
-- node.js関連の積読を解消する（69/200）
-- 『［図解］大学4年間の◯◯が10時間でざっと学べる』シリーズを読んでみる
+- node.js 関連の積読を解消する（69/200）
+- 『［図解］大学 4 年間の ◯◯ が 10 時間でざっと学べる』シリーズを読んでみる
   - [統計学](https://www.amazon.co.jp/dp/B07PXB4NN9)
   - [データサイエンス](https://www.amazon.co.jp/dp/B07XNW3TQM)
   - [経済学](https://www.amazon.co.jp/dp/B01KNLFHH6)
