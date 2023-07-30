@@ -1,7 +1,7 @@
 ---
 title: 【Gatsby】iframelyを使うためにやったこと
-date: '2021-01-05 07:01:00'
-description: 'Gatsbyでiframelyを使うためにやったこと'
+date: "2021-01-05 07:01:00"
+description: "Gatsbyでiframelyを使うためにやったこと"
 ---
 
 以前投稿していたブログでよく使っていた[iframely](https://iframely.com/)をGatsbyでも使おうとしたが、同じ要領では表示されなかった
@@ -70,8 +70,8 @@ src
 `components/iframely.js` を新規作成し、iframelyのCDNスクリプトをコンポーネントで定義する
 
 ```javascript
-import React, { useEffect } from 'react'
-import { Helmet } from 'react-helmet'
+import React, { useEffect } from "react"
+import { Helmet } from "react-helmet"
 
 const Iframely = () => {
   // 古い記事に遷移したときにもCDNがロードされるように、rendering後loadする
@@ -83,10 +83,7 @@ const Iframely = () => {
 
   return (
     <Helmet>
-      <script
-      type="text/javascript"
-      src="https://cdn.iframe.ly/embed.js"
-      />
+      <script type="text/javascript" src="https://cdn.iframe.ly/embed.js" />
     </Helmet>
   )
 }
@@ -123,18 +120,25 @@ const BlogPostTemplate = ({ data, location }) => {
 上記のコードの修正/追加に加え、[iframely](https://iframely.com/)で生成した埋め込み用コードを貼り付けるたびに1点修正が必要になる
 
 - `embed.js`の埋め込みを削除
+
   - iframely専用のコンポーネント（`components/iframely.js`）で読み込むため
 
-      ```html
-      // 埋め込みコード
-      <div class="iframely-embed">
-          <div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">
-              <a href="https://expfrom.me" data-iframely-url="//cdn.iframe.ly/tn9cRBk"></a>
-          </div>
+    ```html
+    // 埋め込みコード
+    <div class="iframely-embed">
+      <div
+        class="iframely-responsive"
+        style="height: 140px; padding-bottom: 0;"
+      >
+        <a
+          href="https://expfrom.me"
+          data-iframely-url="//cdn.iframe.ly/tn9cRBk"
+        ></a>
       </div>
-      <!-- ココを削除 -->
-      <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-      ```
+    </div>
+    <!-- ココを削除 -->
+    <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+    ```
 
 上記の設定をすることで、以下のように[iframely](https://iframely.com/)のHTMLの埋め込みコードが表示される
 
@@ -147,7 +151,6 @@ const BlogPostTemplate = ({ data, location }) => {
 実装時の手順や参照ページに関しては[inouetakumon](https://twitter.com/inouetakumon)さんの記事が大変参考になった
 
 <p><div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://takumon.com/iframely" data-iframely-url="//cdn.iframe.ly/8UezQwi?iframe=card-small"></a></div></div></p>
-
 
 余談だけど、素の状態のReactで埋め込みコードを簡単に使いたい場合、[react-embed](https://github.com/streamich/react-embed)というパッケージがあるので、これを使うのもいいかもしれない
 

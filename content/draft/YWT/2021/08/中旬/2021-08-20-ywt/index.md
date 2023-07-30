@@ -35,7 +35,7 @@ description: "昭島で映画を見たり、ウィスキーを買ったりした
   - [メインストリーム](https://happinet-phantom.com/mainstream/)
   - [DUNE 砂の惑星](https://wwws.warnerbros.co.jp/dune-movie/)
 - [ティーチャーズ ハイランド クリーム](https://www.amazon.co.jp/dp/B001TP4S26)という1000円しないウィスキーがあることに驚いた
-- 
+-
 
 ## [T] 次にやること
 

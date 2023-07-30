@@ -14,9 +14,9 @@ description: "Electronでipc通信を書いたり、状態管理をElectronに�
 
 - 今月の目標で書いた「Electronでaliasを実行するアプリ」の技術スタックは以下の構成で書いてみようとおもった
   - Electron
-      - [12バージョンからIPC通信の仕方がセキュアになった](https://qiita.com/hibara/items/c59fb6924610fc22a9db)ので、試して見たいと思った
+    - [12バージョンからIPC通信の仕方がセキュアになった](https://qiita.com/hibara/items/c59fb6924610fc22a9db)ので、試して見たいと思った
   - Next.js
-      - せっかく前月も触った技術だったので、Electronと組み合わせて見たいと思った
+    - せっかく前月も触った技術だったので、Electronと組み合わせて見たいと思った
 - [contextBridgeでinvoke/handleを使ってみた](https://github.com/LeeDDHH/alias-agent/commit/7e844b04d67d83e6043fd1a7b141b314fcc32132)
   - [参考資料](https://qiita.com/ArtcYu/items/a053f5b6295efaed74bf)
 - 無料で読める漫画がいつの間にかkindleにて増えていた

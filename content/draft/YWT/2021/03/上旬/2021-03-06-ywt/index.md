@@ -14,58 +14,62 @@ description: "Next.jsのチュートリアルをひと通り終えたり、久�
 ## [W] わかったこと
 
 - Next.jsの動的なルーティングの概要についてチュートリアルをすすめた
+
   - [外部に依存するデータのパス生成と生成手順について](https://nextjs.org/learn/basics/dynamic-routes/page-path-external-data)
   - 静的生成で必要なデータをフェッチするときには `getStaticProps`
   - 各ページパスが外部データに依存している場合、そのパスを静的生成するのは `getStaticPaths`
   - パスを動的に生成するための手順
-      - 表示するページのレイアウトを管理するコンポーネントを用意する
-      - 同ページ内に `getStaticPaths` でページ情報を配列として取得
-      - 同ページ内に `getStaticProps` で静的生成に必要なデータを取得
+    - 表示するページのレイアウトを管理するコンポーネントを用意する
+    - 同ページ内に `getStaticPaths` でページ情報を配列として取得
+    - 同ページ内に `getStaticProps` で静的生成に必要なデータを取得
   - `pages` ディレクトリ配下に `[]` をつけたjsファイルを作ることで、動的ルーティングが有効になる
   - `getStaticPaths` は動的ルーティングを利用する際に静的なファイルを生成するためのAPI
-      - 事前ビルドするパスを配列にして返す
+    - 事前ビルドするパスを配列にして返す
   - `getStaticProps` では、ルーティングの情報が入ったパラメーターを `params` で受け取る
   - ビルド時に `getStaticPaths` と `getStaticProps` の処理によって、表示するページが入っているディレクトリのパスを動的ルーティングの対象にできる
-      - `npm run build` で確認できる
-      - ```markdown
-          プロジェクトディレクトリ
-          ├── pages
-          │   └── posts
-          │       └── [id].js // `posts/` ではじまるクエリを動的ルーティングする
-          └── posts
-              ├── 記事.md // 表示するページのmarkdown
-              ├── 記事2.md // 表示するページのmarkdown
-              ︙
-          ```
-      - [Next.js 9.3新API getStaticProps と getStaticPaths と getServerSideProps の概要解説](https://qiita.com/matamatanot/items/1735984f40540b8bdf91#getstaticpaths)
+    - `npm run build` で確認できる
+    - ```markdown
+      プロジェクトディレクトリ
+      ├── pages
+      │ └── posts
+      │ └── [id].js // `posts/` ではじまるクエリを動的ルーティングする
+      └── posts
+      ├── 記事.md // 表示するページのmarkdown
+      ├── 記事2.md // 表示するページのmarkdown
+      ︙
+      ```
+    - [Next.js 9.3新API getStaticProps と getStaticPaths と getServerSideProps の概要解説](https://qiita.com/matamatanot/items/1735984f40540b8bdf91#getstaticpaths)
   - `getStaticPaths` で表示するすべてのページを取得し、 `getStaticProps` で指定されたIDをもとにそのページを取得する
 
 - Next.jsの動的なルーティングに使うパス取得の実装方法についてチュートリアルをすすめた
+
   - [実装方法について](https://nextjs.org/learn/basics/dynamic-routes/implement-getstaticpaths)
   - 外部データを読み込むモジュールを作成
-      - `.md` の拡張子を取り除いて取得
-      - 取得したファイル名がそのままパスとなる
+    - `.md` の拡張子を取り除いて取得
+    - 取得したファイル名がそのままパスとなる
   - `getStaticPaths` で受け取るデータ形式にはいくつか制約がある
-      - **オブジェクトの配列**にする必要がある
-      - 各オブジェクトには `params` というキーをもつオブジェクトが必要になる
-        - ```javascript
-          {
-            params: {…}
-          }
-          ```
+    - **オブジェクトの配列**にする必要がある
+    - 各オブジェクトには `params` というキーをもつオブジェクトが必要になる
+      - ```javascript
+        {
+          params: {…}
+        }
+        ```
   - 外部データを読み込むモジュールを動的ルーティングをするページの `getStaticPaths` で呼び出してreturnする
   - [動的ルーティングに必要なパスの返し方について](https://nextjs.org/docs/basic-features/data-fetching#the-paths-key-required)
 
 - Next.jsの動的なルーティングでページを表示する実装方法についてチュートリアルをすすめた
+
   - `getStaticProps` で表示するページのパスが渡されたときの処理を作成する
-      - `params` をパラメータとして受け取る
-      - `params.id` を表示するパスとして、表示するページのデータを取得し、 `props` として返す
-      - データ取得時に、非同期式で受け取る
+    - `params` をパラメータとして受け取る
+    - `params.id` を表示するパスとして、表示するページのデータを取得し、 `props` として返す
+    - データ取得時に、非同期式で受け取る
   - 表示部で `props` を受け取り、表示に必要なデータを組み立てる
 
 - 以前、 `Laravel` でルーティングをしたときは前もって一覧化した上で管理していたのもあって、なかなか慣れないなと思った
 
 - Next.jsの動的なルーティングを使うときのヒントについてチュートリアルをすすめた
+
   - [動的ルートを使う歳のtips](https://nextjs.org/learn/basics/dynamic-routes/dynamic-routes-details)
   - `getStaticPaths` も　`getStaticProps` と同様に、外部のデータを取得できる
   - `dev` 環境ではリクエストごとに `getStaticPaths` が走る
@@ -74,21 +78,23 @@ description: "Next.jsのチュートリアルをひと通り終えたり、久�
   - 404ページは `pages/404.js` を作成することでカスタムできる
 
 - Next.jsのAPIルートについてチュートリアルをすすめた
+
   - `pages/api` ディレクトリを作って、apiのエンドポイントとなるファイルが作れる
-      - `pages/api/hello.js` を作ったら、エンドポイントは `ドメイン/api.hello` となる
-      - ファイル内の書き方の例
-        - ```javascript
-            export default function handler(req, res) {
-              res.status(200).json({text: 'hello'})
-            }
-          ```
-      - サーバーレス関数（ラムダ）として使える
+    - `pages/api/hello.js` を作ったら、エンドポイントは `ドメイン/api.hello` となる
+    - ファイル内の書き方の例
+      - ```javascript
+        export default function handler(req, res) {
+          res.status(200).json({ text: "hello" })
+        }
+        ```
+    - サーバーレス関数（ラムダ）として使える
 
 - Next.jsのAPIルートのヒントについてチュートリアルをすすめた
+
   - APIルートは `getStaticPaths` 、 `getStaticProps` からフェッチでしてはならない
-      - 代わりに、 `getStaticPaths` 、 `getStaticProps` に直接サーバーサイドのコードを書く
-      - 理由として、 `getStaticPaths` 、 `getStaticProps` はサーバーサイドでのみ動作するため、クライアント側では実行されない
-      - `getStaticPaths` 、 `getStaticProps` はJSバンドルされないので、ブラウザには送信されないため、直接データベースクエリが書ける
+    - 代わりに、 `getStaticPaths` 、 `getStaticProps` に直接サーバーサイドのコードを書く
+    - 理由として、 `getStaticPaths` 、 `getStaticProps` はサーバーサイドでのみ動作するため、クライアント側では実行されない
+    - `getStaticPaths` 、 `getStaticProps` はJSバンドルされないので、ブラウザには送信されないため、直接データベースクエリが書ける
   - APIルートの良いユースケースとしては、フォーム入力がある
     - ページにフォームを作成して、 `POST` でAPIルートにリクエストの送信ができる
     - APIルートのこ～後は**クライアントバンドルの一部ではない**ので、サーバー側のコードを安全に使える

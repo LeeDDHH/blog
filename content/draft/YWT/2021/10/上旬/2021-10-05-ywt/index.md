@@ -16,7 +16,7 @@ description: "windowsのインストーラーの使い方を調査した"
 - 特定のSlackチャンネルにBotを招待して、チャンネル内のテキストをSpeeadsheetに転載する方法について調べた
   - 以前は、slackのoutgoing webhookを使うことで実装できたけど、いつの間にかslack appから作るのが推奨されるみたい
   - やることとしては、だいたい以下の手順で進めば実現はできそう
-  	- slack 側でチャンネルの書き込みを検知する bot （slack app）を作る
+    - slack 側でチャンネルの書き込みを検知する bot （slack app）を作る
     - 検知した書き込みを取得するために、SpreadsheetとGASを用意する
     - GASをウェブアプリとしてデプロイする
     - デプロイしたGASのウェブアプリアドレスを bot 側で転載できるように指定する

@@ -1,7 +1,7 @@
 ---
 title: 【Spreadsheet】シートを方眼紙にする方法
-date: '2021-01-20 14:25:57'
-description: 'Mac版のSpreadsheetを均一なサイズのセルにしてみた'
+date: "2021-01-20 14:25:57"
+description: "Mac版のSpreadsheetを均一なサイズのセルにしてみた"
 ---
 
 マス目のワイヤーフレームが必要になり、Mac版のSpreadsheetで方眼紙を作ってみた

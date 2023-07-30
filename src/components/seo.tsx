@@ -23,21 +23,19 @@ type DataProps = {
 }
 
 const SEO: React.FC<DataProps> = ({ description, lang, meta, title }) => {
-  const { site }: GatsbyTypes.SEOQuery = useStaticQuery(
-    graphql`
-      query SEO {
-        site {
-          siteMetadata {
-            title
-            description
-            social {
-              twitter
-            }
+  const { site }: GatsbyTypes.SEOQuery = useStaticQuery(graphql`
+    query SEO {
+      site {
+        siteMetadata {
+          title
+          description
+          social {
+            twitter
           }
         }
       }
-    `
-  )
+    }
+  `)
 
   const metaDescription = description || site?.siteMetadata?.description
   const defaultTitle = site?.siteMetadata?.title

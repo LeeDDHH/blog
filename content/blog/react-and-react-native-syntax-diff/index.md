@@ -10,13 +10,13 @@ description: "ReactとReact Nativeで似通っていたり、書き方が違っ�
 
 確認した環境は以下になる
 
-|||
-|:---:|:---:|
-|node.js|14.17.6|
-|react|17.0.2|
-|react-native|0.63.2|
-|expo|4.12.6|
-|npm|7.22.0|
+|              |         |
+| :----------: | :-----: |
+|   node.js    | 14.17.6 |
+|    react     | 17.0.2  |
+| react-native | 0.63.2  |
+|     expo     | 4.12.6  |
+|     npm      | 7.22.0  |
 
 なお、関数コンポーネントでの書き方を基本とする
 
@@ -28,30 +28,24 @@ Reactで配列のデータをリスト化して表すとき、以下のような
 - 配列の `map` メソッドで表示する要素を反復処理し、最終的に返す要素の子要素として指定する
 
 ```javascript
-import React from 'react'
+import React from "react"
 
 const list = [
-  { name: 'aaa', hoge: '20' },
-  { name: 'bbb', hoge: '45' },
-  { name: 'ccc', hoge: '32' },
-  { name: 'ddd', hoge: '27' },
-  { name: 'eee', hoge: '53' },
-  { name: 'fff', hoge: '30' },
-  { name: 'ggg', hoge: '20' },
-];
+  { name: "aaa", hoge: "20" },
+  { name: "bbb", hoge: "45" },
+  { name: "ccc", hoge: "32" },
+  { name: "ddd", hoge: "27" },
+  { name: "eee", hoge: "53" },
+  { name: "fff", hoge: "30" },
+  { name: "ggg", hoge: "20" },
+]
 
 const SampleList = () => {
-  const listItems = list.map((obj) =>
-    <div key={obj.name}>
-      {obj.hoge}
-    </div>
-  );
-  return (
-    <div>{listItems}</div>
-  );
-};
+  const listItems = list.map(obj => <div key={obj.name}>{obj.hoge}</div>)
+  return <div>{listItems}</div>
+}
 
-export default SampleList;
+export default SampleList
 ```
 
 React Nativeでは、 [`FlatList`](https://reactnative.dev/docs/flatlist) というコンポーネントを使って以下のような書き方にする
@@ -63,34 +57,30 @@ React Nativeでは、 [`FlatList`](https://reactnative.dev/docs/flatlist) とい
 - [`keyExtractor`](https://reactnative.dev/docs/flatlist#keyextractor) に配列の要素で扱っているユニークな値を指定することでReactの `key` のように使う
 
 ```javascript
-import React from 'react'
-import { Text, FlatList } from 'react-native'
+import React from "react"
+import { Text, FlatList } from "react-native"
 
 const list = [
-  { name: 'aaa', hoge: '20' },
-  { name: 'bbb', hoge: '45' },
-  { name: 'ccc', hoge: '32' },
-  { name: 'ddd', hoge: '27' },
-  { name: 'eee', hoge: '53' },
-  { name: 'fff', hoge: '30' },
-  { name: 'ggg', hoge: '20' },
-];
+  { name: "aaa", hoge: "20" },
+  { name: "bbb", hoge: "45" },
+  { name: "ccc", hoge: "32" },
+  { name: "ddd", hoge: "27" },
+  { name: "eee", hoge: "53" },
+  { name: "fff", hoge: "30" },
+  { name: "ggg", hoge: "20" },
+]
 
 const ListScreen = () => {
   return (
     <FlatList
-      keyExtractor={(listItem) => listItem.name}
+      keyExtractor={listItem => listItem.name}
       data={list}
       renderItem={({ item, index }) => {
-        return (
-          <Text>
-            {item.age}
-          </Text>
-        )
+        return <Text>{item.age}</Text>
       }}
     />
   )
-};
+}
 
-export default ListScreen;
+export default ListScreen
 ```

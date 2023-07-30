@@ -19,16 +19,16 @@ description: "物理出社したり、実装する機能についての相談を
 - 物理出社をするだけでけっこう歩く気がした
 - GitBookのプラグインを使えば、必要な機能が実装できることがわかった
   - 自作のスタイルシートとJavaScriptコードを入れる
-      - [GitbookIO/plugin-scripts: Include scripts in your GitBook](https://github.com/GitbookIO/plugin-scripts)
-      - [gitbook-plugin-add-js-css](https://www.npmjs.com/package/gitbook-plugin-add-js-css)
-      - [gitbook-plugin-custom-js-css](https://developer.aliyun.com/mirror/npm/package/gitbook-plugin-custom-js-css)
+    - [GitbookIO/plugin-scripts: Include scripts in your GitBook](https://github.com/GitbookIO/plugin-scripts)
+    - [gitbook-plugin-add-js-css](https://www.npmjs.com/package/gitbook-plugin-add-js-css)
+    - [gitbook-plugin-custom-js-css](https://developer.aliyun.com/mirror/npm/package/gitbook-plugin-custom-js-css)
   - ロゴとfaviconを導入する
-      - [Bandwidth/gitbook-plugin-custom-favicon: Add your own favicon to gitbook themes](https://github.com/Bandwidth/gitbook-plugin-custom-favicon)
-      - [matusnovak/gitbook-plugin-insert-logo: GitBook Plugin to insert logo image into the navigation above search input](https://github.com/matusnovak/gitbook-plugin-insert-logo)
+    - [Bandwidth/gitbook-plugin-custom-favicon: Add your own favicon to gitbook themes](https://github.com/Bandwidth/gitbook-plugin-custom-favicon)
+    - [matusnovak/gitbook-plugin-insert-logo: GitBook Plugin to insert logo image into the navigation above search input](https://github.com/matusnovak/gitbook-plugin-insert-logo)
   - OGP設定をする
-      - [FrontendMasters/gitbook-plugin-open-graph: Adds open graph and twitter share meta tags to gitbook](https://github.com/FrontendMasters/gitbook-plugin-open-graph)
+    - [FrontendMasters/gitbook-plugin-open-graph: Adds open graph and twitter share meta tags to gitbook](https://github.com/FrontendMasters/gitbook-plugin-open-graph)
   - GitBookが提供しているスタイルを導入する
-      - [Styleguide - GitBook](http://styleguide.gitbook.com/)
+    - [Styleguide - GitBook](http://styleguide.gitbook.com/)
 - 家で作業するとき、キャンプ用のイスを使っているがそろそろ腰がいかれそうなのでデスクワーク用に買いたいと思った
   - 木曜日にニトリかIKEAに行こうと思っている
 - しばらく、ライブラリの調査で時間を使いそうな予感がした
@@ -44,7 +44,6 @@ description: "物理出社したり、実装する機能についての相談を
   - 店の場所の指定でなんとなく、「なぜそこにしたのか」というイメージが湧いた
   - 現地で集まるからできるイベント/小さなカンファレンスが開けそうなイメージがあるけど、この時代だからこそ集まることで意味があることを自分で見いださないと人は集まらないと感じた
   - たとえば現地で人が集まるから得られる情報として、「普段からアウトプットをしているが、検索するだけではなかなかその情報にたどり着けなくて見てもらえてない」ブロガーの情報が現地の店では得られるのであれば、それも1つの差別化になりそうな気がした
-
 
 ## [T] 次にやること
 

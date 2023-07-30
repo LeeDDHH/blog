@@ -1,7 +1,7 @@
 ---
 title: 【Lighthouse】公開した1枚のウェブページを改善してみた
-date: '2021-01-24 20:30:00'
-description: 'Lighthouseで指摘されたことを直したら、100点が取れた'
+date: "2021-01-24 20:30:00"
+description: "Lighthouseで指摘されたことを直したら、100点が取れた"
 ---
 
 Webデザインの勉強も兼ねて[一枚のウェブページ](https://kind-engelbart-db1cd7.netlify.app/)を作った
@@ -40,7 +40,10 @@ SEO関連でサイトの `description` が設定されておらず、キーワ�
 [Document does not have a meta description](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
 
 ```html
-<meta name="description" content="夜にだけ開くカモカフェ。開店日はいまのところ、未定です">
+<meta
+  name="description"
+  content="夜にだけ開くカモカフェ。開店日はいまのところ、未定です"
+/>
 ```
 
 ## 改善した結果

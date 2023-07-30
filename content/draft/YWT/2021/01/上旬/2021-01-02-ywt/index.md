@@ -40,21 +40,23 @@ description: "去年と今年とふりかえり"
 
 - ドトールのアップルパイが大きさの割に腹持ちが良かった
 - Gastsbyでiframelyを使うためには、ちょっと工夫が必要だった
+
   - [iframelyの公式ドキュメント](https://iframely.com/docs/reactjs)によると、Reactが使っている仮想DOMの場合、**HTML要素に対するインラインスクリプトを実行しない**
-      - Reactは同期していない仮想DOMに危険な状態を晒していると判断する
-  
-        ```HTML
-        //HTMLのこういうケースではスクリプトを実行しない
-        <body>
-          <div>
-          // 何かの要素
-          </div><script src="リモートアドレス"></script> //このケースで、Reactは実行しない
-        </body>
-        ```
+
+    - Reactは同期していない仮想DOMに危険な状態を晒していると判断する
+
+      ```HTML
+      //HTMLのこういうケースではスクリプトを実行しない
+      <body>
+        <div>
+        // 何かの要素
+        </div><script src="リモートアドレス"></script> //このケースで、Reactは実行しない
+      </body>
+      ```
 
   - つまり、Reactは基本的に**JavaScriptのembed機能（埋め込み機能）がサポートされていない**
   - 本文に書くscriptタグをページが読み込まれるヘッダーに書いておくことで解決できる
-      - `react-helmet` のようなヘッダータグを管理するコンポーネントを使ってページのレンダリング時にiframelyのスクリプトを読み込ませるのが解決策の1つ
+    - `react-helmet` のようなヘッダータグを管理するコンポーネントを使ってページのレンダリング時にiframelyのスクリプトを読み込ませるのが解決策の1つ
   - [Takumonさんのブログ](https://takumon.com/iframely)のおかげで助かった
 
 ## [T] 次にやること

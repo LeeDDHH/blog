@@ -1,7 +1,7 @@
 ---
 title: 【React】新しくReactプロジェクトを使うためにインストールしたパッケージ
-date: '2021-01-23 17:34:00'
-description: '新しくReact、Reduxのプロジェクトを作る際に使ったパッケージについてまとめた'
+date: "2021-01-23 17:34:00"
+description: "新しくReact、Reduxのプロジェクトを作る際に使ったパッケージについてまとめた"
 ---
 
 新しくReact、Reduxのプロジェクトを作ろうとしたが、ビルドがうまく行かなかった
@@ -12,21 +12,21 @@ description: '新しくReact、Reduxのプロジェクトを作る際に使っ�
 
 新規でプロジェクトを立ち上げることもあり、主要技術のバージョンは以下になる
 
-|パッケージ|バージョン|
-|--|--|
-|@babel/core|7.12.10|
-|@babel/preset-env|7.12.11|
-|@babel/preset-react|7.12.10|
-|babel-loader|8.2.2|
-|html-webpack-plugin|4.5.1|
-|react|17.0.1|
-|react-dom|17.0.1|
-|react-redux|7.2.2|
-|react-router-dom|5.2.0|
-|redux|4.0.5|
-|webpack|5.16.0|
-|webpack-cli|4.4.0|
-|webpack-dev-server|3.11.2|
+| パッケージ          | バージョン |
+| ------------------- | ---------- |
+| @babel/core         | 7.12.10    |
+| @babel/preset-env   | 7.12.11    |
+| @babel/preset-react | 7.12.10    |
+| babel-loader        | 8.2.2      |
+| html-webpack-plugin | 4.5.1      |
+| react               | 17.0.1     |
+| react-dom           | 17.0.1     |
+| react-redux         | 7.2.2      |
+| react-router-dom    | 5.2.0      |
+| redux               | 4.0.5      |
+| webpack             | 5.16.0     |
+| webpack-cli         | 4.4.0      |
+| webpack-dev-server  | 3.11.2     |
 
 ## Babel
 
@@ -89,19 +89,19 @@ npm i -D babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server
 インストールが終わったらプロジェクトに `webpack.config.js` を生成して以下のように設定する
 
 ```javascript
-const HtmlWebPackPlugin = require('html-webpack-plugin');
-const path = require("path");
+const HtmlWebPackPlugin = require("html-webpack-plugin")
+const path = require("path")
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
   template: "./src/index.html",
-  filename: "./index.html"
-});
+  filename: "./index.html",
+})
 
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve('dist'),
-    filename: '[name].js'
+    path: path.resolve("dist"),
+    filename: "[name].js",
   },
   module: {
     rules: [
@@ -109,12 +109,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
-        }
-      }
-    ]
+          loader: "babel-loader",
+        },
+      },
+    ],
   },
-  plugins: [htmlWebpackPlugin]
+  plugins: [htmlWebpackPlugin],
 }
 ```
 
@@ -139,7 +139,6 @@ module.exports = {
 
 [react-routerとreact-router-domの違い - Qiita](https://qiita.com/koja1234/items/486f7396ed9c2568b235)  
 [what's the diff between `react-router-dom` & `react-router`? · Issue #4648 · ReactTraining/react-router](https://github.com/ReactTraining/react-router/issues/4648)
-
 
 `npm` でインストールする場合、以下のコマンドになる
 
