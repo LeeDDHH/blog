@@ -8,7 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "engines": {
-    "node": "18.x"
+    "node": "18.12.x"
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.1.4",
