@@ -8,7 +8,6 @@ description: "Google Analytics 4が加わって、新しくなった仕様上で
 
 どうやら、[2020年10月14日以降にGoogle Analyticsを設定すると「Google Analytics 4」というプロパティが作られる](https://support.google.com/analytics/answer/10220206)みたいで、以前まで覚えていた手順ではUAのトラッキングIDが取得できなかった
 
-
 Google Analytics 4の仕様が加わり、新しくなったGoogle AnalyticsでUAのトラッキングIDを確認するまでの手順をまとめる
 
 ## アカウントとプロパティの作成

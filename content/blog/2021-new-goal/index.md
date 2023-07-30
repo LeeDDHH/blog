@@ -4,14 +4,16 @@ date: "2021-01-02T20:01:00.000Z"
 description: "今年の目標について"
 ---
 
-年末年始にかけて[YearCompass](https://yearcompass.com/)を書き切り、新年の目標ややることが決まった  
+年末年始にかけて[YearCompass](https://yearcompass.com/)を書き切り、新年の目標ややることが決まった
 
 # 【目標】冷静に情熱を燃やせることをやる
+
 1つのことをやり続けるほど粘り強くはないので、その都度やりたいことが見つかったら集中してやっていく  
 「冷静に情熱を燃やす」という表現自体は、自分がイメージするエネルギーあふれる状態のことを指しているので、**集中してやりたいことをやる**と言い換えても問題はなさそう　　
 2021年に学ぶ領域としては**React**、**NestJS**、**TypeScript**でJavaScript関連がメインになると考える
 
 ## 技術関連で達成したいこと
+
 - Gatsbyブログの機能を追加する
   - Reactだけ触れるよりは、ブログ機能を追加しながら技術を学びたい
   - 機能実装したらブログの記事にする
@@ -26,6 +28,7 @@ description: "今年の目標について"
   - 途中経過、自分用のWikiとしてブログの記事にする
 
 ## 達成したらいいなと思っていること/習慣
+
 - [web developer roadmapのチェックリスト](https://github.com/LeeDDHH/web-developer-roadmap-link-list/blob/main/frontend/list.md)のリンクを作る
   - 自分が初心者だった時、どんなことを理解すればいいのかが分からなかったため、チェックリストをもとに理解しているかどうかの確認をする一覧が欲しかった
   - 更新をしたらTwitterで知らせる
@@ -45,10 +48,11 @@ description: "今年の目標について"
 - 毎朝最高の体調になるよう、健康的な生活をおくる
   - やりたいことがあっても体がついてこないと意味がないので、体調管理をしっかりする
 
-こんな感じでやりたいことを一覧で書いたけど、詳細は[自分で作成YearCompass（韓国語版）](https://github.com/LeeDDHH/2021-plan/blob/main/ko-KR-YearCompass-booklet-A4-fillable(2020-12-30).pdf)があるので、定期的に見直す
+こんな感じでやりたいことを一覧で書いたけど、詳細は[自分で作成YearCompass（韓国語版）](<https://github.com/LeeDDHH/2021-plan/blob/main/ko-KR-YearCompass-booklet-A4-fillable(2020-12-30).pdf>)があるので、定期的に見直す
 
 他にも**考えること**や**やること**に関しては[来年の今頃にむけて](https://github.com/LeeDDHH/2021-plan/blob/main/year-schedule.md)にまとめ、更新する
 
 # 最後に
+
 挙げてみると、大きく分けて「技術的な専門性を磨く」「日常生活の改善」の1年になりそうだ  
 そして、来年の今頃には今年の目標として挙げていたことが当たり前のようにできたらいいなと思う

@@ -13,13 +13,11 @@ description: "読書したり、オンライン勉強会に参加したりした
 - 昨日余ったタンドリーチキンを食べた
 - スーパーに[フロム・ザ・バレル](https://www.amazon.co.jp/dp/B001TZASVQ)の在庫があって、購入した
 
-
 ## [W] わかったこと
 
 - [プログラミング言語大全](https://www.amazon.co.jp/dp/4297113473)でいろんな言語のFizzBuzzの書き方がわかった
   - C、C++、Go、Rust、Python、Ruby、PHP、Lua、JavaScriptまですすめた
 - [フロム・ザ・バレル](https://www.amazon.co.jp/dp/B001TZASVQ)が思っていたよりも飲みやすかった
-
 
 ## [T] 次にやること
 

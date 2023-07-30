@@ -14,15 +14,14 @@ description: "github actionsのトレーニングコースを触ってみたり�
 - [node.js関連の本](https://gist.github.com/LeeDDHH/69f903aa02309eb8d61abab00ebea7c7)を読んだ（69/200）
 - シシトウ入りの料理をしてみた
 
-
 ## [W] わかったこと
 
 - github actions自体、調べながら実装することはできそうな気がした
   - まずは以下のページから見ることにした
-      - [CircleCIマン が GitHub Actions を導入するまで](https://zenn.dev/dodonki1223/articles/b26d3689bbb012d9e88c)
-      - [GitHubの新機能「GitHub Actions」で試すCI/CD](https://knowledge.sakura.ad.jp/23478/)
-      - [GitHub Actions覚え書き](https://qiita.com/progrhyme/items/56c24b3731deffcd4481)
-      - [Events that trigger workflows](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
+    - [CircleCIマン が GitHub Actions を導入するまで](https://zenn.dev/dodonki1223/articles/b26d3689bbb012d9e88c)
+    - [GitHubの新機能「GitHub Actions」で試すCI/CD](https://knowledge.sakura.ad.jp/23478/)
+    - [GitHub Actions覚え書き](https://qiita.com/progrhyme/items/56c24b3731deffcd4481)
+    - [Events that trigger workflows](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)
 - フォルダーごと書き換えようとしたが、 `cp: -r not specified; omitting directory` というエラーが出てた
   - どうやら、linux環境だと `cp -rp コピー元 コピー先` の[書き方](http://keizokupw.seesaa.net/article/358217548.html)だったらしい
 - github actionsを使ってnetlifyにデプロイする方法を参考に `main.yml` を書いてみたら、動作はしてた

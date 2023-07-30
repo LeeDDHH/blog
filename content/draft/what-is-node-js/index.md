@@ -30,6 +30,7 @@
 #### クライアントサイド/サーバーサイド
 
 - クライアントサイド
+
   - ユーザーがwebブラウザで見るものを実装するコード
   - webページがロードされるときのユーザー経験を活性化するjavascriptが含まれる
 
@@ -50,11 +51,13 @@
 #### スレッドとプロセス
 
 - スレッド
+
   - 逐次実行する処理
   - 1つのタスクの実行に必要な計算能力と資源を、1つに束ねたもの
   - 処理の単位
 
 - プロセス
+
   - 実行中のプログラム
   - プログラムを実行すると、1つのプロセスが起動される
   - リソースの割当と保護の単位
@@ -76,10 +79,12 @@
 ### モジュール
 
 - `export` オブジェクトは、 `module` オブジェクトのプロパティ
+
   - `module` は、グローバルオブジェクトの1つ
   - `export` は、 `module.export` の略
 
 - `require` を使ってライブラリ、モジュールをロードする
+
   - `require` は、グローバルオブジェクトの1つ
   - `require` は、 `module.require` の略
 
@@ -116,6 +121,7 @@
 ### node.jsにおけるコールバック
 
 - コールバック
+
   - 無名関数の一種
   - 別の関数から呼び出すように設定できる
   - メリットは、もとの関数の処理が完了するのを待たずに、任意のコードを実行できる
@@ -153,28 +159,28 @@
 // router.js
 // マップ収納用のオブジェクト
 const routes = {
-  "GET": {},
-  "POST": {}
+  GET: {},
+  POST: {},
 }
 
 // createServer時にコールバック関数として参照する関数
-exports.handle = (req,res) => {
+exports.handle = (req, res) => {
   try {
-    routes[req.method][req.url](req,res);
-  } catch(e) {
-    res.writeHead(httpStatus.OK, contentTypes.html);
-    utils.getFile("view/error.html", res);
+    routes[req.method][req.url](req, res)
+  } catch (e) {
+    res.writeHead(httpStatus.OK, contentTypes.html)
+    utils.getFile("view/error.html", res)
   }
 }
 
 // getリクエストのマップ用の関数
 exports.get = (url, action) => {
-  routes["GET"][url] = action;
+  routes["GET"][url] = action
 }
 
 // postリクエストのマップ用の関数
 exports.post = (url, action) => {
-  routes["POST"][url] = action;
+  routes["POST"][url] = action
 }
 ```
 
@@ -202,44 +208,44 @@ exports.post = (url, action) => {
 ```javascript
 // main.jsとかで経路を登録する
 
-router.get("/", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/index.html", res);
+router.get("/", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.html)
+  utils.getFile("views/index.html", res)
 })
 
-router.get("/courses.html", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/courses.html", res);
+router.get("/courses.html", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.html)
+  utils.getFile("views/courses.html", res)
 })
 
-router.get("/contact.html", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/contact.html", res);
+router.get("/contact.html", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.html)
+  utils.getFile("views/contact.html", res)
 })
 
-router.get("/graph.png", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.png);
-  utils.getFile("public/images/graph.png", res);
+router.get("/graph.png", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.png)
+  utils.getFile("public/images/graph.png", res)
 })
 
-router.get("/index.css", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.css);
-  utils.getFile("public/css/index.css", res);
+router.get("/index.css", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.css)
+  utils.getFile("public/css/index.css", res)
 })
 
-router.get("/index.js", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.js);
-  utils.getFile("public/js/index.js", res);
+router.get("/index.js", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.js)
+  utils.getFile("public/js/index.js", res)
 })
 
-router.post("/", (req,res) => {
-  res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/thanks.html", res);
+router.post("/", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.html)
+  utils.getFile("views/thanks.html", res)
 })
 
 // サーバーを起動する
-http.createServer(router.handle).listen(port);
-console.log(`server listening on port number : ${port}`);
+http.createServer(router.handle).listen(port)
+console.log(`server listening on port number : ${port}`)
 ```
 
 ---
@@ -253,12 +259,12 @@ console.log(`server listening on port number : ${port}`);
   - データを表示するビュー
   - データとの対話処理リクエストを処理するコントローラー
 
-|フレームワーク名|説明|
-|-------------|----|
-|[Koa.js](https://koajs.com/)|Express.jsを作った開発者たちによって設計される<br>Express.jsが提供していないメソッドのライブラリに重点を置く|
-|[Hapi.js](https://hapi.dev/)|Express.jsと同様なアーキテクチャで設計される<br>コーディング量の削減に重点を置く|
-|[Sails.js](https://sailsjs.com/)|Express.jsを土台として、より多くの構造、大きなライブラリを提供し、カスタマイズの手間を減らす|
-|[Total.js](https://www.totaljs.com/)|コアHTTPモジュールを土台とした高速なリクエストとレスポンスの処理が目立つ|
+| フレームワーク名                     | 説明                                                                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| [Koa.js](https://koajs.com/)         | Express.jsを作った開発者たちによって設計される<br>Express.jsが提供していないメソッドのライブラリに重点を置く |
+| [Hapi.js](https://hapi.dev/)         | Express.jsと同様なアーキテクチャで設計される<br>コーディング量の削減に重点を置く                             |
+| [Sails.js](https://sailsjs.com/)     | Express.jsを土台として、より多くの構造、大きなライブラリを提供し、カスタマイズの手間を減らす                 |
+| [Total.js](https://www.totaljs.com/) | コアHTTPモジュールを土台とした高速なリクエストとレスポンスの処理が目立つ                                     |
 
 [Node.jsのwebフレームワークについての情報](http://nodeframework.com/)
 
@@ -281,12 +287,12 @@ console.log(`server listening on port number : ${port}`);
 
 ### expressのrequestオブジェクトのデータ項目
 
-|データオブジェクト|説明|
-|---|---|
-|params|URLからIDとトークンを抽出できる<br>「リクエスト属性」|
-|body|リクエストの内容のほとんどすべてを含む<br>POSTリクエストからのデータが含まれる|
-|url|訪問されているURLに関する情報を提供する|
-|query|送られてきたデータをアプリケーションのサーバーに抽出できる<br>クエリ文字列としてURL内でリクエストされたものが対象|
+| データオブジェクト | 説明                                                                                                              |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| params             | URLからIDとトークンを抽出できる<br>「リクエスト属性」                                                             |
+| body               | リクエストの内容のほとんどすべてを含む<br>POSTリクエストからのデータが含まれる                                    |
+| url                | 訪問されているURLに関する情報を提供する                                                                           |
+| query              | 送られてきたデータをアプリケーションのサーバーに抽出できる<br>クエリ文字列としてURL内でリクエストされたものが対象 |
 
 ---
 
@@ -296,44 +302,44 @@ console.log(`server listening on port number : ${port}`);
 
 ```javascript
 // POSTリクエスト
-app.post('/contact', (req, res) => {
-  res.send('contact information submitted success')
-});
+app.post("/contact", (req, res) => {
+  res.send("contact information submitted success")
+})
 
 // パラメータのあるパスを使う
 // 経路パラメータとして扱うパラメータの前に（:）をつける
 // 特定のユーザー/コンテンツにアクセスできる
-app.get('/item/:itemName', (req, res) => {
+app.get("/item/:itemName", (req, res) => {
   res.send(req.params.itemName)
-});
+})
 
 // ミドルウェアを自分で追加する
 // 全経路にログメッセージを追加したい場合
 // next()は、「リクエストとレスポンス」の流れにある「次の関数」をを呼び出すためにある
 // nextを呼び出さないと、コードブロック内で完了を待つ状態のままハングする
-app.use((req,res,next) => {
-  console.log(`request made to: ${req.url}`);
-  console.log(`request made to: ${JSON.stringify(req.params)}`);
-  console.log(`request made to: ${req.protocol}`);
-  console.log(`request made to: ${JSON.stringify(req.query)}`);
-  console.log(`request made to: ${req.rawHeaders}`);
-  next();
-});
+app.use((req, res, next) => {
+  console.log(`request made to: ${req.url}`)
+  console.log(`request made to: ${JSON.stringify(req.params)}`)
+  console.log(`request made to: ${req.protocol}`)
+  console.log(`request made to: ${JSON.stringify(req.query)}`)
+  console.log(`request made to: ${req.rawHeaders}`)
+  next()
+})
 
 // 特定の経路でミドルウェアを通したい場合
-app.use('/item',(req,res,next) => {
-  console.log('item passed');
-  next();
-});
+app.use("/item", (req, res, next) => {
+  console.log("item passed")
+  next()
+})
 
 // URLエンコードされたデータを解析する
 // urlencodedのextendedはリクエストで渡されたオブジェクトのデータ内で重複されたオブジェクトを許可するか/しないかの設定で使う
 // extended: false にすることでnode.jsのqueryStringを使ってurlをパースして、 `req.body` に入れる
 // URLエンコードされたデータを使いたいことをExpress側に知らせるために使う
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }))
 // リクエストで渡されたオブジェクトにJSON形式があれば、JSON形式でパースして、 `req.body` に入れる
 // JSONフォーマットのデータを使いたいことをExpress側に知らせるために使う
-app.use(express.json());
+app.use(express.json())
 ```
 
 ### 参考
@@ -372,27 +378,25 @@ app.use(express.json());
 
 ```javascript
 // エラー処理用のミドルウェアを追加する
-exports.logErrors =
-  (error, req, res, next ) => { // 4つの引数をすべてもっていない関数はエラー処理ミドルウェエアとみなされない
-    console.error(error.stack); // エラースタックをログ出力
-    next(error); // errorオブジェクトを次のミドルウェアに渡す
+exports.logErrors = (error, req, res, next) => {
+  // 4つの引数をすべてもっていない関数はエラー処理ミドルウェエアとみなされない
+  console.error(error.stack) // エラースタックをログ出力
+  next(error) // errorオブジェクトを次のミドルウェアに渡す
 }
 
 // ステータスコード404でレスポンス
-exports.respondNoResourceFound =
-  (req, res) => {
-    const errorCode = StatusCodes.NOT_FOUND;
-    res.status(errorCode);
-    res.send(`${errorCode} | The Page dose not exist!`);
+exports.respondNoResourceFound = (req, res) => {
+  const errorCode = StatusCodes.NOT_FOUND
+  res.status(errorCode)
+  res.send(`${errorCode} | The Page dose not exist!`)
 }
 
 // すべてのエラーをキャッチして、ステータスコード500でレスポンス
-exports.respondInternalError =
-  (error, req, res, next) => {
-    const errorCode = StatusCodes.INTERNAL_SERVER_ERROR;
-    console.log(`ERROR occurred: ${error.stack}`);
-    res.status(errorCode);
-    res.send(`${errorCode} | Sorry, our application is experiencing a problem!`);
+exports.respondInternalError = (error, req, res, next) => {
+  const errorCode = StatusCodes.INTERNAL_SERVER_ERROR
+  console.log(`ERROR occurred: ${error.stack}`)
+  res.status(errorCode)
+  res.send(`${errorCode} | Sorry, our application is experiencing a problem!`)
 }
 ```
 
@@ -413,10 +417,12 @@ exports.respondInternalError =
 [ExpressJS公式がまとめた接続できるデータベースの一覧](https://expressjs.com/en/guide/database-integration.html)
 
 - DBの必要性
+
   - 永続ストレージがなければ、ユーザーとの対話処理の範囲が制限される
   - 格納すべきアイテムの数が多いほど、見つけやすいようにグループ化されたシステムにしておく
 
 - MongoDB
+
   - ドキュメント
     - JSONに似た構造
     - データオブジェクトとプロパティの関連付けがキーバリューのペアを使うことができる
@@ -425,9 +431,11 @@ exports.respondInternalError =
   - 非リレーショナルDBシステム
 
 - ほとんどのDBはリレーショナル
+
   - スプレッドシートのようにテーブルによって関連付ける
 
 - テーブル
+
   - コラムで格納すべきデータの種類を定義する
   - 各コラム二対応するデータを行に格納する
   - 異なるテーブル同士の関係性も参照IDを通じてJOINテーブルへ格納することもできる
@@ -464,25 +472,25 @@ exports.respondInternalError =
 ```typescript
 "use strict"
 
-import { Schema, model, Document } from 'mongoose';
+import { Schema, model, Document } from "mongoose"
 
 // スキーマの型
 interface User extends Document {
-  name: string;
-  email: string;
+  name: string
+  email: string
 }
 
 // スキーマの定義
 const subscriberSchema = new Schema<User>({
   name: { type: String, required: true },
-  email: { type: String, required: true},
-});
+  email: { type: String, required: true },
+})
 
 // スキーマをインスタンス化してモデルとして扱う
 // コレクションとスキーマをmodelのコンストラクターに渡す
-const UserModel = model('User', subscriberSchema);
+const UserModel = model("User", subscriberSchema)
 
-export default UserModel;
+export default UserModel
 ```
 
 ### モデル化してデータを保存する方法
@@ -540,7 +548,7 @@ const saveDataToUserCollection = async () => {
 saveDataToUserCollection();
 ```
 
-[javascript - mongoose save vs insert vs create - Stack Overflow](https://stackoverflow.com/questions/38290684/mongoose-save-vs-insert-vs-create#:~:text=save()%20is%20an%20instance,')%3B%20var%20notificationSchema%20%3D%20mongoose.)
+[javascript - mongoose save vs insert vs create - Stack Overflow](<https://stackoverflow.com/questions/38290684/mongoose-save-vs-insert-vs-create#:~:text=save()%20is%20an%20instance,'>)%3B%20var%20notificationSchema%20%3D%20mongoose.)
 
 [javascript - mongoose difference between .create and .save - Stack Overflow](https://stackoverflow.com/questions/52872335/mongoose-difference-between-create-and-save)
 
@@ -561,22 +569,22 @@ saveDataToUserCollection();
 ```typescript
 // 定義
 export const searchOneQuery = (name: string, email: string) => {
-  return UserModel.findOne({ name: name }).where("email", new RegExp(email) );
-};
+  return UserModel.findOne({ name: name }).where("email", new RegExp(email))
+}
 
 // 使う側
-import { searchOneQuery } from './models/userSubscriber';
+import { searchOneQuery } from "./models/userSubscriber"
 
 const getData = async () => {
   try {
-    const result = await searchOneQuery('kakaokamo2', 'test').exec();
-    console.log('result: ' + result);
+    const result = await searchOneQuery("kakaokamo2", "test").exec()
+    console.log("result: " + result)
   } catch (error) {
-    console.log('error: ' + error);
+    console.log("error: " + error)
   }
 }
 
-getData();
+getData()
 ```
 
 ---
@@ -596,46 +604,37 @@ getData();
 
 "use strict"
 
-import { Request, Response, NextFunction }  from 'express';
+import { Request, Response, NextFunction } from "express"
 // ユーザーモデルを使う
-import UserModel from '../models/userSubscriber';
+import UserModel from "../models/userSubscriber"
 
 // 全ユーザー情報を取得するミドルウェア
-const getAllUsers =
-  async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ) => {
-    try {
-      const result = await UserModel.find({});
-      req.body.data = result;
-      next();
-    } catch (error) {
-      next(error);
-    }
+const getAllUsers = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const result = await UserModel.find({})
+    req.body.data = result
+    next()
+  } catch (error) {
+    next(error)
   }
+}
 
 // Postで送られたデータを保存するためのコールバック関数
-const saveUser =
-  async (
-    req: Request,
-    res: Response,
-  ) => {
-    try {
-      const newUser = new UserModel({
-        name: req.body.name,
-        email: req.body.email,
-        note: req.body.note ? req.body.note : 'none',
-      });
-      await newUser.save();
-      res.send('user register success');
-    } catch (error) {
-      res.send(error);
-    }
+const saveUser = async (req: Request, res: Response) => {
+  try {
+    const newUser = new UserModel({
+      name: req.body.name,
+      email: req.body.email,
+      note: req.body.note ? req.body.note : "none",
+    })
+    await newUser.save()
+    res.send("user register success")
+  } catch (error) {
+    res.send(error)
   }
+}
 
-export { getAllUsers, saveUser };
+export { getAllUsers, saveUser }
 ```
 
 - 経路に設定する
@@ -682,6 +681,7 @@ app.post('/userRegister', userController.saveUser);
 - データに一貫性を保つためにプロパティのバリデーションを行う
 
 - Mongoose独自に存在するスキーマ型
+
   - Mixed
     - キーバリューのペアで保存するので、JavaScriptのオブジェクトに近い型
     - `mongoose.Schema.Types.Mixed`
@@ -695,12 +695,14 @@ app.post('/userRegister', userController.saveUser);
   - 大文字小文字を区別しない
   - DBへ保存する前、小文字に変換する
 - `unique`
+
   - 正確にはバリデーターではなく、Mongooseスキーマのヘルパーなのでメソッド
   - ユニークなインデックスを作る
 
 - [Mongooseで使われるスキーマタイプ](https://mongoosejs.com/docs/schematypes.html)に関するページ
 
 - スキーマには2種類のメソッドが追加できる
+
   - インスタンスメソッド
     - 個別のインスタンスで機能するメソッド
     - `subscriberSchema.methods` によって定義される
@@ -709,6 +711,7 @@ app.post('/userRegister', userController.saveUser);
     - `subscriberSchema.statics` によって定義される
 
 - `subscriberSchema.methods` で定義するときの注意点
+
   - ES6のアロー関数が使えない
   - `this` バインディングがアロー関数では消えてしまう
   - ただ、関数の内部では、ES6の機能が使える

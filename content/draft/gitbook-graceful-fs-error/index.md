@@ -72,7 +72,7 @@ TypeError: cb.apply is not a function
 
 オレンジの枠に書かれている**GTM-**からはじまる文字列が、よく**GTMのID**、**GTMコンテナーのID**と呼ばれるIDである
 
-一般的なHTMLのページであれば、スクリプトをコピーして**head**タグに貼り付ければ動作するだろう  
+一般的なHTMLのページであれば、スクリプトをコピーして**head**タグに貼り付ければ動作するだろう
 
 ![gtm-tag-id](gtm-tag-id.png)
 

@@ -13,19 +13,19 @@ description: "Mac用のインストーラーを作ったり、firebaseのドキ�
 ## [W] わかったこと
 
 - Macのファイルシステムトップレベルから特定のファイルをコピーして配置する必要があるが、Node.js内で `fs` 系の操作をしてもコピーができなかった
-    - パーミッションの実行ユーザーが `root wheel` でないと書き込みができなかった
-    - `pkgbuild` コマンドでインストーラーを作ったら一発で解決できた
-    - ```
-      pkgbuild --root コピー元ディレクトリ \
-      --identifier 識別子 \
-      --install-location コピー先ディレクトリ（/Applicationsとか）
-      --version バージョン番号
-      パッケージ名
-      ```
+  - パーミッションの実行ユーザーが `root wheel` でないと書き込みができなかった
+  - `pkgbuild` コマンドでインストーラーを作ったら一発で解決できた
+  - ```
+    pkgbuild --root コピー元ディレクトリ \
+    --identifier 識別子 \
+    --install-location コピー先ディレクトリ（/Applicationsとか）
+    --version バージョン番号
+    パッケージ名
+    ```
 - zennとqiitaで `next.js + firebase` の認証導入記事を参考にして、コードを書いてもIDE上でエラーが発生していた
-    - どうやら、今年の8月末に `Firebase JavaScript SDK` の `v9` が正式リリースされたみたいで、今までの `v8` の書き方はエラーが表示されるらしい
-    - https://zenn.dev/hiro__dev/articles/605161cd5a7875
-    - 基本的なコードの構成は参考にしつつ、 `v9` に合わせて書き換える必要があるので、ある程度進んだら認証の部分だけアウトプットしたいと思った
+  - どうやら、今年の8月末に `Firebase JavaScript SDK` の `v9` が正式リリースされたみたいで、今までの `v8` の書き方はエラーが表示されるらしい
+  - https://zenn.dev/hiro__dev/articles/605161cd5a7875
+  - 基本的なコードの構成は参考にしつつ、 `v9` に合わせて書き換える必要があるので、ある程度進んだら認証の部分だけアウトプットしたいと思った
 
 ## [T] 次にやること
 

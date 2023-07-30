@@ -65,6 +65,7 @@ read_end_date: ""
 ### Webアプリ（Webアプリケーション/Webサービス）
 
 - サーバー側
+
   - PHP
   - Python
   - Ruby
@@ -79,10 +80,12 @@ read_end_date: ""
 ### スマートフォンアプリ
 
 - Android
+
   - Java
   - Kotlin
 
 - iOS
+
   - Objective-C
   - Swift
 
@@ -93,11 +96,13 @@ read_end_date: ""
 ### デスクトップアプリ
 
 - Windows
+
   - C++(MFC、WTL、Qt)
   - C#
   - Visual Basic
 
 - Mac
+
   - Objective-C
   - Swift
 
@@ -135,16 +140,20 @@ read_end_date: ""
 ### ゲーム制作
 
 - スマホ
+
   - Kotlin
   - Swift
 
 - Webアプリケーション
+
   - JavaScript
 
 - Unity
+
   - C#
 
 - Unreal Engine
+
   - C++
 
 - コンシューマーゲーム
@@ -159,6 +168,7 @@ read_end_date: ""
 ### その他の用途
 
 - プログラミング言語を作るためのプログラミング言語
+
   - C、OCaml
 
 - データベース操作
@@ -226,6 +236,7 @@ read_end_date: ""
 #### 構造化と非構造化
 
 - **構造化（Structured programming）**
+
   - プログラムの逐次実行を前提として、分岐/繰り返し/任意の関数の呼び出しを用いてプログラムの構造を記述するパラダイム
   - 現代用いられるほぼすべての言語が持っている特徴
 
@@ -310,9 +321,9 @@ read_end_date: ""
 
 - [Webサイト](http://www.open-std.org/jtc1/sc22/wg14/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>手続き型|B言語<br>Assembly<br>Fortran|C++<br>C#<br>Java<br>Go<br>JavaScript<br>PHP<br>現代の主要な言語のほぼすべて|
+|          分類          |       影響を受けた言語       |                               影響を与えた言語                               |
+| :--------------------: | :--------------------------: | :--------------------------------------------------------------------------: |
+| 静的型付け<br>手続き型 | B言語<br>Assembly<br>Fortran | C++<br>C#<br>Java<br>Go<br>JavaScript<br>PHP<br>現代の主要な言語のほぼすべて |
 
 #### 特徴
 
@@ -438,9 +449,9 @@ int main(void) {
 
 - [Webサイト](https://golang.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>手続き型<br>並行|C<br>Python<br>Limbo<br>Pascal<br>Smalltalk<br>Newsqueak<br>Modula-2|Crystal|
+|              分類              |                           影響を受けた言語                           | 影響を与えた言語 |
+| :----------------------------: | :------------------------------------------------------------------: | :--------------: |
+| 静的型付け<br>手続き型<br>並行 | C<br>Python<br>Limbo<br>Pascal<br>Smalltalk<br>Newsqueak<br>Modula-2 |     Crystal      |
 
 #### 特徴
 
@@ -592,9 +603,9 @@ func (p *FizzBuzz) GetValue() string {
 
 - [Webサイト](http://www.gnu.org/software/binutils/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|手続き型||C<br>C++<br>WebAssembly|
+|   分類   | 影響を受けた言語 |    影響を与えた言語     |
+| :------: | :--------------: | :---------------------: |
+| 手続き型 |                  | C<br>C++<br>WebAssembly |
 
 #### 特徴
 
@@ -620,9 +631,9 @@ func (p *FizzBuzz) GetValue() string {
 
 - [Webサイト](https://isocpp.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向<br>メタプログラミング|C<br>Simula<br>BCPL<br>アセンブリ|Java<br>C#<br>D<br>PHP<br>Rust<br>Python<br>Perl|
+|                         分類                         |         影響を受けた言語          |                 影響を与えた言語                 |
+| :--------------------------------------------------: | :-------------------------------: | :----------------------------------------------: |
+| 静的型付け<br>オブジェクト指向<br>メタプログラミング | C<br>Simula<br>BCPL<br>アセンブリ | Java<br>C#<br>D<br>PHP<br>Rust<br>Python<br>Perl |
 
 #### 特徴
 
@@ -709,9 +720,9 @@ int main() {
 
 - [Webサイト](https://www.rust-lang.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>手続き型<br>並行|C<br>C++<br>OCaml<br>Scheme<br>Haskell<br>Erlang|Swift|
+|              分類              |                 影響を受けた言語                 | 影響を与えた言語 |
+| :----------------------------: | :----------------------------------------------: | :--------------: |
+| 静的型付け<br>手続き型<br>並行 | C<br>C++<br>OCaml<br>Scheme<br>Haskell<br>Erlang |      Swift       |
 
 #### 特徴
 
@@ -852,9 +863,9 @@ fn fizzbuzz(i:i32) -> String {
 
 - [Webサイト](https://www.python.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>オブジェクト指向|C<br>C++<br>Perl<br>Haskell<br>ABC（教育用言語）<br>Java<br>Scheme|D<br>F#<br>Go<br>Groovy<br>Swift<br>Nim<br>JavaScript<br>CoffeeScript<br>Julia|
+|              分類              |                          影響を受けた言語                          |                                影響を与えた言語                                |
+| :----------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+| 動的型付け<br>オブジェクト指向 | C<br>C++<br>Perl<br>Haskell<br>ABC（教育用言語）<br>Java<br>Scheme | D<br>F#<br>Go<br>Groovy<br>Swift<br>Nim<br>JavaScript<br>CoffeeScript<br>Julia |
 
 #### 特徴
 
@@ -1011,9 +1022,9 @@ print("\n".join(result))
 
 - [Webサイト](https://www.ruby-lang.org/ja/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>オブジェクト指向<br>メタプログラミング|Lisp<br>Perl<br>C<br>Smalltalk<br>CLU<br>Eiffel|D<br>Groovy<br>Swift<br>Crystal|
+|                         分類                         |                影響を受けた言語                 |        影響を与えた言語         |
+| :--------------------------------------------------: | :---------------------------------------------: | :-----------------------------: |
+| 動的型付け<br>オブジェクト指向<br>メタプログラミング | Lisp<br>Perl<br>C<br>Smalltalk<br>CLU<br>Eiffel | D<br>Groovy<br>Swift<br>Crystal |
 
 #### 特徴
 
@@ -1121,9 +1132,9 @@ fb.run
 
 - [Webサイト](https://www.php.net/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>オブジェクト指向|C<br>C++<br>Perl<br>Java<br>Tcl/Tk|Hack|
+|              分類              |          影響を受けた言語          | 影響を与えた言語 |
+| :----------------------------: | :--------------------------------: | :--------------: |
+| 動的型付け<br>オブジェクト指向 | C<br>C++<br>Perl<br>Java<br>Tcl/Tk |       Hack       |
 
 #### 特徴
 
@@ -1182,9 +1193,9 @@ function fizzbuzz($i) {
 
 - [Webサイト](https://www.lua.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>手続き型<br>プロトタイプベースのオブジェクト指向|Scheme|mruby|
+|                              分類                              | 影響を受けた言語 | 影響を与えた言語 |
+| :------------------------------------------------------------: | :--------------: | :--------------: |
+| 動的型付け<br>手続き型<br>プロトタイプベースのオブジェクト指向 |      Scheme      |      mruby       |
 
 #### 特徴
 
@@ -1264,9 +1275,9 @@ for num = 1, 100
 
 - [Webサイト](https://developer.mozilla.org/ja/docs/Web/JavaScript)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>プロトタイプベースのオブジェクト指向|C<br>Java<br>Perl<br>Python<br>Scheme<br>Self<br>CoffeeScript|Haxe<br>Dart<br>TypeScript<br>CoffeeScript<br>ActionScript<br>Node.js<br>WebAssembly<br>Kotlin|
+|                        分類                        |                       影響を受けた言語                        |                                        影響を与えた言語                                        |
+| :------------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+| 動的型付け<br>プロトタイプベースのオブジェクト指向 | C<br>Java<br>Perl<br>Python<br>Scheme<br>Self<br>CoffeeScript | Haxe<br>Dart<br>TypeScript<br>CoffeeScript<br>ActionScript<br>Node.js<br>WebAssembly<br>Kotlin |
 
 #### 特徴
 
@@ -1361,9 +1372,9 @@ nums.map(v => getFizzBuzz(v)).forEach((v,i) => console.log(v);)
 
 - [Webサイト](https://nodejs.org/en/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>プロトタイプベースのオブジェクト指向|JavaScript|Deno|
+|                        分類                        | 影響を受けた言語 | 影響を与えた言語 |
+| :------------------------------------------------: | :--------------: | :--------------: |
+| 動的型付け<br>プロトタイプベースのオブジェクト指向 |    JavaScript    |       Deno       |
 
 #### 特徴
 
@@ -1396,40 +1407,44 @@ nums.map(v => getFizzBuzz(v)).forEach((v,i) => console.log(v);)
 class FizzBuzz {
   // インスタンス生成時にジで王的に実行されるメソッド
   constructor(max) {
-    this.max = max;
-    this.cur = 1;
+    this.max = max
+    this.cur = 1
   }
 
   // getをつけてメソッドをプロパティのように使えるゲッターにする
-  get isFizz() { return this.cur % 3 == 0}
-  get isBuzz() { return this.cur % 5 == 0}
+  get isFizz() {
+    return this.cur % 3 == 0
+  }
+  get isBuzz() {
+    return this.cur % 5 == 0
+  }
   get value() {
-    if(this.isFizz && this.isBuzz) return "FizzBuzz";
-    if(this.isFizz) return "Fizz";
-    if(this.isBuzz) return "Buzz";
-    return this.cur;
+    if (this.isFizz && this.isBuzz) return "FizzBuzz"
+    if (this.isFizz) return "Fizz"
+    if (this.isBuzz) return "Buzz"
+    return this.cur
   }
   get isEnd() {
-    return this.max < this.cur;
+    return this.max < this.cur
   }
 
   // カーソルを次に移動する関数
   next() {
-    this.cur++;
+    this.cur++
   }
 
   // isEndがtrueになるまで繰り返し、カーソルを勧めてFizzBuzzの結果を出力する
   run() {
-    while(!this.isEnd) {
-      console.log(this.value);
-      this.next();
+    while (!this.isEnd) {
+      console.log(this.value)
+      this.next()
     }
   }
 }
 
 // オブジェクトを生成して実行
-const fb = new FizzBuzz(100);
-fb.run();
+const fb = new FizzBuzz(100)
+fb.run()
 ```
 
 ---
@@ -1438,9 +1453,9 @@ fb.run();
 
 - [Webサイト](https://www.typescriptlang.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>プロトタイプベースのオブジェクト指向<br>トランスパイル|JavaScript<br>Java<br>C#||
+|                                 分類                                 |     影響を受けた言語     | 影響を与えた言語 |
+| :------------------------------------------------------------------: | :----------------------: | :--------------: |
+| 静的型付け<br>プロトタイプベースのオブジェクト指向<br>トランスパイル | JavaScript<br>Java<br>C# |                  |
 
 #### 特徴
 
@@ -1468,9 +1483,9 @@ fb.run();
 const fizzbuzz = (num: number): string => {
   const isFizz = (i: number): boolean => i % 3 === 0
   const isBuzz = (i: number): boolean => i % 5 === 0
-  if(isFizz(num) && isBuzz(num)) return 'FizzBuzz'
-  if(isFizz(num)) return 'Fizz'
-  if(isBuzz(num)) return 'Buzz'
+  if (isFizz(num) && isBuzz(num)) return "FizzBuzz"
+  if (isFizz(num)) return "Fizz"
+  if (isBuzz(num)) return "Buzz"
   return num.toString()
 }
 
@@ -1485,9 +1500,9 @@ for (let i = 1; i <= 100; i++) {
 
 - [Webサイト](https://dart.dev/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向<br>トランスパイル|JavaScript<br>Java<br>C#<br>Erlang<br>Haxe<br>CoffeeScript||
+|                       分類                       |                      影響を受けた言語                      | 影響を与えた言語 |
+| :----------------------------------------------: | :--------------------------------------------------------: | :--------------: |
+| 静的型付け<br>オブジェクト指向<br>トランスパイル | JavaScript<br>Java<br>C#<br>Erlang<br>Haxe<br>CoffeeScript |                  |
 
 #### 特徴
 
@@ -1545,9 +1560,9 @@ main() {
 
 - [Webサイト](https://webassembly.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け|JavaScript<br>アセンブリ<br>asm.js||
+|    分類    |          影響を受けた言語          | 影響を与えた言語 |
+| :--------: | :--------------------------------: | :--------------: |
+| 静的型付け | JavaScript<br>アセンブリ<br>asm.js |                  |
 
 #### 特徴
 
@@ -1597,9 +1612,9 @@ main() {
 
 - [Webサイト](https://java.com/en/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向|C<br>C#<br>Eiffel<br>Smalltalk<br>Objective-C<br>C++|C#<br>Scala<br>Kotlin<br>D<br>Dart<br>Clojure<br>Groovy<br>Haxe<br>PHP<br>Python<br>JavaScript<br>TypeScript<br>Processing|
+|              分類              |                   影響を受けた言語                   |                                                      影響を与えた言語                                                      |
+| :----------------------------: | :--------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: |
+| 静的型付け<br>オブジェクト指向 | C<br>C#<br>Eiffel<br>Smalltalk<br>Objective-C<br>C++ | C#<br>Scala<br>Kotlin<br>D<br>Dart<br>Clojure<br>Groovy<br>Haxe<br>PHP<br>Python<br>JavaScript<br>TypeScript<br>Processing |
 
 #### 特徴
 
@@ -1708,9 +1723,9 @@ public class FizzBuzz {
 
 - [Webサイト](https://kotlinlang.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向<br>トランスパイル|Java<br>Groovy<br>C#<br>Scala<br>JavaScript||
+|                       分類                       |              影響を受けた言語               | 影響を与えた言語 |
+| :----------------------------------------------: | :-----------------------------------------: | :--------------: |
+| 静的型付け<br>オブジェクト指向<br>トランスパイル | Java<br>Groovy<br>C#<br>Scala<br>JavaScript |                  |
 
 #### 特徴
 
@@ -1766,9 +1781,9 @@ fun fizzbuzz(i: int): String {
 
 - [Webサイト](https://processing.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向|Java<br>Design by Numbers||
+|              分類              |     影響を受けた言語      | 影響を与えた言語 |
+| :----------------------------: | :-----------------------: | :--------------: |
+| 静的型付け<br>オブジェクト指向 | Java<br>Design by Numbers |                  |
 
 #### 特徴
 
@@ -1819,9 +1834,9 @@ void draw() {
 
 - [Webサイト](https://swift.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向|Rust<br>Haskell<br>Ruby<br>Objective-C<br>Python<br>C<br>C#||
+|              分類              |                      影響を受けた言語                       | 影響を与えた言語 |
+| :----------------------------: | :---------------------------------------------------------: | :--------------: |
+| 静的型付け<br>オブジェクト指向 | Rust<br>Haskell<br>Ruby<br>Objective-C<br>Python<br>C<br>C# |                  |
 
 #### 特徴
 
@@ -1878,9 +1893,9 @@ for num in 1..100 {
 
 - [Webサイト](https://docs.microsoft.com/ja-jp/dotnet/csharp/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|静的型付け<br>オブジェクト指向|C<br>C++<br>Delphi<br>Eiffel<br>Java|D<br>F#<br>Java<br>TypeScript<br>Dart<br>Kotlin<br>Swift|
+|              分類              |           影響を受けた言語           |                     影響を与えた言語                     |
+| :----------------------------: | :----------------------------------: | :------------------------------------------------------: |
+| 静的型付け<br>オブジェクト指向 | C<br>C++<br>Delphi<br>Eiffel<br>Java | D<br>F#<br>Java<br>TypeScript<br>Dart<br>Kotlin<br>Swift |
 
 #### 特徴
 
@@ -1954,7 +1969,7 @@ class FizzBuzz {
     if (i % 5 == 0) return "Buzz";
     return i.ToString();
   }
-  
+
   // プログラムは Main関数を起点として実行される
   public static void Main() {
     FizzBuzz obj = new FizzBuzz(100);
@@ -1969,9 +1984,9 @@ class FizzBuzz {
 
 - [Webサイト](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>手続き型|HyperTalk<br>Objective-C||
+|          分類          |     影響を受けた言語     | 影響を与えた言語 |
+| :--------------------: | :----------------------: | :--------------: |
+| 動的型付け<br>手続き型 | HyperTalk<br>Objective-C |                  |
 
 #### 特徴
 
@@ -2014,9 +2029,9 @@ end repeat
 
 - [Webサイト](https://www.r-project.org/)
 
-|分類|影響を受けた言語|影響を与えた言語|
-|:---:|:---:|:---:|
-|動的型付け<br>手続き型|S<br>Scheme||
+|          分類          | 影響を受けた言語 | 影響を与えた言語 |
+| :--------------------: | :--------------: | :--------------: |
+| 動的型付け<br>手続き型 |   S<br>Scheme    |                  |
 
 #### 特徴
 
