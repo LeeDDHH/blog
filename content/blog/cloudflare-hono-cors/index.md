@@ -1,6 +1,6 @@
 ---
 title: 【Hono、CORS】HonoでCORS対応をする
-date: "2023-08-18 20:00:00"
+date: "2023-08-19 07:00:00"
 description: "HonoでAPIのデータを返す際に起きたCORSエラーにどんなものがあって、どう対処したいのかについてまとめる"
 ---
 
@@ -130,7 +130,7 @@ app.use(
 CORS エラーが起きたとき、最初は戸惑っていたが、 HONO 側で対応するためのミドルウェアを提供してくれていて安心していた  
 しかし、 `preflight` リクエストという条件については今回初めて出くわしたこともあり、勉強になった
 
-## 参考文献
+## 参考
 
 - [CORS Middleware - Hono](https://hono.dev/middleware/builtin/cors)
 - [CORS Policy 違反と，Preflight request (OPTIONS) について](https://blog.foresta.me/posts/http_preflight_request/)
