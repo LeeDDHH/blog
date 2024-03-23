@@ -8,7 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "engines": {
-    "node": "18.12.x"
+    "node": "20.11.x"
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.1.4",
@@ -77,5 +77,9 @@
     "clean": "gatsby clean",
     "dist-clean": "node -e 'fs.rmSync(`dist`, {recursive:true, force:true})';",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "volta": {
+    "node": "20.11.1",
+    "npm": "10.2.4"
   }
 }
